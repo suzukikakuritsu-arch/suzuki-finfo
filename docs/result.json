@@ -1,0 +1,96 @@
+{
+  "recent": [
+    {
+      "date": "2026-02-06",
+      "mag": 5.7,
+      "state": "STABLE",
+      "S": 3.0112,
+      "F_info": -0.0027,
+      "I": 0.0146,
+      "phi_dist": 0.861
+    },
+    {
+      "date": "2026-02-07",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 3.0174,
+      "F_info": -0.0009,
+      "I": 0.0137,
+      "phi_dist": 0.8649
+    },
+    {
+      "date": "2026-02-08",
+      "mag": 5.7,
+      "state": "STABLE",
+      "S": 3.0174,
+      "F_info": -0.0011,
+      "I": 0.0127,
+      "phi_dist": 0.8649
+    },
+    {
+      "date": "2026-02-09",
+      "mag": 5.1,
+      "state": "STABLE",
+      "S": 3.0319,
+      "F_info": 0.0007,
+      "I": 0.0134,
+      "phi_dist": 0.8738
+    },
+    {
+      "date": "2026-02-10",
+      "mag": 6.2,
+      "state": "STABLE",
+      "S": 3.0566,
+      "F_info": 0.0003,
+      "I": 0.0137,
+      "phi_dist": 0.8891
+    },
+    {
+      "date": "2026-02-11",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 3.0566,
+      "F_info": -0.0004,
+      "I": 0.0133,
+      "phi_dist": 0.8891
+    },
+    {
+      "date": "2026-02-12",
+      "mag": 6.2,
+      "state": "STABLE",
+      "S": 3.0669,
+      "F_info": 0.0001,
+      "I": 0.0134,
+      "phi_dist": 0.8955
+    },
+    {
+      "date": "2026-02-13",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 3.0525,
+      "F_info": 0.001,
+      "I": 0.0144,
+      "phi_dist": 0.8866
+    }
+  ],
+  "state_pct": {
+    "STABLE": 100.0
+  },
+  "latest": {
+    "state": "STABLE",
+    "S": 3.0525,
+    "F_info": 0.001,
+    "I": 0.0144,
+    "phi_dist": 0.8866
+  },
+  "prediction": {
+    "text": "Transitional (direction unclear)",
+    "confidence": "low",
+    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8866,
+    "avg_mag": 5.89,
+    "generated": "2026-03-08 05:37 UTC"
+  },
+  "total_days": 36,
+  "total_quakes": 1000
+}
