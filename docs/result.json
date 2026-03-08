@@ -272,9 +272,9 @@
     }
   ],
   "state_pct": {
-    "STABLE": 93.5,
-    "REFLUX": 4.8,
-    "EMERGENCE+": 1.6
+    "STABLE": 89.0,
+    "REFLUX": 6.7,
+    "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
@@ -289,10 +289,10 @@
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8866,
     "avg_mag": 5.89,
-    "generated": "2026-03-08 06:10 UTC"
+    "generated": "2026-03-08 07:23 UTC"
   },
-  "total_days": 90,
-  "total_quakes": 465,
+  "total_days": 3573,
+  "total_quakes": 17633,
   "ifsp": {
     "value": 0.3183,
     "zone": "CAUTION",
