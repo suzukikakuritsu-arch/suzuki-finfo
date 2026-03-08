@@ -93,7 +93,7 @@ def calc_ifsp(latest):
     return dict(value=round(ifsp,4),zone=zone,
                 I_norm=round(I_norm,4),F_norm=round(F_norm,4),
                 S_norm=round(S_norm,4),phi_norm=round(p_norm,4))
-    analyze(quakes):
+def analyze(quakes):
     daily={}
     for q in quakes:
         d=q['time']; daily[d]=max(daily.get(d,0),q['mag'])
