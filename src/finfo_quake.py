@@ -73,7 +73,7 @@ def fetch_quakes(days=90, min_mag=5.0):
         })
     return sorted(quakes,key=lambda x:x['time'])
 
-def def calc_ifsp(latest):
+def calc_ifsp(latest):
     if not latest: return None
     I=latest.get('I',0)
     F=abs(latest.get('F_info',0))
