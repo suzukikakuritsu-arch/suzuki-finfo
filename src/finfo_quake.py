@@ -73,7 +73,27 @@ def fetch_quakes(days=90, min_mag=5.0):
         })
     return sorted(quakes,key=lambda x:x['time'])
 
-def analyze(quakes):
+def def calc_ifsp(latest):
+    if not latest: return None
+    I=latest.get('I',0)
+    F=abs(latest.get('F_info',0))
+    S=latest.get('S',1)
+    pd=latest.get('phi_dist',0)
+    phi3=phi**(-3); phi2=phi**(-2); phi1=phi**(-1); phi3u=phi**3
+    I_norm=min(I/phi3,1.0)
+    F_norm=min(F/phi3,1.0)
+    S_norm=min(max(S-1,0)/(phi3u-1),1.0)
+    p_norm=min(pd/1.0,1.0)
+    w_I=phi3; w_F=phi1; w_S=phi2; w_p=phi3
+    total_w=w_I+w_F+w_S+w_p
+    ifsp=(w_I*I_norm+w_F*F_norm+w_S*S_norm+w_p*p_norm)/total_w
+    if ifsp<phi3:   zone='SAFE'
+    elif ifsp<phi1: zone='CAUTION'
+    else:           zone='DANGER'
+    return dict(value=round(ifsp,4),zone=zone,
+                I_norm=round(I_norm,4),F_norm=round(F_norm,4),
+                S_norm=round(S_norm,4),phi_norm=round(p_norm,4))
+    analyze(quakes):
     daily={}
     for q in quakes:
         d=q['time']; daily[d]=max(daily.get(d,0),q['mag'])
@@ -90,9 +110,10 @@ def analyze(quakes):
     state_pct={k:round(v/total*100,1) for k,v in state_counts.items()}
     latest=results[-1] if results else {}
     pred=make_prediction(results,series)
+    ifsp=calc_ifsp(latest)
     return dict(recent=recent,state_pct=state_pct,latest=latest,
                 prediction=pred,total_days=len(series),
-                total_quakes=len(quakes))
+                total_quakes=len(quakes),ifsp=ifsp)
 
 def make_prediction(results,series):
     now=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
