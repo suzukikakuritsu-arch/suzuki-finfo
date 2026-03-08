@@ -55,22 +55,32 @@ class FInfoDetector:
 def fetch_quakes(days=3650, min_mag=5.0):
     end=datetime.now(timezone.utc)
     start=end-timedelta(days=days)
-    url=("https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
-         "&starttime="+start.strftime('%Y-%m-%d')
-         +"&endtime="+end.strftime('%Y-%m-%d')
-         +"&minmagnitude="+str(min_mag)+"&orderby=time&limit=50000")
-    with urllib.request.urlopen(url,timeout=20) as r:
-        data=json.loads(r.read())
     quakes=[]
-    for q in data['features']:
-        p=q['properties']; c=q['geometry']['coordinates']
-        quakes.append({
-            'time':datetime.utcfromtimestamp(p['time']/1000).strftime('%Y-%m-%d'),
-            'mag':p['mag'],
-            'place':p['place'] or '',
-            'lat':round(c[1],2),
-            'lon':round(c[0],2)
-        })
+    # 365日ずつ分割して取得
+    chunk_days=365
+    current=start
+    while current<end:
+        chunk_end=min(current+timedelta(days=chunk_days),end)
+        url=("https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
+             "&starttime="+current.strftime('%Y-%m-%d')
+             +"&endtime="+chunk_end.strftime('%Y-%m-%d')
+             +"&minmagnitude="+str(min_mag)+"&orderby=time&limit=5000")
+        try:
+            with urllib.request.urlopen(url,timeout=30) as r:
+                data=json.loads(r.read())
+            for q in data['features']:
+                p=q['properties']; c=q['geometry']['coordinates']
+                quakes.append({
+                    'time':datetime.utcfromtimestamp(p['time']/1000).strftime('%Y-%m-%d'),
+                    'mag':p['mag'],
+                    'place':p['place'] or '',
+                    'lat':round(c[1],2),
+                    'lon':round(c[0],2)
+                })
+            print("Fetched "+current.strftime('%Y-%m-%d')+" to "+chunk_end.strftime('%Y-%m-%d')+" : "+str(len(data['features']))+" quakes")
+        except Exception as e:
+            print("Error "+current.strftime('%Y-%m-%d')+": "+str(e))
+        current=chunk_end
     return sorted(quakes,key=lambda x:x['time'])
 
 def calc_ifsp(r):
