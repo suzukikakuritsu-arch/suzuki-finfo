@@ -289,7 +289,7 @@
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8866,
     "avg_mag": 5.89,
-    "generated": "2026-03-08 07:33 UTC"
+    "generated": "2026-03-08 08:23 UTC"
   },
   "total_days": 3573,
   "total_quakes": 17633,
@@ -309,7 +309,6 @@
       "avg_ifsp_30d_before": 0.3221,
       "max_ifsp_30d_before": 0.3293,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0001,
       "before_sample": [
         {
           "date": "2016-04-09",
@@ -412,7 +411,6 @@
       "avg_ifsp_30d_before": 0.3235,
       "max_ifsp_30d_before": 0.332,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0009,
       "before_sample": [
         {
           "date": "2016-04-09",
@@ -523,7 +521,6 @@
       "avg_ifsp_30d_before": 0.333,
       "max_ifsp_30d_before": 0.3468,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0021,
       "before_sample": [
         {
           "date": "2016-04-21",
@@ -634,7 +631,6 @@
       "avg_ifsp_30d_before": 0.3084,
       "max_ifsp_30d_before": 0.3361,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0013,
       "before_sample": [
         {
           "date": "2016-05-20",
@@ -745,7 +741,6 @@
       "avg_ifsp_30d_before": 0.2997,
       "max_ifsp_30d_before": 0.3078,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0071,
       "before_sample": [
         {
           "date": "2016-07-22",
@@ -856,7 +851,6 @@
       "avg_ifsp_30d_before": 0.3046,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0089,
       "before_sample": [
         {
           "date": "2016-08-05",
@@ -967,7 +961,6 @@
       "avg_ifsp_30d_before": 0.3042,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.008,
       "before_sample": [
         {
           "date": "2016-08-12",
@@ -1078,7 +1071,6 @@
       "avg_ifsp_30d_before": 0.3109,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0014,
       "before_sample": [
         {
           "date": "2016-08-22",
@@ -1189,7 +1181,6 @@
       "avg_ifsp_30d_before": 0.3129,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0016,
       "before_sample": [
         {
           "date": "2016-08-25",
@@ -1300,7 +1291,6 @@
       "avg_ifsp_30d_before": 0.3107,
       "max_ifsp_30d_before": 0.3229,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0018,
       "before_sample": [
         {
           "date": "2016-11-06",
@@ -1411,7 +1401,6 @@
       "avg_ifsp_30d_before": 0.3201,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0018,
       "before_sample": [
         {
           "date": "2016-12-01",
@@ -1522,7 +1511,6 @@
       "avg_ifsp_30d_before": 0.3226,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.005,
       "before_sample": [
         {
           "date": "2016-12-10",
@@ -1633,7 +1621,6 @@
       "avg_ifsp_30d_before": 0.327,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0045,
       "before_sample": [
         {
           "date": "2016-12-18",
@@ -1744,7 +1731,6 @@
       "avg_ifsp_30d_before": 0.3336,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0058,
       "before_sample": [
         {
           "date": "2017-01-03",
@@ -1855,7 +1841,6 @@
       "avg_ifsp_30d_before": 0.3329,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.009,
       "before_sample": [
         {
           "date": "2017-01-14",
@@ -1966,7 +1951,6 @@
       "avg_ifsp_30d_before": 0.31,
       "max_ifsp_30d_before": 0.3172,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0041,
       "before_sample": [
         {
           "date": "2017-07-10",
@@ -2077,7 +2061,6 @@
       "avg_ifsp_30d_before": 0.3072,
       "max_ifsp_30d_before": 0.3257,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0164,
       "before_sample": [
         {
           "date": "2017-09-01",
@@ -2188,7 +2171,6 @@
       "avg_ifsp_30d_before": 0.3121,
       "max_ifsp_30d_before": 0.3532,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0026,
       "before_sample": [
         {
           "date": "2017-09-12",
@@ -2299,7 +2281,6 @@
       "avg_ifsp_30d_before": 0.307,
       "max_ifsp_30d_before": 0.3194,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0036,
       "before_sample": [
         {
           "date": "2017-11-05",
@@ -2410,7 +2391,6 @@
       "avg_ifsp_30d_before": 0.3136,
       "max_ifsp_30d_before": 0.3338,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0024,
       "before_sample": [
         {
           "date": "2017-11-12",
@@ -2521,7 +2501,6 @@
       "avg_ifsp_30d_before": 0.3025,
       "max_ifsp_30d_before": 0.3163,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0084,
       "before_sample": [
         {
           "date": "2018-01-02",
@@ -2632,7 +2611,6 @@
       "avg_ifsp_30d_before": 0.3021,
       "max_ifsp_30d_before": 0.3168,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0011,
       "before_sample": [
         {
           "date": "2018-01-06",
@@ -2743,7 +2721,6 @@
       "avg_ifsp_30d_before": 0.3033,
       "max_ifsp_30d_before": 0.3205,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0061,
       "before_sample": [
         {
           "date": "2018-01-16",
@@ -2854,7 +2831,6 @@
       "avg_ifsp_30d_before": 0.3213,
       "max_ifsp_30d_before": 0.3433,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0051,
       "before_sample": [
         {
           "date": "2018-02-09",
@@ -2965,7 +2941,6 @@
       "avg_ifsp_30d_before": 0.3165,
       "max_ifsp_30d_before": 0.3353,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0046,
       "before_sample": [
         {
           "date": "2018-02-18",
@@ -3076,7 +3051,6 @@
       "avg_ifsp_30d_before": 0.3053,
       "max_ifsp_30d_before": 0.3214,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0,
       "before_sample": [
         {
           "date": "2018-08-12",
@@ -3187,7 +3161,6 @@
       "avg_ifsp_30d_before": 0.3068,
       "max_ifsp_30d_before": 0.3258,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0015,
       "before_sample": [
         {
           "date": "2018-08-14",
@@ -3298,7 +3271,6 @@
       "avg_ifsp_30d_before": 0.3097,
       "max_ifsp_30d_before": 0.3352,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0001,
       "before_sample": [
         {
           "date": "2018-08-17",
@@ -3409,7 +3381,6 @@
       "avg_ifsp_30d_before": 0.3152,
       "max_ifsp_30d_before": 0.3441,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.001,
       "before_sample": [
         {
           "date": "2018-08-22",
@@ -3520,7 +3491,6 @@
       "avg_ifsp_30d_before": 0.3255,
       "max_ifsp_30d_before": 0.3587,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0041,
       "before_sample": [
         {
           "date": "2018-08-30",
@@ -3631,7 +3601,6 @@
       "avg_ifsp_30d_before": 0.335,
       "max_ifsp_30d_before": 0.3587,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.006,
       "before_sample": [
         {
           "date": "2018-09-21",
@@ -3742,7 +3711,6 @@
       "avg_ifsp_30d_before": 0.3262,
       "max_ifsp_30d_before": 0.3533,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0014,
       "before_sample": [
         {
           "date": "2018-10-03",
@@ -3853,7 +3821,6 @@
       "avg_ifsp_30d_before": 0.3162,
       "max_ifsp_30d_before": 0.3258,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0012,
       "before_sample": [
         {
           "date": "2018-11-23",
@@ -3964,7 +3931,6 @@
       "avg_ifsp_30d_before": 0.3147,
       "max_ifsp_30d_before": 0.3249,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0056,
       "before_sample": [
         {
           "date": "2018-11-28",
@@ -4075,7 +4041,6 @@
       "avg_ifsp_30d_before": 0.3157,
       "max_ifsp_30d_before": 0.3323,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0028,
       "before_sample": [
         {
           "date": "2018-12-04",
@@ -4186,7 +4151,6 @@
       "avg_ifsp_30d_before": 0.3172,
       "max_ifsp_30d_before": 0.3323,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0046,
       "before_sample": [
         {
           "date": "2018-12-13",
@@ -4297,7 +4261,6 @@
       "avg_ifsp_30d_before": 0.3205,
       "max_ifsp_30d_before": 0.3323,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0011,
       "before_sample": [
         {
           "date": "2018-12-22",
@@ -4408,7 +4371,6 @@
       "avg_ifsp_30d_before": 0.3106,
       "max_ifsp_30d_before": 0.3253,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0051,
       "before_sample": [
         {
           "date": "2019-02-15",
@@ -4519,7 +4481,6 @@
       "avg_ifsp_30d_before": 0.3081,
       "max_ifsp_30d_before": 0.3253,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.001,
       "before_sample": [
         {
           "date": "2019-02-22",
@@ -4630,7 +4591,6 @@
       "avg_ifsp_30d_before": 0.3104,
       "max_ifsp_30d_before": 0.3231,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.001,
       "before_sample": [
         {
           "date": "2019-04-29",
@@ -4741,7 +4701,6 @@
       "avg_ifsp_30d_before": 0.3073,
       "max_ifsp_30d_before": 0.3214,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0068,
       "before_sample": [
         {
           "date": "2019-05-07",
@@ -4852,7 +4811,6 @@
       "avg_ifsp_30d_before": 0.3121,
       "max_ifsp_30d_before": 0.3345,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0034,
       "before_sample": [
         {
           "date": "2019-05-19",
@@ -4963,7 +4921,6 @@
       "avg_ifsp_30d_before": 0.3249,
       "max_ifsp_30d_before": 0.3351,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.003,
       "before_sample": [
         {
           "date": "2019-06-08",
@@ -5074,7 +5031,6 @@
       "avg_ifsp_30d_before": 0.3237,
       "max_ifsp_30d_before": 0.3351,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0042,
       "before_sample": [
         {
           "date": "2019-06-17",
@@ -5185,7 +5141,6 @@
       "avg_ifsp_30d_before": 0.3274,
       "max_ifsp_30d_before": 0.357,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0014,
       "before_sample": [
         {
           "date": "2019-06-28",
@@ -5296,7 +5251,6 @@
       "avg_ifsp_30d_before": 0.3302,
       "max_ifsp_30d_before": 0.357,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0014,
       "before_sample": [
         {
           "date": "2019-07-07",
@@ -5407,7 +5361,6 @@
       "avg_ifsp_30d_before": 0.3071,
       "max_ifsp_30d_before": 0.3249,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0002,
       "before_sample": [
         {
           "date": "2019-11-07",
@@ -5518,7 +5471,6 @@
       "avg_ifsp_30d_before": 0.3015,
       "max_ifsp_30d_before": 0.3124,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0101,
       "before_sample": [
         {
           "date": "2020-01-21",
@@ -5629,7 +5581,6 @@
       "avg_ifsp_30d_before": 0.3161,
       "max_ifsp_30d_before": 0.3455,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0032,
       "before_sample": [
         {
           "date": "2020-02-06",
@@ -5740,7 +5691,6 @@
       "avg_ifsp_30d_before": 0.2991,
       "max_ifsp_30d_before": 0.3163,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0073,
       "before_sample": [
         {
           "date": "2020-03-18",
@@ -5851,7 +5801,6 @@
       "avg_ifsp_30d_before": 0.3089,
       "max_ifsp_30d_before": 0.3168,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0013,
       "before_sample": [
         {
           "date": "2020-06-10",
@@ -5962,7 +5911,6 @@
       "avg_ifsp_30d_before": 0.3089,
       "max_ifsp_30d_before": 0.3153,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0084,
       "before_sample": [
         {
           "date": "2020-06-16",
@@ -6073,7 +6021,6 @@
       "avg_ifsp_30d_before": 0.3135,
       "max_ifsp_30d_before": 0.3394,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0082,
       "before_sample": [
         {
           "date": "2020-07-10",
@@ -6184,7 +6131,6 @@
       "avg_ifsp_30d_before": 0.3139,
       "max_ifsp_30d_before": 0.3394,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0101,
       "before_sample": [
         {
           "date": "2020-07-15",
@@ -6295,7 +6241,6 @@
       "avg_ifsp_30d_before": 0.3041,
       "max_ifsp_30d_before": 0.3173,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0096,
       "before_sample": [
         {
           "date": "2020-10-12",
@@ -6406,7 +6351,6 @@
       "avg_ifsp_30d_before": 0.3033,
       "max_ifsp_30d_before": 0.323,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.003,
       "before_sample": [
         {
           "date": "2020-10-23",
@@ -6517,7 +6461,6 @@
       "avg_ifsp_30d_before": 0.3027,
       "max_ifsp_30d_before": 0.3166,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0008,
       "before_sample": [
         {
           "date": "2021-01-14",
@@ -6628,7 +6571,6 @@
       "avg_ifsp_30d_before": 0.312,
       "max_ifsp_30d_before": 0.3281,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0118,
       "before_sample": [
         {
           "date": "2021-02-03",
@@ -6739,7 +6681,6 @@
       "avg_ifsp_30d_before": 0.3147,
       "max_ifsp_30d_before": 0.3397,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0037,
       "before_sample": [
         {
           "date": "2021-02-06",
@@ -6850,7 +6791,6 @@
       "avg_ifsp_30d_before": 0.3198,
       "max_ifsp_30d_before": 0.3397,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0066,
       "before_sample": [
         {
           "date": "2021-02-25",
@@ -6961,7 +6901,6 @@
       "avg_ifsp_30d_before": 0.3208,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0005,
       "before_sample": [
         {
           "date": "2021-03-13",
@@ -7072,7 +7011,6 @@
       "avg_ifsp_30d_before": 0.3116,
       "max_ifsp_30d_before": 0.3255,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0001,
       "before_sample": [
         {
           "date": "2021-05-14",
@@ -7183,7 +7121,6 @@
       "avg_ifsp_30d_before": 0.2993,
       "max_ifsp_30d_before": 0.3101,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0084,
       "before_sample": [
         {
           "date": "2021-07-21",
@@ -7294,7 +7231,6 @@
       "avg_ifsp_30d_before": 0.3131,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0056,
       "before_sample": [
         {
           "date": "2021-08-04",
@@ -7405,7 +7341,6 @@
       "avg_ifsp_30d_before": 0.3146,
       "max_ifsp_30d_before": 0.3401,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0107,
       "before_sample": [
         {
           "date": "2021-08-05",
@@ -7516,7 +7451,6 @@
       "avg_ifsp_30d_before": 0.3169,
       "max_ifsp_30d_before": 0.3415,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.005,
       "before_sample": [
         {
           "date": "2021-08-07",
@@ -7627,7 +7561,6 @@
       "avg_ifsp_30d_before": 0.3273,
       "max_ifsp_30d_before": 0.3427,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0014,
       "before_sample": [
         {
           "date": "2021-08-15",
@@ -7738,7 +7671,6 @@
       "avg_ifsp_30d_before": 0.3303,
       "max_ifsp_30d_before": 0.3507,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.006,
       "before_sample": [
         {
           "date": "2021-09-01",
@@ -7849,7 +7781,6 @@
       "avg_ifsp_30d_before": 0.3116,
       "max_ifsp_30d_before": 0.3283,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0066,
       "before_sample": [
         {
           "date": "2021-09-25",
@@ -7960,7 +7891,6 @@
       "avg_ifsp_30d_before": 0.3059,
       "max_ifsp_30d_before": 0.3111,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0006,
       "before_sample": [
         {
           "date": "2021-11-21",
@@ -8071,7 +8001,6 @@
       "avg_ifsp_30d_before": 0.3105,
       "max_ifsp_30d_before": 0.3192,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0004,
       "before_sample": [
         {
           "date": "2021-12-07",
@@ -8182,7 +8111,6 @@
       "avg_ifsp_30d_before": 0.3138,
       "max_ifsp_30d_before": 0.3192,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0015,
       "before_sample": [
         {
           "date": "2021-12-21",
@@ -8293,7 +8221,6 @@
       "avg_ifsp_30d_before": 0.3046,
       "max_ifsp_30d_before": 0.3117,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0008,
       "before_sample": [
         {
           "date": "2022-03-09",
@@ -8404,7 +8331,6 @@
       "avg_ifsp_30d_before": 0.3079,
       "max_ifsp_30d_before": 0.3212,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0019,
       "before_sample": [
         {
           "date": "2022-03-24",
@@ -8515,7 +8441,6 @@
       "avg_ifsp_30d_before": 0.3023,
       "max_ifsp_30d_before": 0.3143,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0035,
       "before_sample": [
         {
           "date": "2022-05-19",
@@ -8626,7 +8551,6 @@
       "avg_ifsp_30d_before": 0.3004,
       "max_ifsp_30d_before": 0.3106,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0083,
       "before_sample": [
         {
           "date": "2022-07-20",
@@ -8737,7 +8661,6 @@
       "avg_ifsp_30d_before": 0.3007,
       "max_ifsp_30d_before": 0.317,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0059,
       "before_sample": [
         {
           "date": "2022-09-03",
@@ -8848,7 +8771,6 @@
       "avg_ifsp_30d_before": 0.3046,
       "max_ifsp_30d_before": 0.3377,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0017,
       "before_sample": [
         {
           "date": "2022-09-07",
@@ -8959,7 +8881,6 @@
       "avg_ifsp_30d_before": 0.309,
       "max_ifsp_30d_before": 0.3395,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0012,
       "before_sample": [
         {
           "date": "2022-09-11",
@@ -9070,7 +8991,6 @@
       "avg_ifsp_30d_before": 0.3037,
       "max_ifsp_30d_before": 0.3094,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0052,
       "before_sample": [
         {
           "date": "2022-11-02",
@@ -9181,7 +9101,6 @@
       "avg_ifsp_30d_before": 0.3042,
       "max_ifsp_30d_before": 0.3189,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.002,
       "before_sample": [
         {
           "date": "2022-11-04",
@@ -9292,7 +9211,6 @@
       "avg_ifsp_30d_before": 0.3046,
       "max_ifsp_30d_before": 0.3189,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.001,
       "before_sample": [
         {
           "date": "2022-11-05",
@@ -9403,7 +9321,6 @@
       "avg_ifsp_30d_before": 0.3117,
       "max_ifsp_30d_before": 0.3277,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.002,
       "before_sample": [
         {
           "date": "2022-11-15",
@@ -9514,7 +9431,6 @@
       "avg_ifsp_30d_before": 0.3009,
       "max_ifsp_30d_before": 0.3135,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0046,
       "before_sample": [
         {
           "date": "2023-01-01",
@@ -9625,7 +9541,6 @@
       "avg_ifsp_30d_before": 0.3008,
       "max_ifsp_30d_before": 0.3135,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0068,
       "before_sample": [
         {
           "date": "2023-01-02",
@@ -9736,7 +9651,6 @@
       "avg_ifsp_30d_before": 0.3025,
       "max_ifsp_30d_before": 0.3249,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0021,
       "before_sample": [
         {
           "date": "2023-01-11",
@@ -9847,7 +9761,6 @@
       "avg_ifsp_30d_before": 0.3178,
       "max_ifsp_30d_before": 0.3373,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0028,
       "before_sample": [
         {
           "date": "2023-01-30",
@@ -9958,7 +9871,6 @@
       "avg_ifsp_30d_before": 0.3143,
       "max_ifsp_30d_before": 0.3241,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0012,
       "before_sample": [
         {
           "date": "2023-03-09",
@@ -10069,7 +9981,6 @@
       "avg_ifsp_30d_before": 0.3147,
       "max_ifsp_30d_before": 0.3211,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0044,
       "before_sample": [
         {
           "date": "2023-03-26",
@@ -10180,7 +10091,6 @@
       "avg_ifsp_30d_before": 0.3152,
       "max_ifsp_30d_before": 0.3237,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0031,
       "before_sample": [
         {
           "date": "2023-04-07",
@@ -10291,7 +10201,6 @@
       "avg_ifsp_30d_before": 0.3167,
       "max_ifsp_30d_before": 0.3287,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0018,
       "before_sample": [
         {
           "date": "2023-04-17",
@@ -10402,7 +10311,6 @@
       "avg_ifsp_30d_before": 0.3163,
       "max_ifsp_30d_before": 0.3287,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.008,
       "before_sample": [
         {
           "date": "2023-05-03",
@@ -10513,7 +10421,6 @@
       "avg_ifsp_30d_before": 0.3144,
       "max_ifsp_30d_before": 0.3277,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0032,
       "before_sample": [
         {
           "date": "2023-05-12",
@@ -10624,7 +10531,6 @@
       "avg_ifsp_30d_before": 0.3147,
       "max_ifsp_30d_before": 0.3277,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.003,
       "before_sample": [
         {
           "date": "2023-05-13",
@@ -10735,7 +10641,6 @@
       "avg_ifsp_30d_before": 0.3243,
       "max_ifsp_30d_before": 0.3532,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.009,
       "before_sample": [
         {
           "date": "2023-06-08",
@@ -10846,7 +10751,6 @@
       "avg_ifsp_30d_before": 0.3124,
       "max_ifsp_30d_before": 0.328,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0012,
       "before_sample": [
         {
           "date": "2023-07-09",
@@ -10957,7 +10861,6 @@
       "avg_ifsp_30d_before": 0.3109,
       "max_ifsp_30d_before": 0.3233,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0029,
       "before_sample": [
         {
           "date": "2023-08-20",
@@ -11068,7 +10971,6 @@
       "avg_ifsp_30d_before": 0.3119,
       "max_ifsp_30d_before": 0.3219,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0049,
       "before_sample": [
         {
           "date": "2023-10-31",
@@ -11179,7 +11081,6 @@
       "avg_ifsp_30d_before": 0.3127,
       "max_ifsp_30d_before": 0.3218,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0006,
       "before_sample": [
         {
           "date": "2023-11-24",
@@ -11290,7 +11191,6 @@
       "avg_ifsp_30d_before": 0.3142,
       "max_ifsp_30d_before": 0.3233,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0006,
       "before_sample": [
         {
           "date": "2023-11-30",
@@ -11401,7 +11301,6 @@
       "avg_ifsp_30d_before": 0.3181,
       "max_ifsp_30d_before": 0.3301,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.004,
       "before_sample": [
         {
           "date": "2023-12-25",
@@ -11512,7 +11411,6 @@
       "avg_ifsp_30d_before": 0.3151,
       "max_ifsp_30d_before": 0.3249,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0027,
       "before_sample": [
         {
           "date": "2024-01-14",
@@ -11623,7 +11521,6 @@
       "avg_ifsp_30d_before": 0.3026,
       "max_ifsp_30d_before": 0.3122,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0026,
       "before_sample": [
         {
           "date": "2024-03-26",
@@ -11734,7 +11631,6 @@
       "avg_ifsp_30d_before": 0.2995,
       "max_ifsp_30d_before": 0.3054,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0011,
       "before_sample": [
         {
           "date": "2024-06-21",
@@ -11845,7 +11741,6 @@
       "avg_ifsp_30d_before": 0.3008,
       "max_ifsp_30d_before": 0.3083,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0009,
       "before_sample": [
         {
           "date": "2024-07-04",
@@ -11956,7 +11851,6 @@
       "avg_ifsp_30d_before": 0.3026,
       "max_ifsp_30d_before": 0.3125,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0034,
       "before_sample": [
         {
           "date": "2024-07-11",
@@ -12067,7 +11961,6 @@
       "avg_ifsp_30d_before": 0.3097,
       "max_ifsp_30d_before": 0.3214,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0035,
       "before_sample": [
         {
           "date": "2024-08-01",
@@ -12178,7 +12071,6 @@
       "avg_ifsp_30d_before": 0.3122,
       "max_ifsp_30d_before": 0.3214,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0009,
       "before_sample": [
         {
           "date": "2024-08-09",
@@ -12289,7 +12181,6 @@
       "avg_ifsp_30d_before": 0.3001,
       "max_ifsp_30d_before": 0.3072,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0047,
       "before_sample": [
         {
           "date": "2024-11-27",
@@ -12400,7 +12291,6 @@
       "avg_ifsp_30d_before": 0.3048,
       "max_ifsp_30d_before": 0.3217,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0016,
       "before_sample": [
         {
           "date": "2024-12-10",
@@ -12511,7 +12401,6 @@
       "avg_ifsp_30d_before": 0.3146,
       "max_ifsp_30d_before": 0.3269,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0024,
       "before_sample": [
         {
           "date": "2024-12-31",
@@ -12622,7 +12511,6 @@
       "avg_ifsp_30d_before": 0.3049,
       "max_ifsp_30d_before": 0.3352,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0113,
       "before_sample": [
         {
           "date": "2025-02-01",
@@ -12733,7 +12621,6 @@
       "avg_ifsp_30d_before": 0.2992,
       "max_ifsp_30d_before": 0.3094,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0046,
       "before_sample": [
         {
           "date": "2025-03-21",
@@ -12844,7 +12731,6 @@
       "avg_ifsp_30d_before": 0.3,
       "max_ifsp_30d_before": 0.3188,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0035,
       "before_sample": [
         {
           "date": "2025-03-23",
@@ -12955,7 +12841,6 @@
       "avg_ifsp_30d_before": 0.3219,
       "max_ifsp_30d_before": 0.34,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0012,
       "before_sample": [
         {
           "date": "2025-04-25",
@@ -13066,7 +12951,6 @@
       "avg_ifsp_30d_before": 0.3005,
       "max_ifsp_30d_before": 0.3077,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0046,
       "before_sample": [
         {
           "date": "2025-07-09",
@@ -13177,7 +13061,6 @@
       "avg_ifsp_30d_before": 0.3016,
       "max_ifsp_30d_before": 0.3196,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0049,
       "before_sample": [
         {
           "date": "2025-07-13",
@@ -13288,7 +13171,6 @@
       "avg_ifsp_30d_before": 0.3097,
       "max_ifsp_30d_before": 0.3419,
       "danger_days_before": 0,
-      "ifsp_on_day": -0.0009,
       "before_sample": [
         {
           "date": "2025-07-21",
@@ -13399,7 +13281,6 @@
       "avg_ifsp_30d_before": 0.3106,
       "max_ifsp_30d_before": 0.3419,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0065,
       "before_sample": [
         {
           "date": "2025-07-22",
@@ -13510,7 +13391,6 @@
       "avg_ifsp_30d_before": 0.3353,
       "max_ifsp_30d_before": 0.3574,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0157,
       "before_sample": [
         {
           "date": "2025-08-15",
@@ -13621,7 +13501,6 @@
       "avg_ifsp_30d_before": 0.3151,
       "max_ifsp_30d_before": 0.353,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0074,
       "before_sample": [
         {
           "date": "2025-09-06",
@@ -13732,7 +13611,6 @@
       "avg_ifsp_30d_before": 0.3145,
       "max_ifsp_30d_before": 0.353,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.006,
       "before_sample": [
         {
           "date": "2025-09-11",
@@ -13843,7 +13721,6 @@
       "avg_ifsp_30d_before": 0.3198,
       "max_ifsp_30d_before": 0.3339,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.005,
       "before_sample": [
         {
           "date": "2025-10-03",
@@ -13954,7 +13831,6 @@
       "avg_ifsp_30d_before": 0.3013,
       "max_ifsp_30d_before": 0.3234,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0067,
       "before_sample": [
         {
           "date": "2025-11-29",
@@ -14065,7 +13941,6 @@
       "avg_ifsp_30d_before": 0.3009,
       "max_ifsp_30d_before": 0.3234,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.005,
       "before_sample": [
         {
           "date": "2025-12-01",
@@ -14176,7 +14051,6 @@
       "avg_ifsp_30d_before": 0.3021,
       "max_ifsp_30d_before": 0.3077,
       "danger_days_before": 0,
-      "ifsp_on_day": 0.0022,
       "before_sample": [
         {
           "date": "2026-02-15",
@@ -14280,5 +14154,30 @@
         }
       ]
     }
-  ]
+  ],
+  "ifsp_stats": {
+    "near_big_quake": {
+      "n": 2376,
+      "mean": 0.313,
+      "std": 0.0122,
+      "min": 0.2857,
+      "p25": 0.3043,
+      "median": 0.3118,
+      "p75": 0.32,
+      "max": 0.3587
+    },
+    "normal": {
+      "n": 1169,
+      "mean": 0.3078,
+      "std": 0.0096,
+      "min": 0.2834,
+      "p25": 0.3007,
+      "median": 0.3077,
+      "p75": 0.3145,
+      "max": 0.3383
+    },
+    "mean_diff": 0.0052,
+    "t_stat": 13.825,
+    "significance": "significant"
+  }
 }
