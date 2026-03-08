@@ -289,8 +289,16 @@
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8866,
     "avg_mag": 5.89,
-    "generated": "2026-03-08 05:46 UTC"
+    "generated": "2026-03-08 06:10 UTC"
   },
   "total_days": 90,
-  "total_quakes": 465
+  "total_quakes": 465,
+  "ifsp": {
+    "value": 0.3183,
+    "zone": "CAUTION",
+    "I_norm": 0.061,
+    "F_norm": 0.0042,
+    "S_norm": 0.6343,
+    "phi_norm": 0.8866
+  }
 }
