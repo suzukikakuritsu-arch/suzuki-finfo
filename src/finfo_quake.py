@@ -52,13 +52,13 @@ class FInfoDetector:
         self.history=[]
         return [r for x in series for r in [self.update(x)] if r]
 
-def fetch_quakes(days=90, min_mag=4.0):
+def fetch_quakes(days=90, min_mag=5.0):
     end=datetime.now(timezone.utc)
     start=end-timedelta(days=days)
     url=("https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
          "&starttime="+start.strftime('%Y-%m-%d')
          +"&endtime="+end.strftime('%Y-%m-%d')
-         +"&minmagnitude="+str(min_mag)+"&orderby=time&limit=1000")
+         +"&minmagnitude="+str(min_mag)+"&orderby=time&limit=2000")
     with urllib.request.urlopen(url,timeout=20) as r:
         data=json.loads(r.read())
     quakes=[]
