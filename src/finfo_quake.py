@@ -93,6 +93,52 @@ def calc_ifsp(latest):
     return dict(value=round(ifsp,4),zone=zone,
                 I_norm=round(I_norm,4),F_norm=round(F_norm,4),
                 S_norm=round(S_norm,4),phi_norm=round(p_norm,4))
+def find_big_quake_patterns(dates, series, results, quakes, min_mag=7.0, window_before=30):
+    offset=len(series)-len(results)
+    # 大地震リスト
+    big={}
+    for q in quakes:
+        if q['mag']>=min_mag:
+            d=q['time']
+            if d not in big or q['mag']>big[d]['mag']:
+                big[d]=q
+    patterns=[]
+    for d,q in sorted(big.items()):
+        if d not in dates: continue
+        idx=dates.index(d)
+        ridx=idx-offset
+        if ridx<0 or ridx>=len(results): continue
+        # 直前30日のIFSP
+        before=[]
+        for i in range(max(0,ridx-window_before),ridx):
+            r=results[i]
+            ifsp=calc_ifsp(r)
+            if ifsp:
+                before.append({'date':dates[i+offset],'ifsp':ifsp['value'],
+                               'zone':ifsp['zone'],'state':r['state'],
+                               'S':r['S'],'F_info':r['F_info']})
+        # 直後7日
+        after=[]
+        for i in range(ridx,min(ridx+7,len(results))):
+            r=results[i]
+            ifsp=calc_ifsp(r)
+            if ifsp:
+                after.append({'date':dates[i+offset],'ifsp':ifsp['value'],
+                              'zone':ifsp['zone'],'state':r['state']})
+        if not before: continue
+        avg_ifsp_before=round(sum(x['ifsp'] for x in before)/len(before),4)
+        max_ifsp_before=round(max(x['ifsp'] for x in before),4)
+        danger_days=sum(1 for x in before if x['zone']=='DANGER')
+        patterns.append({
+            'date':d,'mag':q['mag'],'place':q['place'],
+            'avg_ifsp_30d_before':avg_ifsp_before,
+            'max_ifsp_30d_before':max_ifsp_before,
+            'danger_days_before':danger_days,
+            'ifsp_on_day':results[ridx]['F_info'],
+            'before_sample':before[-7:],
+            'after_sample':after,
+        })
+    return patterns
 def analyze(quakes):
     daily={}
     for q in quakes:
@@ -111,10 +157,11 @@ def analyze(quakes):
     latest=results[-1] if results else {}
     pred=make_prediction(results,series)
     ifsp=calc_ifsp(latest)
+    patterns=find_big_quake_patterns(dates,series,results,quakes,min_mag=7.0)
     return dict(recent=recent,state_pct=state_pct,latest=latest,
                 prediction=pred,total_days=len(series),
-                total_quakes=len(quakes),ifsp=ifsp)
-
+                total_quakes=len(quakes),ifsp=ifsp,
+                big_quake_patterns=patterns)
 def make_prediction(results,series):
     now=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     if len(results)<7:
@@ -200,7 +247,6 @@ def make_html(result,updated):
           'Updated: '+updated
           +'</div></body></html>')
     return html
-
 def main():
     print("Fetching USGS data...")
     quakes=fetch_quakes(days=3650,min_mag=5.0)
