@@ -5,7 +5,7 @@ Theory: GER / Suzuki Information Emergence Theory
 """
 import urllib.request, json, math, os
 from datetime import datetime, timezone, timedelta
-from collections import Counter
+from collections import Counter, defaultdict
 
 phi = (1 + math.sqrt(5)) / 2
 
@@ -58,7 +58,7 @@ def fetch_quakes(days=3650, min_mag=5.0):
     url=("https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
          "&starttime="+start.strftime('%Y-%m-%d')
          +"&endtime="+end.strftime('%Y-%m-%d')
-         +"&minmagnitude="+str(min_mag)+"&orderby=time&limit=20000")
+         +"&minmagnitude="+str(min_mag)+"&orderby=time&limit=50000")
     with urllib.request.urlopen(url,timeout=20) as r:
         data=json.loads(r.read())
     quakes=[]
@@ -73,12 +73,12 @@ def fetch_quakes(days=3650, min_mag=5.0):
         })
     return sorted(quakes,key=lambda x:x['time'])
 
-def calc_ifsp(latest):
-    if not latest: return None
-    I=latest.get('I',0)
-    F=abs(latest.get('F_info',0))
-    S=latest.get('S',1)
-    pd=latest.get('phi_dist',0)
+def calc_ifsp(r):
+    if not r: return None
+    I=r.get('I',0)
+    F=abs(r.get('F_info',0))
+    S=r.get('S',1)
+    pd=r.get('phi_dist',0)
     phi3=phi**(-3); phi2=phi**(-2); phi1=phi**(-1); phi3u=phi**3
     I_norm=min(I/phi3,1.0)
     F_norm=min(F/phi3,1.0)
@@ -93,9 +93,9 @@ def calc_ifsp(latest):
     return dict(value=round(ifsp,4),zone=zone,
                 I_norm=round(I_norm,4),F_norm=round(F_norm,4),
                 S_norm=round(S_norm,4),phi_norm=round(p_norm,4))
-def find_big_quake_patterns(dates, series, results, quakes, min_mag=7.0, window_before=30):
+
+def find_big_quake_patterns(dates,series,results,quakes,min_mag=7.0,window_before=30):
     offset=len(series)-len(results)
-    # 大地震リスト
     big={}
     for q in quakes:
         if q['mag']>=min_mag:
@@ -108,7 +108,6 @@ def find_big_quake_patterns(dates, series, results, quakes, min_mag=7.0, window_
         idx=dates.index(d)
         ridx=idx-offset
         if ridx<0 or ridx>=len(results): continue
-        # 直前30日のIFSP
         before=[]
         for i in range(max(0,ridx-window_before),ridx):
             r=results[i]
@@ -117,7 +116,6 @@ def find_big_quake_patterns(dates, series, results, quakes, min_mag=7.0, window_
                 before.append({'date':dates[i+offset],'ifsp':ifsp['value'],
                                'zone':ifsp['zone'],'state':r['state'],
                                'S':r['S'],'F_info':r['F_info']})
-        # 直後7日
         after=[]
         for i in range(ridx,min(ridx+7,len(results))):
             r=results[i]
@@ -134,11 +132,72 @@ def find_big_quake_patterns(dates, series, results, quakes, min_mag=7.0, window_
             'avg_ifsp_30d_before':avg_ifsp_before,
             'max_ifsp_30d_before':max_ifsp_before,
             'danger_days_before':danger_days,
-            'ifsp_on_day':results[ridx]['F_info'],
             'before_sample':before[-7:],
             'after_sample':after,
         })
     return patterns
+
+def calc_ifsp_stats(dates,series,results,quakes,min_mag=7.0):
+    offset=len(series)-len(results)
+    # 大地震前後にフラグ
+    big_dates=set()
+    for q in quakes:
+        if q['mag']>=min_mag:
+            if q['time'] not in dates: continue
+            idx=dates.index(q['time'])
+            for d in range(max(0,idx-30),min(len(dates),idx+7)):
+                big_dates.add(dates[d])
+    # 全日のIFSPを分類
+    near=[]
+    normal=[]
+    for i,r in enumerate(results):
+        ifsp=calc_ifsp(r)
+        if not ifsp: continue
+        d=dates[i+offset]
+        if d in big_dates:
+            near.append(ifsp['value'])
+        else:
+            normal.append(ifsp['value'])
+
+    def stats(arr):
+        if not arr: return {}
+        n=len(arr)
+        mu=sum(arr)/n
+        var=sum((x-mu)**2 for x in arr)/n
+        sd=var**0.5
+        arr_s=sorted(arr)
+        return dict(n=n,mean=round(mu,4),std=round(sd,4),
+                    min=round(arr_s[0],4),
+                    p25=round(arr_s[n//4],4),
+                    median=round(arr_s[n//2],4),
+                    p75=round(arr_s[3*n//4],4),
+                    max=round(arr_s[-1],4))
+
+    near_s=stats(near)
+    normal_s=stats(normal)
+    diff=round(near_s.get('mean',0)-normal_s.get('mean',0),4) if near_s and normal_s else 0
+
+    # 簡易t検定
+    t=0
+    if near_s and normal_s and near_s.get('n',0)>1 and normal_s.get('n',0)>1:
+        n1=near_s['n']; n2=normal_s['n']
+        m1=near_s['mean']; m2=normal_s['mean']
+        s1=near_s['std']**2; s2=normal_s['std']**2
+        se=((s1/n1)+(s2/n2))**0.5
+        t=round((m1-m2)/se,3) if se>0 else 0
+
+    if abs(t)>2.0:   sig='significant'
+    elif abs(t)>1.0: sig='marginal'
+    else:            sig='not_significant'
+
+    return dict(
+        near_big_quake=near_s,
+        normal=normal_s,
+        mean_diff=diff,
+        t_stat=t,
+        significance=sig
+    )
+
 def analyze(quakes):
     daily={}
     for q in quakes:
@@ -158,10 +217,13 @@ def analyze(quakes):
     pred=make_prediction(results,series)
     ifsp=calc_ifsp(latest)
     patterns=find_big_quake_patterns(dates,series,results,quakes,min_mag=7.0)
+    ifsp_stats=calc_ifsp_stats(dates,series,results,quakes,min_mag=7.0)
     return dict(recent=recent,state_pct=state_pct,latest=latest,
                 prediction=pred,total_days=len(series),
                 total_quakes=len(quakes),ifsp=ifsp,
-                big_quake_patterns=patterns)
+                big_quake_patterns=patterns,
+                ifsp_stats=ifsp_stats)
+
 def make_prediction(results,series):
     now=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     if len(results)<7:
@@ -202,6 +264,37 @@ def make_html(result,updated):
     pct=''
     for k,v in sorted(result['state_pct'].items()):
         pct+='<span style="color:'+sc.get(k,'#888')+'">'+k+':'+str(v)+'%</span> '
+    stats=result.get('ifsp_stats',{})
+    near=stats.get('near_big_quake',{})
+    norm=stats.get('normal',{})
+    sig=stats.get('significance','unknown')
+    sig_color={'significant':'#e74c3c','marginal':'#f39c12','not_significant':'#888'}.get(sig,'#888')
+    stats_html=''
+    if near and norm:
+        stats_html=(
+            '<div class="card">'
+            '<div style="color:#888;margin-bottom:8px">IFSP Statistical Comparison</div>'
+            '<table>'
+            '<tr><th></th><th>n</th><th>mean</th><th>std</th><th>min</th><th>max</th></tr>'
+            '<tr><td style="color:#e74c3c">Near M7+</td>'
+            '<td>'+str(near.get('n',''))+'</td>'
+            '<td>'+str(near.get('mean',''))+'</td>'
+            '<td>'+str(near.get('std',''))+'</td>'
+            '<td>'+str(near.get('min',''))+'</td>'
+            '<td>'+str(near.get('max',''))+'</td></tr>'
+            '<tr><td style="color:#2980b9">Normal</td>'
+            '<td>'+str(norm.get('n',''))+'</td>'
+            '<td>'+str(norm.get('mean',''))+'</td>'
+            '<td>'+str(norm.get('std',''))+'</td>'
+            '<td>'+str(norm.get('min',''))+'</td>'
+            '<td>'+str(norm.get('max',''))+'</td></tr>'
+            '</table>'
+            '<div style="margin-top:8px">'
+            'mean_diff: '+str(stats.get('mean_diff',''))
+            +'  t_stat: '+str(stats.get('t_stat',''))
+            +'  <span style="color:'+sig_color+'">'+sig+'</span>'
+            '</div></div>'
+        )
     html=('<!DOCTYPE html><html lang="ja"><head>'
           '<meta charset="UTF-8">'
           '<meta name="viewport" content="width=device-width,initial-scale=1">'
@@ -235,6 +328,7 @@ def make_html(result,updated):
           '</div>'
           '<div class="card"><div style="margin-bottom:8px;color:#888">State distribution</div>'
           '<div>'+pct+'</div></div>'
+          +stats_html+
           '<div class="card"><table>'
           '<tr><th>Date</th><th>Max M</th><th>State</th><th>F_info</th><th>phi_dist</th></tr>'
           +rows+'</table></div>'
@@ -247,6 +341,7 @@ def make_html(result,updated):
           'Updated: '+updated
           +'</div></body></html>')
     return html
+
 def main():
     print("Fetching USGS data...")
     quakes=fetch_quakes(days=3650,min_mag=5.0)
@@ -254,6 +349,9 @@ def main():
     result=analyze(quakes)
     print("State: "+result['latest'].get('state','')
           +"  Prediction: "+result['prediction']['text'])
+    stats=result.get('ifsp_stats',{})
+    print("IFSP stats - t_stat: "+str(stats.get('t_stat',''))
+          +"  significance: "+str(stats.get('significance','')))
     updated=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     os.makedirs('docs',exist_ok=True)
     with open('docs/index.html','w',encoding='utf-8') as f:
