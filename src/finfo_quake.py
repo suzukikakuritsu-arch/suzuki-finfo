@@ -182,7 +182,7 @@ def make_html(result,updated):
 
 def main():
     print("Fetching USGS data...")
-    quakes=fetch_quakes(days=90,min_mag=4.0)
+    quakes=fetch_quakes(days=90,min_mag=5.0)
     print("Fetched: "+str(len(quakes))+" quakes")
     result=analyze(quakes)
     print("State: "+result['latest'].get('state','')
