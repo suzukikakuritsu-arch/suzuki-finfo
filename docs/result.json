@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-09",
-      "mag": 5.1,
-      "state": "STABLE",
-      "S": 2.9759,
-      "F_info": 0.0008,
-      "I": 0.0057,
-      "phi_dist": 0.8392
-    },
-    {
       "date": "2026-02-10",
       "mag": 6.2,
       "state": "STABLE",
@@ -263,12 +254,21 @@
     },
     {
       "date": "2026-03-10",
-      "mag": 5.5,
+      "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0257,
+      "S": 3.0215,
       "F_info": -0.0006,
       "I": 0.0109,
-      "phi_dist": 0.87
+      "phi_dist": 0.8674
+    },
+    {
+      "date": "2026-03-11",
+      "mag": 5.5,
+      "state": "STABLE",
+      "S": 3.0215,
+      "F_info": 0.0,
+      "I": 0.0109,
+      "phi_dist": 0.8674
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0257,
-    "F_info": -0.0006,
+    "S": 3.0215,
+    "F_info": 0.0,
     "I": 0.0109,
-    "phi_dist": 0.87
+    "phi_dist": 0.8674
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.87,
-    "avg_mag": 5.8,
-    "generated": "2026-03-11 05:03 UTC"
+    "phi_dist": 0.8674,
+    "avg_mag": 5.79,
+    "generated": "2026-03-12 05:08 UTC"
   },
   "total_days": 3573,
-  "total_quakes": 17641,
+  "total_quakes": 17646,
   "ifsp": {
-    "value": 0.3104,
+    "value": 0.3086,
     "zone": "CAUTION",
     "I_norm": 0.0462,
-    "F_norm": 0.0025,
-    "S_norm": 0.626,
-    "phi_norm": 0.87
+    "F_norm": 0.0,
+    "S_norm": 0.6247,
+    "phi_norm": 0.8674
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-15",
       "mag": 7,
       "place": "6 km ESE of Kumamoto, Japan",
-      "avg_ifsp_30d_before": 0.3246,
+      "avg_ifsp_30d_before": 0.3277,
       "max_ifsp_30d_before": 0.3293,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-04-12",
-          "ifsp": 0.3185,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0587,
-          "F_info": -0.0002
-        },
         {
           "date": "2016-04-13",
           "ifsp": 0.3261,
@@ -384,18 +376,10 @@
       "date": "2016-04-16",
       "mag": 7.8,
       "place": "27 km SSE of Muisne, Ecuador",
-      "avg_ifsp_30d_before": 0.3265,
+      "avg_ifsp_30d_before": 0.3291,
       "max_ifsp_30d_before": 0.332,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-04-12",
-          "ifsp": 0.3185,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0587,
-          "F_info": -0.0002
-        },
         {
           "date": "2016-04-13",
           "ifsp": 0.3261,
@@ -470,7 +454,7 @@
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3355,
+      "avg_ifsp_30d_before": 0.3367,
       "max_ifsp_30d_before": 0.3468,
       "danger_days_before": 0,
       "before_sample": [
@@ -14109,7 +14093,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2373,
+      "n": 2372,
       "mean": 0.313,
       "std": 0.0123,
       "min": 0.2857,
@@ -14119,7 +14103,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1172,
+      "n": 1173,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
@@ -14129,7 +14113,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0052,
-    "t_stat": 13.78,
+    "t_stat": 13.782,
     "significance": "significant"
   }
 }
