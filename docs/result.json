@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-13",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 2.9884,
-      "F_info": -0.0006,
-      "I": 0.0051,
-      "phi_dist": 0.8469
-    },
-    {
       "date": "2026-02-14",
       "mag": 6.4,
       "state": "STABLE",
@@ -83,156 +74,156 @@
     },
     {
       "date": "2026-02-22",
-      "mag": 7.1,
+      "mag": 7,
       "state": "STABLE",
-      "S": 3.0401,
-      "F_info": 0.0023,
-      "I": 0.0105,
-      "phi_dist": 0.8789
+      "S": 3.0381,
+      "F_info": 0.0019,
+      "I": 0.0101,
+      "phi_dist": 0.8776
     },
     {
       "date": "2026-02-23",
       "mag": 6.1,
       "state": "STABLE",
-      "S": 3.0608,
-      "F_info": -0.0006,
-      "I": 0.0099,
-      "phi_dist": 0.8917
+      "S": 3.0587,
+      "F_info": -0.0005,
+      "I": 0.0096,
+      "phi_dist": 0.8904
     },
     {
       "date": "2026-02-24",
       "mag": 5.5,
       "state": "STABLE",
-      "S": 3.0463,
+      "S": 3.0443,
       "F_info": 0.0017,
-      "I": 0.0116,
-      "phi_dist": 0.8827
+      "I": 0.0112,
+      "phi_dist": 0.8815
     },
     {
       "date": "2026-02-25",
-      "mag": 5.5,
+      "mag": 5.4,
       "state": "STABLE",
-      "S": 3.0443,
-      "F_info": -0.0003,
-      "I": 0.0113,
-      "phi_dist": 0.8815
+      "S": 3.0401,
+      "F_info": -0.0001,
+      "I": 0.0111,
+      "phi_dist": 0.8789
     },
     {
       "date": "2026-02-26",
       "mag": 5.7,
       "state": "STABLE",
-      "S": 3.034,
-      "F_info": 0.001,
-      "I": 0.0123,
-      "phi_dist": 0.8751
+      "S": 3.0298,
+      "F_info": 0.0009,
+      "I": 0.012,
+      "phi_dist": 0.8725
     },
     {
       "date": "2026-02-27",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0278,
+      "S": 3.0236,
       "F_info": 0.0004,
-      "I": 0.0127,
-      "phi_dist": 0.8713
+      "I": 0.0124,
+      "phi_dist": 0.8687
     },
     {
       "date": "2026-02-28",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 3.007,
-      "F_info": 0.0018,
-      "I": 0.0145,
-      "phi_dist": 0.8585
+      "S": 3.0029,
+      "F_info": 0.0017,
+      "I": 0.0141,
+      "phi_dist": 0.8559
     },
     {
       "date": "2026-03-01",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 3.0153,
+      "S": 3.0112,
       "F_info": -0.0005,
-      "I": 0.014,
-      "phi_dist": 0.8636
+      "I": 0.0136,
+      "phi_dist": 0.861
     },
     {
       "date": "2026-03-02",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.0153,
+      "S": 3.0112,
       "F_info": -0.0011,
-      "I": 0.0129,
-      "phi_dist": 0.8636
+      "I": 0.0125,
+      "phi_dist": 0.861
     },
     {
       "date": "2026-03-03",
       "mag": 6.2,
       "state": "STABLE",
-      "S": 3.0319,
-      "F_info": 0.0009,
-      "I": 0.0138,
-      "phi_dist": 0.8738
+      "S": 3.0278,
+      "F_info": 0.001,
+      "I": 0.0135,
+      "phi_dist": 0.8713
     },
     {
       "date": "2026-03-04",
       "mag": 6.4,
       "state": "STABLE",
-      "S": 3.0566,
-      "F_info": 0.0002,
-      "I": 0.014,
-      "phi_dist": 0.8891
+      "S": 3.0525,
+      "F_info": 0.0003,
+      "I": 0.0138,
+      "phi_dist": 0.8866
     },
     {
       "date": "2026-03-05",
       "mag": 5.5,
       "state": "STABLE",
-      "S": 3.0566,
+      "S": 3.0525,
       "F_info": -0.0004,
-      "I": 0.0136,
-      "phi_dist": 0.8891
+      "I": 0.0134,
+      "phi_dist": 0.8866
     },
     {
       "date": "2026-03-06",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 3.0669,
-      "F_info": 0.0,
-      "I": 0.0137,
-      "phi_dist": 0.8955
+      "S": 3.0628,
+      "F_info": 0.0001,
+      "I": 0.0135,
+      "phi_dist": 0.8929
     },
     {
       "date": "2026-03-07",
       "mag": 5.2,
       "state": "STABLE",
-      "S": 3.0525,
+      "S": 3.0484,
       "F_info": 0.001,
-      "I": 0.0147,
-      "phi_dist": 0.8866
+      "I": 0.0144,
+      "phi_dist": 0.884
     },
     {
       "date": "2026-03-08",
       "mag": 5.9,
       "state": "STABLE",
-      "S": 3.0278,
-      "F_info": -0.0004,
-      "I": 0.0143,
-      "phi_dist": 0.8713
+      "S": 3.0257,
+      "F_info": -0.0005,
+      "I": 0.0139,
+      "phi_dist": 0.87
     },
     {
       "date": "2026-03-09",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.0257,
+      "S": 3.0236,
       "F_info": -0.0024,
-      "I": 0.0119,
-      "phi_dist": 0.87
+      "I": 0.0115,
+      "phi_dist": 0.8687
     },
     {
       "date": "2026-03-10",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0215,
+      "S": 3.0195,
       "F_info": -0.0006,
-      "I": 0.0113,
-      "phi_dist": 0.8674
+      "I": 0.0109,
+      "phi_dist": 0.8661
     },
     {
       "date": "2026-03-11",
@@ -240,7 +231,7 @@
       "state": "STABLE",
       "S": 3.0215,
       "F_info": 0.0,
-      "I": 0.0113,
+      "I": 0.011,
       "phi_dist": 0.8674
     },
     {
@@ -249,7 +240,7 @@
       "state": "STABLE",
       "S": 3.0112,
       "F_info": 0.0001,
-      "I": 0.0114,
+      "I": 0.0111,
       "phi_dist": 0.861
     },
     {
@@ -257,8 +248,8 @@
       "mag": 6.3,
       "state": "STABLE",
       "S": 3.0319,
-      "F_info": 0.0019,
-      "I": 0.0133,
+      "F_info": 0.0018,
+      "I": 0.0129,
       "phi_dist": 0.8738
     },
     {
@@ -266,9 +257,18 @@
       "mag": 5.2,
       "state": "STABLE",
       "S": 3.0278,
-      "F_info": -0.0019,
-      "I": 0.0114,
+      "F_info": -0.002,
+      "I": 0.0109,
       "phi_dist": 0.8713
+    },
+    {
+      "date": "2026-03-15",
+      "mag": 5.3,
+      "state": "STABLE",
+      "S": 3.007,
+      "F_info": 0.002,
+      "I": 0.0129,
+      "phi_dist": 0.8585
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0278,
-    "F_info": -0.0019,
-    "I": 0.0114,
-    "phi_dist": 0.8713
+    "S": 3.007,
+    "F_info": 0.002,
+    "I": 0.0129,
+    "phi_dist": 0.8585
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8713,
-    "avg_mag": 5.81,
-    "generated": "2026-03-15 05:44 UTC"
+    "phi_dist": 0.8585,
+    "avg_mag": 5.74,
+    "generated": "2026-03-16 06:03 UTC"
   },
-  "total_days": 3573,
-  "total_quakes": 17649,
+  "total_days": 3574,
+  "total_quakes": 17651,
   "ifsp": {
-    "value": 0.3134,
+    "value": 0.3109,
     "zone": "CAUTION",
-    "I_norm": 0.0483,
-    "F_norm": 0.008,
-    "S_norm": 0.6266,
-    "phi_norm": 0.8713
+    "I_norm": 0.0546,
+    "F_norm": 0.0085,
+    "S_norm": 0.6202,
+    "phi_norm": 0.8585
   },
   "big_quake_patterns": [
     {
@@ -13834,7 +13834,7 @@
     },
     {
       "date": "2026-02-22",
-      "mag": 7.1,
+      "mag": 7,
       "place": "55 km NNW of Kota Belud, Malaysia",
       "avg_ifsp_30d_before": 0.302,
       "max_ifsp_30d_before": 0.3072,
@@ -13900,43 +13900,43 @@
       "after_sample": [
         {
           "date": "2026-02-22",
-          "ifsp": 0.3157,
+          "ifsp": 0.3144,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-23",
-          "ifsp": 0.316,
+          "ifsp": 0.3153,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-24",
-          "ifsp": 0.3165,
+          "ifsp": 0.3159,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-25",
-          "ifsp": 0.3135,
+          "ifsp": 0.3122,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-26",
-          "ifsp": 0.3135,
+          "ifsp": 0.3124,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-27",
-          "ifsp": 0.3116,
+          "ifsp": 0.3107,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-28",
-          "ifsp": 0.3116,
+          "ifsp": 0.3104,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -13955,7 +13955,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1176,
+      "n": 1177,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
@@ -13965,7 +13965,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0052,
-    "t_stat": 13.839,
+    "t_stat": 13.842,
     "significance": "significant"
   }
 }
