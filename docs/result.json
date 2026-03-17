@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-14",
-      "mag": 6.4,
-      "state": "STABLE",
-      "S": 3.0008,
-      "F_info": 0.0003,
-      "I": 0.0055,
-      "phi_dist": 0.8546
-    },
-    {
       "date": "2026-02-15",
       "mag": 5.9,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.002,
       "I": 0.0129,
       "phi_dist": 0.8585
+    },
+    {
+      "date": "2026-03-16",
+      "mag": 5.4,
+      "state": "STABLE",
+      "S": 2.9946,
+      "F_info": 0.0007,
+      "I": 0.0136,
+      "phi_dist": 0.8508
     }
   ],
   "state_pct": {
@@ -278,35 +278,35 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.007,
-    "F_info": 0.002,
-    "I": 0.0129,
-    "phi_dist": 0.8585
+    "S": 2.9946,
+    "F_info": 0.0007,
+    "I": 0.0136,
+    "phi_dist": 0.8508
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8585,
-    "avg_mag": 5.74,
-    "generated": "2026-03-16 06:03 UTC"
+    "phi_dist": 0.8508,
+    "avg_mag": 5.69,
+    "generated": "2026-03-17 05:14 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17651,
+  "total_quakes": 17644,
   "ifsp": {
-    "value": 0.3109,
+    "value": 0.3068,
     "zone": "CAUTION",
-    "I_norm": 0.0546,
-    "F_norm": 0.0085,
-    "S_norm": 0.6202,
-    "phi_norm": 0.8585
+    "I_norm": 0.0576,
+    "F_norm": 0.003,
+    "S_norm": 0.6164,
+    "phi_norm": 0.8508
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3386,
+      "avg_ifsp_30d_before": 0.3385,
       "max_ifsp_30d_before": 0.3468,
       "danger_days_before": 0,
       "before_sample": [
@@ -13945,7 +13945,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2369,
+      "n": 2368,
       "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
@@ -13955,7 +13955,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1177,
+      "n": 1178,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
@@ -13965,7 +13965,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0052,
-    "t_stat": 13.842,
+    "t_stat": 13.844,
     "significance": "significant"
   }
 }
