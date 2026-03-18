@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-15",
-      "mag": 5.9,
-      "state": "STABLE",
-      "S": 3.0133,
-      "F_info": 0.0006,
-      "I": 0.0061,
-      "phi_dist": 0.8623
-    },
-    {
       "date": "2026-02-16",
       "mag": 6,
       "state": "STABLE",
@@ -83,136 +74,136 @@
     },
     {
       "date": "2026-02-24",
-      "mag": 5.5,
+      "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0443,
-      "F_info": 0.0017,
-      "I": 0.0112,
-      "phi_dist": 0.8815
+      "S": 3.0401,
+      "F_info": 0.0025,
+      "I": 0.0121,
+      "phi_dist": 0.8789
     },
     {
       "date": "2026-02-25",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 3.0401,
+      "S": 3.036,
       "F_info": -0.0001,
-      "I": 0.0111,
-      "phi_dist": 0.8789
+      "I": 0.0119,
+      "phi_dist": 0.8764
     },
     {
       "date": "2026-02-26",
       "mag": 5.7,
       "state": "STABLE",
-      "S": 3.0298,
+      "S": 3.0257,
       "F_info": 0.0009,
-      "I": 0.012,
-      "phi_dist": 0.8725
+      "I": 0.0128,
+      "phi_dist": 0.87
     },
     {
       "date": "2026-02-27",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0236,
-      "F_info": 0.0004,
-      "I": 0.0124,
-      "phi_dist": 0.8687
+      "S": 3.0195,
+      "F_info": 0.0003,
+      "I": 0.0132,
+      "phi_dist": 0.8661
     },
     {
       "date": "2026-02-28",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 3.0029,
-      "F_info": 0.0017,
-      "I": 0.0141,
-      "phi_dist": 0.8559
+      "S": 2.9988,
+      "F_info": 0.0016,
+      "I": 0.0148,
+      "phi_dist": 0.8533
     },
     {
       "date": "2026-03-01",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 3.0112,
+      "S": 3.007,
       "F_info": -0.0005,
-      "I": 0.0136,
-      "phi_dist": 0.861
+      "I": 0.0143,
+      "phi_dist": 0.8585
     },
     {
       "date": "2026-03-02",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.0112,
+      "S": 3.007,
       "F_info": -0.0011,
-      "I": 0.0125,
-      "phi_dist": 0.861
+      "I": 0.0131,
+      "phi_dist": 0.8585
     },
     {
       "date": "2026-03-03",
       "mag": 6.2,
       "state": "STABLE",
-      "S": 3.0278,
+      "S": 3.0236,
       "F_info": 0.001,
-      "I": 0.0135,
-      "phi_dist": 0.8713
+      "I": 0.0141,
+      "phi_dist": 0.8687
     },
     {
       "date": "2026-03-04",
       "mag": 6.4,
       "state": "STABLE",
-      "S": 3.0525,
-      "F_info": 0.0003,
-      "I": 0.0138,
-      "phi_dist": 0.8866
+      "S": 3.0484,
+      "F_info": 0.0004,
+      "I": 0.0146,
+      "phi_dist": 0.884
     },
     {
       "date": "2026-03-05",
       "mag": 5.5,
       "state": "STABLE",
-      "S": 3.0525,
-      "F_info": -0.0004,
-      "I": 0.0134,
-      "phi_dist": 0.8866
+      "S": 3.0484,
+      "F_info": -0.0003,
+      "I": 0.0142,
+      "phi_dist": 0.884
     },
     {
       "date": "2026-03-06",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 3.0628,
+      "S": 3.0587,
       "F_info": 0.0001,
-      "I": 0.0135,
-      "phi_dist": 0.8929
+      "I": 0.0143,
+      "phi_dist": 0.8904
     },
     {
       "date": "2026-03-07",
       "mag": 5.2,
       "state": "STABLE",
-      "S": 3.0484,
-      "F_info": 0.001,
-      "I": 0.0144,
-      "phi_dist": 0.884
+      "S": 3.0443,
+      "F_info": 0.0009,
+      "I": 0.0152,
+      "phi_dist": 0.8815
     },
     {
       "date": "2026-03-08",
       "mag": 5.9,
       "state": "STABLE",
-      "S": 3.0257,
-      "F_info": -0.0005,
-      "I": 0.0139,
-      "phi_dist": 0.87
+      "S": 3.0215,
+      "F_info": -0.0006,
+      "I": 0.0146,
+      "phi_dist": 0.8674
     },
     {
       "date": "2026-03-09",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.0236,
-      "F_info": -0.0024,
-      "I": 0.0115,
-      "phi_dist": 0.8687
+      "S": 3.0195,
+      "F_info": -0.0025,
+      "I": 0.0121,
+      "phi_dist": 0.8661
     },
     {
       "date": "2026-03-10",
       "mag": 5.3,
       "state": "STABLE",
       "S": 3.0195,
-      "F_info": -0.0006,
+      "F_info": -0.0012,
       "I": 0.0109,
       "phi_dist": 0.8661
     },
@@ -240,74 +231,83 @@
       "state": "STABLE",
       "S": 3.0319,
       "F_info": 0.0018,
-      "I": 0.0129,
+      "I": 0.0128,
       "phi_dist": 0.8738
     },
     {
       "date": "2026-03-14",
-      "mag": 5.2,
+      "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0278,
-      "F_info": -0.002,
-      "I": 0.0109,
-      "phi_dist": 0.8713
+      "S": 3.0298,
+      "F_info": -0.0021,
+      "I": 0.0107,
+      "phi_dist": 0.8725
     },
     {
       "date": "2026-03-15",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 3.007,
-      "F_info": 0.002,
-      "I": 0.0129,
-      "phi_dist": 0.8585
+      "S": 3.0091,
+      "F_info": 0.0021,
+      "I": 0.0128,
+      "phi_dist": 0.8597
     },
     {
       "date": "2026-03-16",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 2.9946,
+      "S": 2.9967,
       "F_info": 0.0007,
-      "I": 0.0136,
-      "phi_dist": 0.8508
+      "I": 0.0135,
+      "phi_dist": 0.852
+    },
+    {
+      "date": "2026-03-17",
+      "mag": 5.8,
+      "state": "STABLE",
+      "S": 2.9884,
+      "F_info": -0.0014,
+      "I": 0.0121,
+      "phi_dist": 0.8469
     }
   ],
   "state_pct": {
-    "STABLE": 89.0,
     "REFLUX": 6.7,
+    "STABLE": 89.0,
     "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9946,
-    "F_info": 0.0007,
-    "I": 0.0136,
-    "phi_dist": 0.8508
+    "S": 2.9884,
+    "F_info": -0.0014,
+    "I": 0.0121,
+    "phi_dist": 0.8469
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8508,
-    "avg_mag": 5.69,
-    "generated": "2026-03-17 05:14 UTC"
+    "phi_dist": 0.8469,
+    "avg_mag": 5.67,
+    "generated": "2026-03-18 05:23 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17644,
+  "total_quakes": 17642,
   "ifsp": {
-    "value": 0.3068,
+    "value": 0.3059,
     "zone": "CAUTION",
-    "I_norm": 0.0576,
-    "F_norm": 0.003,
-    "S_norm": 0.6164,
-    "phi_norm": 0.8508
+    "I_norm": 0.0513,
+    "F_norm": 0.0059,
+    "S_norm": 0.6144,
+    "phi_norm": 0.8469
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3385,
-      "max_ifsp_30d_before": 0.3468,
+      "avg_ifsp_30d_before": 0.3376,
+      "max_ifsp_30d_before": 0.3456,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -13912,31 +13912,31 @@
         },
         {
           "date": "2026-02-24",
-          "ifsp": 0.3159,
+          "ifsp": 0.3172,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-25",
-          "ifsp": 0.3122,
+          "ifsp": 0.312,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-26",
-          "ifsp": 0.3124,
+          "ifsp": 0.3122,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-27",
-          "ifsp": 0.3107,
+          "ifsp": 0.3103,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-28",
-          "ifsp": 0.3104,
+          "ifsp": 0.31,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -13945,8 +13945,8 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2368,
-      "mean": 0.313,
+      "n": 2367,
+      "mean": 0.3129,
       "std": 0.0122,
       "min": 0.2857,
       "p25": 0.3043,
@@ -13955,17 +13955,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1178,
+      "n": 1179,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
       "p25": 0.3007,
-      "median": 0.3078,
+      "median": 0.3077,
       "p75": 0.3145,
       "max": 0.3383
     },
-    "mean_diff": 0.0052,
-    "t_stat": 13.844,
+    "mean_diff": 0.0051,
+    "t_stat": 13.58,
     "significance": "significant"
   }
 }
