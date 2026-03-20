@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-17",
-      "mag": 5.4,
-      "state": "STABLE",
-      "S": 3.0195,
-      "F_info": 0.0005,
-      "I": 0.0059,
-      "phi_dist": 0.8661
-    },
-    {
       "date": "2026-02-18",
       "mag": 5.2,
       "state": "EMERGENCE+",
@@ -56,136 +47,136 @@
     },
     {
       "date": "2026-02-23",
-      "mag": 6.1,
+      "mag": 6,
       "state": "STABLE",
-      "S": 3.0587,
-      "F_info": -0.0005,
-      "I": 0.0096,
-      "phi_dist": 0.8904
+      "S": 3.0566,
+      "F_info": -0.0008,
+      "I": 0.0093,
+      "phi_dist": 0.8891
     },
     {
       "date": "2026-02-24",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0401,
+      "S": 3.0381,
       "F_info": 0.0025,
-      "I": 0.0121,
-      "phi_dist": 0.8789
+      "I": 0.0118,
+      "phi_dist": 0.8776
     },
     {
       "date": "2026-02-25",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 3.036,
+      "S": 3.034,
       "F_info": -0.0001,
-      "I": 0.0119,
-      "phi_dist": 0.8764
+      "I": 0.0116,
+      "phi_dist": 0.8751
     },
     {
       "date": "2026-02-26",
       "mag": 5.7,
       "state": "STABLE",
-      "S": 3.0257,
+      "S": 3.0236,
       "F_info": 0.0009,
-      "I": 0.0128,
-      "phi_dist": 0.87
+      "I": 0.0125,
+      "phi_dist": 0.8687
     },
     {
       "date": "2026-02-27",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 3.0195,
+      "S": 3.0174,
       "F_info": 0.0003,
-      "I": 0.0132,
-      "phi_dist": 0.8661
+      "I": 0.0128,
+      "phi_dist": 0.8649
     },
     {
       "date": "2026-02-28",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 2.9988,
+      "S": 2.9967,
       "F_info": 0.0016,
-      "I": 0.0148,
-      "phi_dist": 0.8533
+      "I": 0.0144,
+      "phi_dist": 0.852
     },
     {
       "date": "2026-03-01",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 3.007,
+      "S": 3.005,
       "F_info": -0.0005,
-      "I": 0.0143,
-      "phi_dist": 0.8585
+      "I": 0.0139,
+      "phi_dist": 0.8572
     },
     {
       "date": "2026-03-02",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.007,
-      "F_info": -0.0011,
-      "I": 0.0131,
-      "phi_dist": 0.8585
+      "S": 3.005,
+      "F_info": -0.0012,
+      "I": 0.0127,
+      "phi_dist": 0.8572
     },
     {
       "date": "2026-03-03",
       "mag": 6.2,
       "state": "STABLE",
-      "S": 3.0236,
-      "F_info": 0.001,
-      "I": 0.0141,
-      "phi_dist": 0.8687
+      "S": 3.0215,
+      "F_info": 0.0011,
+      "I": 0.0138,
+      "phi_dist": 0.8674
     },
     {
       "date": "2026-03-04",
       "mag": 6.4,
       "state": "STABLE",
-      "S": 3.0484,
-      "F_info": 0.0004,
-      "I": 0.0146,
-      "phi_dist": 0.884
+      "S": 3.0463,
+      "F_info": 0.0005,
+      "I": 0.0143,
+      "phi_dist": 0.8827
     },
     {
       "date": "2026-03-05",
       "mag": 5.5,
       "state": "STABLE",
-      "S": 3.0484,
+      "S": 3.0463,
       "F_info": -0.0003,
-      "I": 0.0142,
-      "phi_dist": 0.884
+      "I": 0.0139,
+      "phi_dist": 0.8827
     },
     {
       "date": "2026-03-06",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 3.0587,
+      "S": 3.0566,
       "F_info": 0.0001,
-      "I": 0.0143,
-      "phi_dist": 0.8904
+      "I": 0.014,
+      "phi_dist": 0.8891
     },
     {
       "date": "2026-03-07",
       "mag": 5.2,
       "state": "STABLE",
-      "S": 3.0443,
+      "S": 3.0422,
       "F_info": 0.0009,
-      "I": 0.0152,
-      "phi_dist": 0.8815
+      "I": 0.0149,
+      "phi_dist": 0.8802
     },
     {
       "date": "2026-03-08",
       "mag": 5.9,
       "state": "STABLE",
-      "S": 3.0215,
-      "F_info": -0.0006,
-      "I": 0.0146,
-      "phi_dist": 0.8674
+      "S": 3.0195,
+      "F_info": -0.0007,
+      "I": 0.0142,
+      "phi_dist": 0.8661
     },
     {
       "date": "2026-03-09",
       "mag": 6,
       "state": "STABLE",
       "S": 3.0195,
-      "F_info": -0.0025,
+      "F_info": -0.002,
       "I": 0.0121,
       "phi_dist": 0.8661
     },
@@ -221,7 +212,7 @@
       "mag": 6.3,
       "state": "STABLE",
       "S": 3.0319,
-      "F_info": 0.0018,
+      "F_info": 0.0017,
       "I": 0.0128,
       "phi_dist": 0.8738
     },
@@ -230,8 +221,8 @@
       "mag": 5.3,
       "state": "STABLE",
       "S": 3.0298,
-      "F_info": -0.0021,
-      "I": 0.0107,
+      "F_info": -0.0022,
+      "I": 0.0106,
       "phi_dist": 0.8725
     },
     {
@@ -257,8 +248,8 @@
       "mag": 5.8,
       "state": "STABLE",
       "S": 2.9884,
-      "F_info": -0.0014,
-      "I": 0.0121,
+      "F_info": -0.0013,
+      "I": 0.0122,
       "phi_dist": 0.8469
     },
     {
@@ -266,9 +257,18 @@
       "mag": 5.4,
       "state": "REFLUX",
       "S": 2.9676,
-      "F_info": -0.0028,
-      "I": 0.0094,
+      "F_info": -0.0027,
+      "I": 0.0095,
       "phi_dist": 0.8341
+    },
+    {
+      "date": "2026-03-19",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 2.9696,
+      "F_info": 0.0001,
+      "I": 0.0096,
+      "phi_dist": 0.8353
     }
   ],
   "state_pct": {
@@ -277,36 +277,36 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "REFLUX",
-    "S": 2.9676,
-    "F_info": -0.0028,
-    "I": 0.0094,
-    "phi_dist": 0.8341
+    "state": "STABLE",
+    "S": 2.9696,
+    "F_info": 0.0001,
+    "I": 0.0096,
+    "phi_dist": 0.8353
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8341,
-    "avg_mag": 5.6,
-    "generated": "2026-03-19 05:17 UTC"
+    "phi_dist": 0.8353,
+    "avg_mag": 5.61,
+    "generated": "2026-03-20 05:08 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17641,
+  "total_quakes": 17647,
   "ifsp": {
-    "value": 0.3029,
+    "value": 0.2986,
     "zone": "CAUTION",
-    "I_norm": 0.0398,
-    "F_norm": 0.0119,
-    "S_norm": 0.608,
-    "phi_norm": 0.8341
+    "I_norm": 0.0407,
+    "F_norm": 0.0004,
+    "S_norm": 0.6086,
+    "phi_norm": 0.8353
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3367,
+      "avg_ifsp_30d_before": 0.3366,
       "max_ifsp_30d_before": 0.339,
       "danger_days_before": 0,
       "before_sample": [
@@ -13906,37 +13906,37 @@
         },
         {
           "date": "2026-02-23",
-          "ifsp": 0.3153,
+          "ifsp": 0.3152,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-24",
-          "ifsp": 0.3172,
+          "ifsp": 0.3166,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-25",
-          "ifsp": 0.312,
+          "ifsp": 0.3115,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-26",
-          "ifsp": 0.3122,
+          "ifsp": 0.3116,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-27",
-          "ifsp": 0.3103,
+          "ifsp": 0.3097,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-02-28",
-          "ifsp": 0.31,
+          "ifsp": 0.3093,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -13945,17 +13945,17 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2366,
+      "n": 2365,
       "mean": 0.3129,
       "std": 0.0122,
       "min": 0.2857,
       "p25": 0.3043,
-      "median": 0.3117,
-      "p75": 0.32,
+      "median": 0.3116,
+      "p75": 0.3199,
       "max": 0.3587
     },
     "normal": {
-      "n": 1180,
+      "n": 1181,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
@@ -13965,7 +13965,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0051,
-    "t_stat": 13.581,
+    "t_stat": 13.583,
     "significance": "significant"
   }
 }
