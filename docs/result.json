@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-20",
-      "mag": 5.8,
-      "state": "STABLE",
-      "S": 2.9967,
-      "F_info": -0.0004,
-      "I": 0.0075,
-      "phi_dist": 0.852
-    },
-    {
       "date": "2026-02-21",
       "mag": 5.9,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0045,
       "I": 0.0135,
       "phi_dist": 0.8572
+    },
+    {
+      "date": "2026-03-22",
+      "mag": 6.3,
+      "state": "STABLE",
+      "S": 3.0133,
+      "F_info": -0.0013,
+      "I": 0.0122,
+      "phi_dist": 0.8623
     }
   ],
   "state_pct": {
@@ -277,47 +277,39 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "EMERGENCE+",
-    "S": 3.005,
-    "F_info": 0.0045,
-    "I": 0.0135,
-    "phi_dist": 0.8572
+    "state": "STABLE",
+    "S": 3.0133,
+    "F_info": -0.0013,
+    "I": 0.0122,
+    "phi_dist": 0.8623
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8572,
-    "avg_mag": 5.73,
-    "generated": "2026-03-22 05:13 UTC"
+    "phi_dist": 0.8623,
+    "avg_mag": 5.76,
+    "generated": "2026-03-23 05:48 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17658,
+  "total_quakes": 17664,
   "ifsp": {
-    "value": 0.3154,
+    "value": 0.3103,
     "zone": "CAUTION",
-    "I_norm": 0.0572,
-    "F_norm": 0.0191,
-    "S_norm": 0.6196,
-    "phi_norm": 0.8572
+    "I_norm": 0.0517,
+    "F_norm": 0.0055,
+    "S_norm": 0.6221,
+    "phi_norm": 0.8623
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3367,
+      "avg_ifsp_30d_before": 0.3366,
       "max_ifsp_30d_before": 0.339,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-04-21",
-          "ifsp": 0.3375,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.1203,
-          "F_info": 0.003
-        },
         {
           "date": "2016-04-22",
           "ifsp": 0.3353,
@@ -13945,7 +13937,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2364,
+      "n": 2363,
       "mean": 0.3129,
       "std": 0.0122,
       "min": 0.2857,
@@ -13955,7 +13947,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1183,
+      "n": 1184,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
@@ -13965,7 +13957,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0051,
-    "t_stat": 13.588,
+    "t_stat": 13.59,
     "significance": "significant"
   }
 }
