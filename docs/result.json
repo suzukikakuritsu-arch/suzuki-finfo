@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-22",
-      "mag": 7,
-      "state": "STABLE",
-      "S": 3.0381,
-      "F_info": 0.0019,
-      "I": 0.0101,
-      "phi_dist": 0.8776
-    },
-    {
       "date": "2026-02-23",
       "mag": 6,
       "state": "STABLE",
@@ -269,55 +260,56 @@
       "F_info": 0.0001,
       "I": 0.0123,
       "phi_dist": 0.8597
+    },
+    {
+      "date": "2026-03-24",
+      "mag": 7.5,
+      "state": "EMERGENCE+",
+      "S": 3.0546,
+      "F_info": 0.0081,
+      "I": 0.0204,
+      "phi_dist": 0.8878
     }
   ],
   "state_pct": {
-    "STABLE": 89.0,
+    "STABLE": 88.9,
     "REFLUX": 6.7,
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.0091,
-    "F_info": 0.0001,
-    "I": 0.0123,
-    "phi_dist": 0.8597
+    "state": "EMERGENCE+",
+    "S": 3.0546,
+    "F_info": 0.0081,
+    "I": 0.0204,
+    "phi_dist": 0.8878
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8597,
-    "avg_mag": 5.74,
-    "generated": "2026-03-24 05:16 UTC"
+    "detail": "EM=2 RF=1 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8878,
+    "avg_mag": 5.9,
+    "generated": "2026-03-25 05:16 UTC"
   },
   "total_days": 3575,
   "total_quakes": 17665,
   "ifsp": {
-    "value": 0.3075,
+    "value": 0.3354,
     "zone": "CAUTION",
-    "I_norm": 0.0521,
-    "F_norm": 0.0004,
-    "S_norm": 0.6208,
-    "phi_norm": 0.8597
+    "I_norm": 0.0864,
+    "F_norm": 0.0343,
+    "S_norm": 0.6349,
+    "phi_norm": 0.8878
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3369,
-      "max_ifsp_30d_before": 0.339,
+      "avg_ifsp_30d_before": 0.3363,
+      "max_ifsp_30d_before": 0.3389,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-04-23",
-          "ifsp": 0.339,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.1489,
-          "F_info": -0.0014
-        },
         {
           "date": "2016-04-24",
           "ifsp": 0.3389,
@@ -13925,31 +13917,105 @@
           "state": "STABLE"
         }
       ]
+    },
+    {
+      "date": "2026-03-24",
+      "mag": 7.5,
+      "place": "166 km W of Neiafu, Tonga",
+      "avg_ifsp_30d_before": 0.3107,
+      "max_ifsp_30d_before": 0.3172,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2026-03-17",
+          "ifsp": 0.3058,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9884,
+          "F_info": -0.0013
+        },
+        {
+          "date": "2026-03-18",
+          "ifsp": 0.3028,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9676,
+          "F_info": -0.0027
+        },
+        {
+          "date": "2026-03-19",
+          "ifsp": 0.2986,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9696,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2026-03-20",
+          "ifsp": 0.3002,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9759,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2026-03-21",
+          "ifsp": 0.3154,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.005,
+          "F_info": 0.0045
+        },
+        {
+          "date": "2026-03-22",
+          "ifsp": 0.3103,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": -0.0013
+        },
+        {
+          "date": "2026-03-23",
+          "ifsp": 0.3075,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0091,
+          "F_info": 0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2026-03-24",
+          "ifsp": 0.3354,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        }
+      ]
     }
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2362,
+      "n": 2385,
       "mean": 0.3129,
-      "std": 0.0122,
+      "std": 0.0121,
       "min": 0.2857,
       "p25": 0.3043,
       "median": 0.3116,
-      "p75": 0.3199,
+      "p75": 0.3198,
       "max": 0.3587
     },
     "normal": {
-      "n": 1185,
+      "n": 1162,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
-      "p25": 0.3007,
-      "median": 0.3077,
+      "p25": 0.3006,
+      "median": 0.3076,
       "p75": 0.3145,
       "max": 0.3383
     },
     "mean_diff": 0.0051,
-    "t_stat": 13.592,
+    "t_stat": 13.596,
     "significance": "significant"
   }
 }
