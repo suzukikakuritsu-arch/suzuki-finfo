@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-02-23",
-      "mag": 6,
-      "state": "STABLE",
-      "S": 3.0566,
-      "F_info": -0.0008,
-      "I": 0.0093,
-      "phi_dist": 0.8891
-    },
-    {
       "date": "2026-02-24",
       "mag": 5.3,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0081,
       "I": 0.0204,
       "phi_dist": 0.8878
+    },
+    {
+      "date": "2026-03-25",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 3.0566,
+      "F_info": -0.0,
+      "I": 0.0203,
+      "phi_dist": 0.8891
     }
   ],
   "state_pct": {
@@ -277,47 +277,39 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "EMERGENCE+",
-    "S": 3.0546,
-    "F_info": 0.0081,
-    "I": 0.0204,
-    "phi_dist": 0.8878
+    "state": "STABLE",
+    "S": 3.0566,
+    "F_info": -0.0,
+    "I": 0.0203,
+    "phi_dist": 0.8891
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=2 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8878,
-    "avg_mag": 5.9,
-    "generated": "2026-03-25 05:16 UTC"
+    "detail": "EM=2 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8891,
+    "avg_mag": 5.91,
+    "generated": "2026-03-26 02:31 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17665,
+  "total_quakes": 17666,
   "ifsp": {
-    "value": 0.3354,
+    "value": 0.3213,
     "zone": "CAUTION",
-    "I_norm": 0.0864,
-    "F_norm": 0.0343,
-    "S_norm": 0.6349,
-    "phi_norm": 0.8878
+    "I_norm": 0.086,
+    "F_norm": 0.0,
+    "S_norm": 0.6355,
+    "phi_norm": 0.8891
   },
   "big_quake_patterns": [
     {
       "date": "2016-04-28",
       "mag": 7,
       "place": "3 km NW of Norsup, Vanuatu",
-      "avg_ifsp_30d_before": 0.3363,
-      "max_ifsp_30d_before": 0.3389,
+      "avg_ifsp_30d_before": 0.3355,
+      "max_ifsp_30d_before": 0.3364,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-04-24",
-          "ifsp": 0.3389,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.1305,
-          "F_info": 0.0023
-        },
         {
           "date": "2016-04-25",
           "ifsp": 0.3364,
@@ -13989,6 +13981,12 @@
           "ifsp": 0.3354,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
+        },
+        {
+          "date": "2026-03-25",
+          "ifsp": 0.3213,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
