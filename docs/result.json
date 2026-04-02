@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-02",
-      "mag": 6,
-      "state": "STABLE",
-      "S": 3.005,
-      "F_info": -0.0012,
-      "I": 0.0127,
-      "phi_dist": 0.8572
-    },
-    {
       "date": "2026-03-03",
       "mag": 6.2,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0007,
       "I": 0.023,
       "phi_dist": 0.9259
+    },
+    {
+      "date": "2026-04-01",
+      "mag": 7.4,
+      "state": "STABLE",
+      "S": 3.157,
+      "F_info": -0.0015,
+      "I": 0.0215,
+      "phi_dist": 0.9511
     }
   ],
   "state_pct": {
@@ -278,36 +278,36 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.1162,
-    "F_info": -0.0007,
-    "I": 0.023,
-    "phi_dist": 0.9259
+    "S": 3.157,
+    "F_info": -0.0015,
+    "I": 0.0215,
+    "phi_dist": 0.9511
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9259,
-    "avg_mag": 6.11,
-    "generated": "2026-04-01 02:45 UTC"
+    "phi_dist": 0.9511,
+    "avg_mag": 6.26,
+    "generated": "2026-04-02 02:29 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17668,
+  "total_quakes": 17671,
   "ifsp": {
-    "value": 0.335,
+    "value": 0.3427,
     "zone": "CAUTION",
-    "I_norm": 0.0974,
-    "F_norm": 0.003,
-    "S_norm": 0.6539,
-    "phi_norm": 0.9259
+    "I_norm": 0.0911,
+    "F_norm": 0.0064,
+    "S_norm": 0.6665,
+    "phi_norm": 0.9511
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.3048,
-      "max_ifsp_30d_before": 0.3213,
+      "avg_ifsp_30d_before": 0.3042,
+      "max_ifsp_30d_before": 0.3212,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14019,6 +14019,86 @@
           "ifsp": 0.335,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-04-01",
+          "ifsp": 0.3427,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "mag": 7.4,
+      "place": "126 km WNW of Ternate, Indonesia",
+      "avg_ifsp_30d_before": 0.3153,
+      "max_ifsp_30d_before": 0.3394,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2026-03-25",
+          "ifsp": 0.3211,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0525,
+          "F_info": -0.0
+        },
+        {
+          "date": "2026-03-26",
+          "ifsp": 0.3291,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0793,
+          "F_info": 0.0013
+        },
+        {
+          "date": "2026-03-27",
+          "ifsp": 0.3257,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0608,
+          "F_info": 0.0009
+        },
+        {
+          "date": "2026-03-28",
+          "ifsp": 0.3268,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0731,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2026-03-29",
+          "ifsp": 0.3295,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0752,
+          "F_info": -0.0025
+        },
+        {
+          "date": "2026-03-30",
+          "ifsp": 0.3394,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.1182,
+          "F_info": 0.0027
+        },
+        {
+          "date": "2026-03-31",
+          "ifsp": 0.335,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.1162,
+          "F_info": -0.0007
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2026-04-01",
+          "ifsp": 0.3427,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
@@ -14026,7 +14106,7 @@
   "ifsp_stats": {
     "near_big_quake": {
       "n": 2385,
-      "mean": 0.3128,
+      "mean": 0.3129,
       "std": 0.0121,
       "min": 0.2857,
       "p25": 0.3043,
@@ -14044,8 +14124,8 @@
       "p75": 0.3145,
       "max": 0.3383
     },
-    "mean_diff": 0.005,
-    "t_stat": 13.33,
+    "mean_diff": 0.0051,
+    "t_stat": 13.596,
     "significance": "significant"
   }
 }
