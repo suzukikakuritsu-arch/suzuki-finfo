@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-08",
-      "mag": 5.9,
-      "state": "STABLE",
-      "S": 3.0174,
-      "F_info": -0.0008,
-      "I": 0.014,
-      "phi_dist": 0.8649
-    },
-    {
       "date": "2026-03-09",
       "mag": 6,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0005,
       "I": 0.0293,
       "phi_dist": 0.931
+    },
+    {
+      "date": "2026-04-07",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 3.0772,
+      "F_info": 0.0055,
+      "I": 0.0348,
+      "phi_dist": 0.9018
     }
   ],
   "state_pct": {
@@ -278,36 +278,36 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.1244,
-    "F_info": -0.0005,
-    "I": 0.0293,
-    "phi_dist": 0.931
+    "S": 3.0772,
+    "F_info": 0.0055,
+    "I": 0.0348,
+    "phi_dist": 0.9018
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.931,
-    "avg_mag": 6.14,
-    "generated": "2026-04-07 02:34 UTC"
+    "phi_dist": 0.9018,
+    "avg_mag": 5.98,
+    "generated": "2026-04-08 02:35 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17701,
+  "total_quakes": 17700,
   "ifsp": {
-    "value": 0.3404,
+    "value": 0.3446,
     "zone": "CAUTION",
-    "I_norm": 0.1241,
-    "F_norm": 0.0021,
-    "S_norm": 0.6565,
-    "phi_norm": 0.931
+    "I_norm": 0.1474,
+    "F_norm": 0.0233,
+    "S_norm": 0.6419,
+    "phi_norm": 0.9018
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.301,
-      "max_ifsp_30d_before": 0.3129,
+      "avg_ifsp_30d_before": 0.3004,
+      "max_ifsp_30d_before": 0.3093,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14151,6 +14151,12 @@
         {
           "date": "2026-04-06",
           "ifsp": 0.3404,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-04-07",
+          "ifsp": 0.3446,
           "zone": "CAUTION",
           "state": "STABLE"
         }
