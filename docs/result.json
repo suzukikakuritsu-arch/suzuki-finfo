@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-09",
-      "mag": 6,
-      "state": "STABLE",
-      "S": 3.0174,
-      "F_info": -0.0021,
-      "I": 0.0119,
-      "phi_dist": 0.8649
-    },
-    {
       "date": "2026-03-10",
       "mag": 5.3,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0055,
       "I": 0.0348,
       "phi_dist": 0.9018
+    },
+    {
+      "date": "2026-04-08",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 3.0772,
+      "F_info": -0.0,
+      "I": 0.0347,
+      "phi_dist": 0.9018
     }
   ],
   "state_pct": {
@@ -279,8 +279,8 @@
   "latest": {
     "state": "STABLE",
     "S": 3.0772,
-    "F_info": 0.0055,
-    "I": 0.0348,
+    "F_info": -0.0,
+    "I": 0.0347,
     "phi_dist": 0.9018
   },
   "prediction": {
@@ -289,15 +289,15 @@
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.9018,
     "avg_mag": 5.98,
-    "generated": "2026-04-08 02:35 UTC"
+    "generated": "2026-04-09 02:30 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17700,
+  "total_quakes": 17699,
   "ifsp": {
-    "value": 0.3446,
+    "value": 0.3347,
     "zone": "CAUTION",
-    "I_norm": 0.1474,
-    "F_norm": 0.0233,
+    "I_norm": 0.147,
+    "F_norm": 0.0,
     "S_norm": 0.6419,
     "phi_norm": 0.9018
   },
@@ -306,8 +306,8 @@
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.3004,
-      "max_ifsp_30d_before": 0.3093,
+      "avg_ifsp_30d_before": 0.2999,
+      "max_ifsp_30d_before": 0.3087,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2385,
+      "n": 2384,
       "mean": 0.3129,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,9 +14175,9 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1162,
+      "n": 1163,
       "mean": 0.3078,
-      "std": 0.0096,
+      "std": 0.0097,
       "min": 0.2834,
       "p25": 0.3006,
       "median": 0.3076,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0051,
-    "t_stat": 13.547,
+    "t_stat": 13.471,
     "significance": "significant"
   }
 }
