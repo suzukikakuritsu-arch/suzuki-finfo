@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-10",
-      "mag": 5.3,
-      "state": "STABLE",
-      "S": 3.0174,
-      "F_info": -0.0012,
-      "I": 0.0108,
-      "phi_dist": 0.8649
-    },
-    {
       "date": "2026-03-11",
       "mag": 5.5,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0,
       "I": 0.0347,
       "phi_dist": 0.9018
+    },
+    {
+      "date": "2026-04-09",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 3.0505,
+      "F_info": 0.0001,
+      "I": 0.0348,
+      "phi_dist": 0.8853
     }
   ],
   "state_pct": {
@@ -278,36 +278,36 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0772,
-    "F_info": -0.0,
-    "I": 0.0347,
-    "phi_dist": 0.9018
+    "S": 3.0505,
+    "F_info": 0.0001,
+    "I": 0.0348,
+    "phi_dist": 0.8853
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9018,
-    "avg_mag": 5.98,
-    "generated": "2026-04-09 02:30 UTC"
+    "phi_dist": 0.8853,
+    "avg_mag": 5.89,
+    "generated": "2026-04-10 02:41 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17699,
+  "total_quakes": 17698,
   "ifsp": {
-    "value": 0.3347,
+    "value": 0.3302,
     "zone": "CAUTION",
-    "I_norm": 0.147,
-    "F_norm": 0.0,
-    "S_norm": 0.6419,
-    "phi_norm": 0.9018
+    "I_norm": 0.1474,
+    "F_norm": 0.0004,
+    "S_norm": 0.6336,
+    "phi_norm": 0.8853
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.2999,
-      "max_ifsp_30d_before": 0.3087,
+      "avg_ifsp_30d_before": 0.2994,
+      "max_ifsp_30d_before": 0.307,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -13725,7 +13725,7 @@
     {
       "date": "2026-02-22",
       "mag": 7,
-      "place": "55 km NNW of Kota Belud, Malaysia",
+      "place": "56 km NNW of Kota Belud, Malaysia",
       "avg_ifsp_30d_before": 0.302,
       "max_ifsp_30d_before": 0.3072,
       "danger_days_before": 0,
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2384,
+      "n": 2383,
       "mean": 0.3129,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,17 +14175,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1163,
+      "n": 1164,
       "mean": 0.3078,
       "std": 0.0097,
       "min": 0.2834,
       "p25": 0.3006,
-      "median": 0.3076,
+      "median": 0.3077,
       "p75": 0.3145,
       "max": 0.3383
     },
     "mean_diff": 0.0051,
-    "t_stat": 13.471,
+    "t_stat": 13.473,
     "significance": "significant"
   }
 }
