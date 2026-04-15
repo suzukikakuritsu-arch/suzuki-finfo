@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-15",
-      "mag": 5.3,
-      "state": "STABLE",
-      "S": 3.007,
-      "F_info": 0.0021,
-      "I": 0.0126,
-      "phi_dist": 0.8585
-    },
-    {
       "date": "2026-03-16",
       "mag": 5.2,
       "state": "STABLE",
@@ -269,18 +260,27 @@
       "F_info": -0.006,
       "I": 0.0274,
       "phi_dist": 0.8508
+    },
+    {
+      "date": "2026-04-14",
+      "mag": 5.7,
+      "state": "STABLE",
+      "S": 2.9946,
+      "F_info": 0.0001,
+      "I": 0.0275,
+      "phi_dist": 0.8508
     }
   ],
   "state_pct": {
-    "REFLUX": 6.7,
     "STABLE": 89.0,
-    "EMERGENCE+": 4.3
+    "EMERGENCE+": 4.3,
+    "REFLUX": 6.7
   },
   "latest": {
     "state": "STABLE",
     "S": 2.9946,
-    "F_info": -0.006,
-    "I": 0.0274,
+    "F_info": 0.0001,
+    "I": 0.0275,
     "phi_dist": 0.8508
   },
   "prediction": {
@@ -289,15 +289,15 @@
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8508,
     "avg_mag": 5.69,
-    "generated": "2026-04-14 02:42 UTC"
+    "generated": "2026-04-15 02:39 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17666,
+  "total_quakes": 17662,
   "ifsp": {
-    "value": 0.3256,
+    "value": 0.3152,
     "zone": "CAUTION",
-    "I_norm": 0.1161,
-    "F_norm": 0.0254,
+    "I_norm": 0.1165,
+    "F_norm": 0.0004,
     "S_norm": 0.6164,
     "phi_norm": 0.8508
   },
@@ -306,7 +306,7 @@
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.2991,
+      "avg_ifsp_30d_before": 0.2994,
       "max_ifsp_30d_before": 0.307,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,8 +14165,8 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2379,
-      "mean": 0.3129,
+      "n": 2378,
+      "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
       "p25": 0.3043,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1168,
+      "n": 1169,
       "mean": 0.3079,
       "std": 0.0097,
       "min": 0.2834,
@@ -14184,8 +14184,8 @@
       "p75": 0.3145,
       "max": 0.3383
     },
-    "mean_diff": 0.005,
-    "t_stat": 13.217,
+    "mean_diff": 0.0051,
+    "t_stat": 13.483,
     "significance": "significant"
   }
 }
