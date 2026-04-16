@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-16",
-      "mag": 5.2,
-      "state": "STABLE",
-      "S": 2.9904,
-      "F_info": 0.0013,
-      "I": 0.0139,
-      "phi_dist": 0.8482
-    },
-    {
       "date": "2026-03-17",
       "mag": 5.8,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0001,
       "I": 0.0275,
       "phi_dist": 0.8508
+    },
+    {
+      "date": "2026-04-15",
+      "mag": 5.7,
+      "state": "REFLUX",
+      "S": 2.9592,
+      "F_info": -0.0117,
+      "I": 0.0158,
+      "phi_dist": 0.8289
     }
   ],
   "state_pct": {
@@ -277,36 +277,36 @@
     "REFLUX": 6.7
   },
   "latest": {
-    "state": "STABLE",
-    "S": 2.9946,
-    "F_info": 0.0001,
-    "I": 0.0275,
-    "phi_dist": 0.8508
+    "state": "REFLUX",
+    "S": 2.9592,
+    "F_info": -0.0117,
+    "I": 0.0158,
+    "phi_dist": 0.8289
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8508,
-    "avg_mag": 5.69,
-    "generated": "2026-04-15 02:39 UTC"
+    "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8289,
+    "avg_mag": 5.57,
+    "generated": "2026-04-16 02:47 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17662,
+  "total_quakes": 17661,
   "ifsp": {
-    "value": 0.3152,
+    "value": 0.3215,
     "zone": "CAUTION",
-    "I_norm": 0.1165,
-    "F_norm": 0.0004,
-    "S_norm": 0.6164,
-    "phi_norm": 0.8508
+    "I_norm": 0.0669,
+    "F_norm": 0.0496,
+    "S_norm": 0.6054,
+    "phi_norm": 0.8289
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.2994,
+      "avg_ifsp_30d_before": 0.2998,
       "max_ifsp_30d_before": 0.307,
       "danger_days_before": 0,
       "before_sample": [
@@ -13835,7 +13835,7 @@
     {
       "date": "2026-03-24",
       "mag": 7.5,
-      "place": "166 km W of Neiafu, Tonga",
+      "place": "148 km W of Neiafu, Tonga",
       "avg_ifsp_30d_before": 0.3103,
       "max_ifsp_30d_before": 0.3166,
       "danger_days_before": 0,
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2378,
+      "n": 2377,
       "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1169,
+      "n": 1170,
       "mean": 0.3079,
       "std": 0.0097,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0051,
-    "t_stat": 13.483,
+    "t_stat": 13.485,
     "significance": "significant"
   }
 }
