@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-23",
-      "mag": 5.7,
-      "state": "STABLE",
-      "S": 2.9967,
-      "F_info": 0.0001,
-      "I": 0.0138,
-      "phi_dist": 0.852
-    },
-    {
       "date": "2026-03-24",
       "mag": 7.5,
       "state": "EMERGENCE+",
@@ -269,6 +260,15 @@
       "F_info": -0.0047,
       "I": 0.0186,
       "phi_dist": 0.8533
+    },
+    {
+      "date": "2026-04-22",
+      "mag": 5.3,
+      "state": "STABLE",
+      "S": 2.9925,
+      "F_info": -0.0001,
+      "I": 0.0185,
+      "phi_dist": 0.8495
     }
   ],
   "state_pct": {
@@ -277,47 +277,39 @@
     "REFLUX": 6.7
   },
   "latest": {
-    "state": "REFLUX",
-    "S": 2.9988,
-    "F_info": -0.0047,
-    "I": 0.0186,
-    "phi_dist": 0.8533
+    "state": "STABLE",
+    "S": 2.9925,
+    "F_info": -0.0001,
+    "I": 0.0185,
+    "phi_dist": 0.8495
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=2 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8533,
-    "avg_mag": 5.71,
-    "generated": "2026-04-22 02:42 UTC"
+    "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8495,
+    "avg_mag": 5.69,
+    "generated": "2026-04-23 02:45 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17672,
+  "total_quakes": 17671,
   "ifsp": {
-    "value": 0.3181,
+    "value": 0.3087,
     "zone": "CAUTION",
-    "I_norm": 0.0788,
-    "F_norm": 0.0199,
-    "S_norm": 0.6177,
-    "phi_norm": 0.8533
+    "I_norm": 0.0784,
+    "F_norm": 0.0004,
+    "S_norm": 0.6157,
+    "phi_norm": 0.8495
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.3003,
+      "avg_ifsp_30d_before": 0.3005,
       "max_ifsp_30d_before": 0.3032,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-05-22",
-          "ifsp": 0.2994,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9696,
-          "F_info": -0.0
-        },
         {
           "date": "2016-05-23",
           "ifsp": 0.2992,
@@ -14223,6 +14215,12 @@
           "ifsp": 0.3181,
           "zone": "CAUTION",
           "state": "REFLUX"
+        },
+        {
+          "date": "2026-04-22",
+          "ifsp": 0.3087,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
