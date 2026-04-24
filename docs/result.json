@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-24",
-      "mag": 7.5,
-      "state": "EMERGENCE+",
-      "S": 3.0422,
-      "F_info": 0.0084,
-      "I": 0.0222,
-      "phi_dist": 0.8802
-    },
-    {
       "date": "2026-03-25",
       "mag": 5.6,
       "state": "STABLE",
@@ -164,111 +155,120 @@
     },
     {
       "date": "2026-04-11",
-      "mag": 5.4,
+      "mag": 5.2,
       "state": "STABLE",
-      "S": 3.036,
-      "F_info": -0.0003,
-      "I": 0.0335,
-      "phi_dist": 0.8764
+      "S": 3.0319,
+      "F_info": -0.0,
+      "I": 0.0338,
+      "phi_dist": 0.8738
     },
     {
       "date": "2026-04-12",
       "mag": 5.2,
       "state": "STABLE",
-      "S": 3.0319,
+      "S": 3.0278,
       "F_info": -0.0,
-      "I": 0.0335,
-      "phi_dist": 0.8738
+      "I": 0.0338,
+      "phi_dist": 0.8713
     },
     {
       "date": "2026-04-13",
       "mag": 5.5,
       "state": "STABLE",
-      "S": 2.9946,
-      "F_info": -0.0059,
-      "I": 0.0276,
-      "phi_dist": 0.8508
+      "S": 2.9904,
+      "F_info": -0.0061,
+      "I": 0.0277,
+      "phi_dist": 0.8482
     },
     {
       "date": "2026-04-14",
       "mag": 5.7,
       "state": "STABLE",
-      "S": 2.9946,
+      "S": 2.9904,
       "F_info": 0.0001,
-      "I": 0.0277,
-      "phi_dist": 0.8508
+      "I": 0.0278,
+      "phi_dist": 0.8482
     },
     {
       "date": "2026-04-15",
       "mag": 5.7,
       "state": "REFLUX",
-      "S": 2.9592,
-      "F_info": -0.0116,
-      "I": 0.0161,
-      "phi_dist": 0.8289
+      "S": 2.9551,
+      "F_info": -0.0118,
+      "I": 0.016,
+      "phi_dist": 0.8263
     },
     {
       "date": "2026-04-16",
       "mag": 6,
       "state": "STABLE",
-      "S": 2.9551,
-      "F_info": -0.0027,
-      "I": 0.0134,
-      "phi_dist": 0.8263
+      "S": 2.9509,
+      "F_info": -0.0028,
+      "I": 0.0132,
+      "phi_dist": 0.8237
     },
     {
       "date": "2026-04-17",
       "mag": 5.4,
       "state": "STABLE",
-      "S": 2.9467,
+      "S": 2.9425,
       "F_info": 0.0002,
-      "I": 0.0136,
-      "phi_dist": 0.8212
+      "I": 0.0135,
+      "phi_dist": 0.8186
     },
     {
       "date": "2026-04-18",
       "mag": 5.9,
       "state": "STABLE",
-      "S": 2.9446,
+      "S": 2.9404,
       "F_info": 0.0007,
       "I": 0.0142,
-      "phi_dist": 0.8199
+      "phi_dist": 0.8173
     },
     {
       "date": "2026-04-19",
       "mag": 6.1,
       "state": "STABLE",
-      "S": 2.9571,
-      "F_info": 0.0028,
-      "I": 0.0171,
-      "phi_dist": 0.8276
+      "S": 2.953,
+      "F_info": 0.0029,
+      "I": 0.017,
+      "phi_dist": 0.825
     },
     {
       "date": "2026-04-20",
       "mag": 7.4,
       "state": "EMERGENCE+",
-      "S": 2.9884,
-      "F_info": 0.0062,
+      "S": 2.9842,
+      "F_info": 0.0063,
       "I": 0.0233,
-      "phi_dist": 0.8469
+      "phi_dist": 0.8443
     },
     {
       "date": "2026-04-21",
       "mag": 5.7,
       "state": "REFLUX",
-      "S": 2.9988,
-      "F_info": -0.0047,
-      "I": 0.0186,
-      "phi_dist": 0.8533
+      "S": 2.9946,
+      "F_info": -0.0045,
+      "I": 0.0188,
+      "phi_dist": 0.8508
     },
     {
       "date": "2026-04-22",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 2.9925,
+      "S": 2.9884,
       "F_info": -0.0001,
-      "I": 0.0185,
-      "phi_dist": 0.8495
+      "I": 0.0187,
+      "phi_dist": 0.8469
+    },
+    {
+      "date": "2026-04-23",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 2.9884,
+      "F_info": -0.0018,
+      "I": 0.0169,
+      "phi_dist": 0.8469
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9925,
-    "F_info": -0.0001,
-    "I": 0.0185,
-    "phi_dist": 0.8495
+    "S": 2.9884,
+    "F_info": -0.0018,
+    "I": 0.0169,
+    "phi_dist": 0.8469
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8495,
-    "avg_mag": 5.69,
-    "generated": "2026-04-23 02:45 UTC"
+    "phi_dist": 0.8469,
+    "avg_mag": 5.67,
+    "generated": "2026-04-24 02:46 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17671,
+  "total_quakes": 17672,
   "ifsp": {
-    "value": 0.3087,
+    "value": 0.3099,
     "zone": "CAUTION",
-    "I_norm": 0.0784,
-    "F_norm": 0.0004,
-    "S_norm": 0.6157,
-    "phi_norm": 0.8495
+    "I_norm": 0.0716,
+    "F_norm": 0.0076,
+    "S_norm": 0.6144,
+    "phi_norm": 0.8469
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.3005,
+      "avg_ifsp_30d_before": 0.301,
       "max_ifsp_30d_before": 0.3032,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-05-23",
-          "ifsp": 0.2992,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9676,
-          "F_info": -0.0001
-        },
         {
           "date": "2016-05-25",
           "ifsp": 0.3,
@@ -13921,7 +13913,7 @@
     {
       "date": "2026-03-30",
       "mag": 7.3,
-      "place": "48 km ENE of Luganville, Vanuatu",
+      "place": "52 km ENE of Luganville, Vanuatu",
       "avg_ifsp_30d_before": 0.3131,
       "max_ifsp_30d_before": 0.3349,
       "danger_days_before": 0,
@@ -14031,7 +14023,7 @@
     {
       "date": "2026-04-01",
       "mag": 7.4,
-      "place": "126 km WNW of Ternate, Indonesia",
+      "place": "129 km ESE of Bitung, Indonesia",
       "avg_ifsp_30d_before": 0.3149,
       "max_ifsp_30d_before": 0.3393,
       "danger_days_before": 0,
@@ -14142,83 +14134,89 @@
       "date": "2026-04-20",
       "mag": 7.4,
       "place": "100 km ENE of Miyako, Japan",
-      "avg_ifsp_30d_before": 0.3262,
+      "avg_ifsp_30d_before": 0.326,
       "max_ifsp_30d_before": 0.3472,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-04-13",
-          "ifsp": 0.3256,
+          "ifsp": 0.3253,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9946,
-          "F_info": -0.0059
+          "S": 2.9904,
+          "F_info": -0.0061
         },
         {
           "date": "2026-04-14",
-          "ifsp": 0.3154,
+          "ifsp": 0.3147,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9946,
+          "S": 2.9904,
           "F_info": 0.0001
         },
         {
           "date": "2026-04-15",
-          "ifsp": 0.3216,
+          "ifsp": 0.3211,
           "zone": "CAUTION",
           "state": "REFLUX",
-          "S": 2.9592,
-          "F_info": -0.0116
+          "S": 2.9551,
+          "F_info": -0.0118
         },
         {
           "date": "2026-04-16",
-          "ifsp": 0.3032,
+          "ifsp": 0.3025,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9551,
-          "F_info": -0.0027
+          "S": 2.9509,
+          "F_info": -0.0028
         },
         {
           "date": "2026-04-17",
-          "ifsp": 0.2974,
+          "ifsp": 0.2965,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9467,
+          "S": 2.9425,
           "F_info": 0.0002
         },
         {
           "date": "2026-04-18",
-          "ifsp": 0.2983,
+          "ifsp": 0.2975,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9446,
+          "S": 2.9404,
           "F_info": 0.0007
         },
         {
           "date": "2026-04-19",
-          "ifsp": 0.3062,
+          "ifsp": 0.3056,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9571,
-          "F_info": 0.0028
+          "S": 2.953,
+          "F_info": 0.0029
         }
       ],
       "after_sample": [
         {
           "date": "2026-04-20",
-          "ifsp": 0.3221,
+          "ifsp": 0.3215,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
         },
         {
           "date": "2026-04-21",
-          "ifsp": 0.3181,
+          "ifsp": 0.3171,
           "zone": "CAUTION",
           "state": "REFLUX"
         },
         {
           "date": "2026-04-22",
-          "ifsp": 0.3087,
+          "ifsp": 0.3081,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-04-23",
+          "ifsp": 0.3099,
           "zone": "CAUTION",
           "state": "STABLE"
         }
