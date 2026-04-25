@@ -1,30 +1,21 @@
 {
   "recent": [
     {
-      "date": "2026-03-25",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 3.0443,
-      "F_info": -0.0,
-      "I": 0.0222,
-      "phi_dist": 0.8815
-    },
-    {
       "date": "2026-03-26",
       "mag": 6.5,
       "state": "STABLE",
-      "S": 3.0711,
-      "F_info": 0.0015,
-      "I": 0.0237,
-      "phi_dist": 0.898
+      "S": 3.069,
+      "F_info": 0.0016,
+      "I": 0.0235,
+      "phi_dist": 0.8967
     },
     {
       "date": "2026-03-27",
       "mag": 5.4,
       "state": "STABLE",
       "S": 3.0525,
-      "F_info": 0.0007,
-      "I": 0.0244,
+      "F_info": 0.0006,
+      "I": 0.0241,
       "phi_dist": 0.8866
     },
     {
@@ -33,7 +24,7 @@
       "state": "STABLE",
       "S": 3.0628,
       "F_info": 0.0002,
-      "I": 0.0246,
+      "I": 0.0242,
       "phi_dist": 0.8929
     },
     {
@@ -42,7 +33,7 @@
       "state": "STABLE",
       "S": 3.0649,
       "F_info": -0.0024,
-      "I": 0.0222,
+      "I": 0.0218,
       "phi_dist": 0.8942
     },
     {
@@ -50,8 +41,8 @@
       "mag": 7.3,
       "state": "STABLE",
       "S": 3.108,
-      "F_info": 0.0031,
-      "I": 0.0252,
+      "F_info": 0.003,
+      "I": 0.0248,
       "phi_dist": 0.9208
     },
     {
@@ -60,7 +51,7 @@
       "state": "STABLE",
       "S": 3.106,
       "F_info": -0.0007,
-      "I": 0.0246,
+      "I": 0.0241,
       "phi_dist": 0.9196
     },
     {
@@ -69,7 +60,7 @@
       "state": "STABLE",
       "S": 3.1509,
       "F_info": -0.0015,
-      "I": 0.0231,
+      "I": 0.0226,
       "phi_dist": 0.9474
     },
     {
@@ -78,7 +69,7 @@
       "state": "STABLE",
       "S": 3.1631,
       "F_info": -0.0006,
-      "I": 0.0225,
+      "I": 0.0219,
       "phi_dist": 0.9549
     },
     {
@@ -87,7 +78,7 @@
       "state": "STABLE",
       "S": 3.1489,
       "F_info": 0.0032,
-      "I": 0.0257,
+      "I": 0.0251,
       "phi_dist": 0.9461
     },
     {
@@ -95,8 +86,8 @@
       "mag": 6,
       "state": "STABLE",
       "S": 3.1366,
-      "F_info": 0.0011,
-      "I": 0.0268,
+      "F_info": 0.0012,
+      "I": 0.0263,
       "phi_dist": 0.9385
     },
     {
@@ -105,7 +96,7 @@
       "state": "STABLE",
       "S": 3.1203,
       "F_info": 0.0028,
-      "I": 0.0296,
+      "I": 0.0292,
       "phi_dist": 0.9284
     },
     {
@@ -114,7 +105,7 @@
       "state": "STABLE",
       "S": 3.1244,
       "F_info": -0.0008,
-      "I": 0.0288,
+      "I": 0.0283,
       "phi_dist": 0.931
     },
     {
@@ -122,8 +113,8 @@
       "mag": 5.2,
       "state": "STABLE",
       "S": 3.0772,
-      "F_info": 0.0057,
-      "I": 0.0345,
+      "F_info": 0.0058,
+      "I": 0.0342,
       "phi_dist": 0.9018
     },
     {
@@ -132,7 +123,7 @@
       "state": "STABLE",
       "S": 3.0772,
       "F_info": -0.0,
-      "I": 0.0345,
+      "I": 0.0342,
       "phi_dist": 0.9018
     },
     {
@@ -140,8 +131,8 @@
       "mag": 5.2,
       "state": "STABLE",
       "S": 3.0505,
-      "F_info": 0.0002,
-      "I": 0.0347,
+      "F_info": 0.0003,
+      "I": 0.0345,
       "phi_dist": 0.8853
     },
     {
@@ -149,7 +140,7 @@
       "mag": 5.1,
       "state": "STABLE",
       "S": 3.0443,
-      "F_info": -0.0009,
+      "F_info": -0.0006,
       "I": 0.0338,
       "phi_dist": 0.8815
     },
@@ -269,6 +260,15 @@
       "F_info": -0.0018,
       "I": 0.0169,
       "phi_dist": 0.8469
+    },
+    {
+      "date": "2026-04-24",
+      "mag": 5.8,
+      "state": "STABLE",
+      "S": 3.0029,
+      "F_info": 0.0015,
+      "I": 0.0183,
+      "phi_dist": 0.8559
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9884,
-    "F_info": -0.0018,
-    "I": 0.0169,
-    "phi_dist": 0.8469
+    "S": 3.0029,
+    "F_info": 0.0015,
+    "I": 0.0183,
+    "phi_dist": 0.8559
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8469,
-    "avg_mag": 5.67,
-    "generated": "2026-04-24 02:46 UTC"
+    "phi_dist": 0.8559,
+    "avg_mag": 5.72,
+    "generated": "2026-04-25 02:34 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17672,
+  "total_quakes": 17677,
   "ifsp": {
-    "value": 0.3099,
+    "value": 0.3129,
     "zone": "CAUTION",
-    "I_norm": 0.0716,
-    "F_norm": 0.0076,
-    "S_norm": 0.6144,
-    "phi_norm": 0.8469
+    "I_norm": 0.0775,
+    "F_norm": 0.0064,
+    "S_norm": 0.6189,
+    "phi_norm": 0.8559
   },
   "big_quake_patterns": [
     {
       "date": "2016-05-28",
       "mag": 7.2,
       "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.301,
+      "avg_ifsp_30d_before": 0.3014,
       "max_ifsp_30d_before": 0.3032,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-05-25",
-          "ifsp": 0.3,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9738,
-          "F_info": -0.0
-        },
         {
           "date": "2016-05-26",
           "ifsp": 0.2997,
@@ -13804,107 +13796,107 @@
       "date": "2026-03-24",
       "mag": 7.5,
       "place": "148 km W of Neiafu, Tonga",
-      "avg_ifsp_30d_before": 0.3103,
+      "avg_ifsp_30d_before": 0.31,
       "max_ifsp_30d_before": 0.3166,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-03-17",
-          "ifsp": 0.3052,
+          "ifsp": 0.3046,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9821,
+          "S": 2.9801,
           "F_info": -0.0015
         },
         {
           "date": "2026-03-18",
-          "ifsp": 0.3005,
+          "ifsp": 0.2999,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9571,
-          "F_info": -0.0022
+          "S": 2.9551,
+          "F_info": -0.0023
         },
         {
           "date": "2026-03-19",
-          "ifsp": 0.2972,
+          "ifsp": 0.2965,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9592,
+          "S": 2.9571,
           "F_info": 0.0001
         },
         {
           "date": "2026-03-20",
-          "ifsp": 0.2985,
+          "ifsp": 0.2978,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9655,
+          "S": 2.9634,
           "F_info": -0.0003
         },
         {
           "date": "2026-03-21",
-          "ifsp": 0.315,
+          "ifsp": 0.3143,
           "zone": "CAUTION",
           "state": "EMERGENCE+",
-          "S": 2.9946,
+          "S": 2.9925,
           "F_info": 0.0048
         },
         {
           "date": "2026-03-22",
-          "ifsp": 0.3093,
+          "ifsp": 0.3085,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0029,
-          "F_info": -0.0012
+          "S": 3.0008,
+          "F_info": -0.0011
         },
         {
           "date": "2026-03-23",
-          "ifsp": 0.3063,
+          "ifsp": 0.3056,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9967,
+          "S": 2.9946,
           "F_info": 0.0001
         }
       ],
       "after_sample": [
         {
           "date": "2026-03-24",
-          "ifsp": 0.3349,
+          "ifsp": 0.3345,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
         },
         {
           "date": "2026-03-25",
-          "ifsp": 0.3203,
+          "ifsp": 0.3198,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-03-26",
-          "ifsp": 0.3288,
+          "ifsp": 0.3285,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-03-27",
-          "ifsp": 0.3246,
+          "ifsp": 0.3242,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-03-28",
-          "ifsp": 0.3256,
+          "ifsp": 0.3254,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-03-29",
-          "ifsp": 0.3283,
+          "ifsp": 0.328,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-03-30",
-          "ifsp": 0.3393,
+          "ifsp": 0.3389,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -13914,53 +13906,53 @@
       "date": "2026-03-30",
       "mag": 7.3,
       "place": "52 km ENE of Luganville, Vanuatu",
-      "avg_ifsp_30d_before": 0.3131,
-      "max_ifsp_30d_before": 0.3349,
+      "avg_ifsp_30d_before": 0.3127,
+      "max_ifsp_30d_before": 0.3345,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-03-23",
-          "ifsp": 0.3063,
+          "ifsp": 0.3056,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9967,
+          "S": 2.9946,
           "F_info": 0.0001
         },
         {
           "date": "2026-03-24",
-          "ifsp": 0.3349,
+          "ifsp": 0.3345,
           "zone": "CAUTION",
           "state": "EMERGENCE+",
-          "S": 3.0422,
-          "F_info": 0.0084
+          "S": 3.0401,
+          "F_info": 0.0085
         },
         {
           "date": "2026-03-25",
-          "ifsp": 0.3203,
+          "ifsp": 0.3198,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0443,
+          "S": 3.0422,
           "F_info": -0.0
         },
         {
           "date": "2026-03-26",
-          "ifsp": 0.3288,
+          "ifsp": 0.3285,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0711,
-          "F_info": 0.0015
+          "S": 3.069,
+          "F_info": 0.0016
         },
         {
           "date": "2026-03-27",
-          "ifsp": 0.3246,
+          "ifsp": 0.3242,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0525,
-          "F_info": 0.0007
+          "F_info": 0.0006
         },
         {
           "date": "2026-03-28",
-          "ifsp": 0.3256,
+          "ifsp": 0.3254,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0628,
@@ -13968,7 +13960,7 @@
         },
         {
           "date": "2026-03-29",
-          "ifsp": 0.3283,
+          "ifsp": 0.328,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0649,
@@ -13978,43 +13970,43 @@
       "after_sample": [
         {
           "date": "2026-03-30",
-          "ifsp": 0.3393,
+          "ifsp": 0.3389,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-03-31",
-          "ifsp": 0.3343,
+          "ifsp": 0.3339,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-01",
-          "ifsp": 0.3427,
+          "ifsp": 0.3424,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-02",
-          "ifsp": 0.3429,
+          "ifsp": 0.3425,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-03",
-          "ifsp": 0.3472,
+          "ifsp": 0.3468,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-04",
-          "ifsp": 0.342,
+          "ifsp": 0.3418,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-05",
-          "ifsp": 0.344,
+          "ifsp": 0.3437,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -14024,37 +14016,37 @@
       "date": "2026-04-01",
       "mag": 7.4,
       "place": "129 km ESE of Bitung, Indonesia",
-      "avg_ifsp_30d_before": 0.3149,
-      "max_ifsp_30d_before": 0.3393,
+      "avg_ifsp_30d_before": 0.3146,
+      "max_ifsp_30d_before": 0.3389,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-03-25",
-          "ifsp": 0.3203,
+          "ifsp": 0.3198,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0443,
+          "S": 3.0422,
           "F_info": -0.0
         },
         {
           "date": "2026-03-26",
-          "ifsp": 0.3288,
+          "ifsp": 0.3285,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0711,
-          "F_info": 0.0015
+          "S": 3.069,
+          "F_info": 0.0016
         },
         {
           "date": "2026-03-27",
-          "ifsp": 0.3246,
+          "ifsp": 0.3242,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0525,
-          "F_info": 0.0007
+          "F_info": 0.0006
         },
         {
           "date": "2026-03-28",
-          "ifsp": 0.3256,
+          "ifsp": 0.3254,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0628,
@@ -14062,7 +14054,7 @@
         },
         {
           "date": "2026-03-29",
-          "ifsp": 0.3283,
+          "ifsp": 0.328,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0649,
@@ -14070,15 +14062,15 @@
         },
         {
           "date": "2026-03-30",
-          "ifsp": 0.3393,
+          "ifsp": 0.3389,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.108,
-          "F_info": 0.0031
+          "F_info": 0.003
         },
         {
           "date": "2026-03-31",
-          "ifsp": 0.3343,
+          "ifsp": 0.3339,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.106,
@@ -14088,37 +14080,37 @@
       "after_sample": [
         {
           "date": "2026-04-01",
-          "ifsp": 0.3427,
+          "ifsp": 0.3424,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-02",
-          "ifsp": 0.3429,
+          "ifsp": 0.3425,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-03",
-          "ifsp": 0.3472,
+          "ifsp": 0.3468,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-04",
-          "ifsp": 0.342,
+          "ifsp": 0.3418,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-05",
-          "ifsp": 0.344,
+          "ifsp": 0.3437,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-04-06",
-          "ifsp": 0.3406,
+          "ifsp": 0.3403,
           "zone": "CAUTION",
           "state": "STABLE"
         },
@@ -14134,8 +14126,8 @@
       "date": "2026-04-20",
       "mag": 7.4,
       "place": "100 km ENE of Miyako, Japan",
-      "avg_ifsp_30d_before": 0.326,
-      "max_ifsp_30d_before": 0.3472,
+      "avg_ifsp_30d_before": 0.3257,
+      "max_ifsp_30d_before": 0.3468,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14217,6 +14209,12 @@
         {
           "date": "2026-04-23",
           "ifsp": 0.3099,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-04-24",
+          "ifsp": 0.3129,
           "zone": "CAUTION",
           "state": "STABLE"
         }
