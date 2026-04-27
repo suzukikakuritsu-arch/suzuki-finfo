@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-27",
-      "mag": 5.4,
-      "state": "STABLE",
-      "S": 3.0525,
-      "F_info": 0.0006,
-      "I": 0.0241,
-      "phi_dist": 0.8866
-    },
-    {
       "date": "2026-03-28",
       "mag": 5.8,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0002,
       "I": 0.0181,
       "phi_dist": 0.8585
+    },
+    {
+      "date": "2026-04-26",
+      "mag": 6.1,
+      "state": "STABLE",
+      "S": 3.0257,
+      "F_info": 0.0016,
+      "I": 0.0197,
+      "phi_dist": 0.87
     }
   ],
   "state_pct": {
@@ -278,92 +278,30 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.007,
-    "F_info": -0.0002,
-    "I": 0.0181,
-    "phi_dist": 0.8585
+    "S": 3.0257,
+    "F_info": 0.0016,
+    "I": 0.0197,
+    "phi_dist": 0.87
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8585,
-    "avg_mag": 5.74,
-    "generated": "2026-04-26 02:52 UTC"
+    "phi_dist": 0.87,
+    "avg_mag": 5.8,
+    "generated": "2026-04-27 02:54 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17673,
+  "total_quakes": 17675,
   "ifsp": {
-    "value": 0.3112,
+    "value": 0.3182,
     "zone": "CAUTION",
-    "I_norm": 0.0767,
-    "F_norm": 0.0008,
-    "S_norm": 0.6202,
-    "phi_norm": 0.8585
+    "I_norm": 0.0835,
+    "F_norm": 0.0068,
+    "S_norm": 0.626,
+    "phi_norm": 0.87
   },
   "big_quake_patterns": [
-    {
-      "date": "2016-05-28",
-      "mag": 7.2,
-      "place": "South Sandwich Islands region",
-      "avg_ifsp_30d_before": 0.3032,
-      "max_ifsp_30d_before": 0.3032,
-      "danger_days_before": 0,
-      "before_sample": [
-        {
-          "date": "2016-05-27",
-          "ifsp": 0.3032,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9821,
-          "F_info": -0.0018
-        }
-      ],
-      "after_sample": [
-        {
-          "date": "2016-05-28",
-          "ifsp": 0.3092,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-05-29",
-          "ifsp": 0.3084,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-05-30",
-          "ifsp": 0.3065,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-05-31",
-          "ifsp": 0.3092,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-06-01",
-          "ifsp": 0.3162,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-06-02",
-          "ifsp": 0.315,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-06-03",
-          "ifsp": 0.3133,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        }
-      ]
-    },
     {
       "date": "2016-07-29",
       "mag": 7.7,
@@ -14215,6 +14153,12 @@
           "ifsp": 0.3112,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-04-26",
+          "ifsp": 0.3182,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
@@ -14225,8 +14169,8 @@
       "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
-      "p25": 0.3044,
-      "median": 0.3117,
+      "p25": 0.3045,
+      "median": 0.3118,
       "p75": 0.32,
       "max": 0.3587
     },
