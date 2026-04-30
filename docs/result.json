@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-03-30",
-      "mag": 7.3,
-      "state": "STABLE",
-      "S": 3.108,
-      "F_info": 0.003,
-      "I": 0.0248,
-      "phi_dist": 0.9208
-    },
-    {
       "date": "2026-03-31",
       "mag": 5.7,
       "state": "STABLE",
@@ -269,37 +260,46 @@
       "F_info": 0.0007,
       "I": 0.0149,
       "phi_dist": 0.8585
+    },
+    {
+      "date": "2026-04-29",
+      "mag": 5.2,
+      "state": "REFLUX",
+      "S": 2.9967,
+      "F_info": -0.005,
+      "I": 0.0099,
+      "phi_dist": 0.852
     }
   ],
   "state_pct": {
     "STABLE": 88.9,
     "EMERGENCE+": 4.3,
-    "REFLUX": 6.7
+    "REFLUX": 6.8
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.007,
-    "F_info": 0.0007,
-    "I": 0.0149,
-    "phi_dist": 0.8585
+    "state": "REFLUX",
+    "S": 2.9967,
+    "F_info": -0.005,
+    "I": 0.0099,
+    "phi_dist": 0.852
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8585,
-    "avg_mag": 5.74,
-    "generated": "2026-04-29 03:21 UTC"
+    "detail": "EM=0 RF=2 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.852,
+    "avg_mag": 5.7,
+    "generated": "2026-04-30 03:22 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17669,
+  "total_quakes": 17675,
   "ifsp": {
-    "value": 0.31,
+    "value": 0.3123,
     "zone": "CAUTION",
-    "I_norm": 0.0631,
-    "F_norm": 0.003,
-    "S_norm": 0.6202,
-    "phi_norm": 0.8585
+    "I_norm": 0.0419,
+    "F_norm": 0.0212,
+    "S_norm": 0.617,
+    "phi_norm": 0.852
   },
   "big_quake_patterns": [
     {
@@ -13725,7 +13725,7 @@
     {
       "date": "2026-03-24",
       "mag": 7.5,
-      "place": "148 km W of Neiafu, Tonga",
+      "place": "158 km W of Neiafu, Tonga",
       "avg_ifsp_30d_before": 0.31,
       "max_ifsp_30d_before": 0.3166,
       "danger_days_before": 0,
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2383,
+      "n": 2382,
       "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1164,
+      "n": 1165,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0052,
-    "t_stat": 13.817,
+    "t_stat": 13.819,
     "significance": "significant"
   }
 }
