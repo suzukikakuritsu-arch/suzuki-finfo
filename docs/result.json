@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-04-03",
-      "mag": 5.8,
-      "state": "STABLE",
-      "S": 3.1489,
-      "F_info": 0.0032,
-      "I": 0.0251,
-      "phi_dist": 0.9461
-    },
-    {
       "date": "2026-04-04",
       "mag": 6,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0001,
       "I": 0.009,
       "phi_dist": 0.8495
+    },
+    {
+      "date": "2026-05-03",
+      "mag": 5.1,
+      "state": "STABLE",
+      "S": 2.9717,
+      "F_info": 0.0022,
+      "I": 0.0112,
+      "phi_dist": 0.8366
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9925,
-    "F_info": 0.0001,
-    "I": 0.009,
-    "phi_dist": 0.8495
+    "S": 2.9717,
+    "F_info": 0.0022,
+    "I": 0.0112,
+    "phi_dist": 0.8366
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=2 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8495,
-    "avg_mag": 5.69,
-    "generated": "2026-05-03 03:24 UTC"
+    "phi_dist": 0.8366,
+    "avg_mag": 5.61,
+    "generated": "2026-05-04 03:22 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17677,
+  "total_quakes": 17674,
   "ifsp": {
-    "value": 0.3023,
+    "value": 0.3038,
     "zone": "CAUTION",
-    "I_norm": 0.0381,
-    "F_norm": 0.0004,
-    "S_norm": 0.6157,
-    "phi_norm": 0.8495
+    "I_norm": 0.0474,
+    "F_norm": 0.0093,
+    "S_norm": 0.6093,
+    "phi_norm": 0.8366
   },
   "big_quake_patterns": [
     {
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2379,
+      "n": 2378,
       "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,17 +14175,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1168,
+      "n": 1169,
       "mean": 0.3078,
       "std": 0.0096,
       "min": 0.2834,
       "p25": 0.3007,
       "median": 0.3076,
-      "p75": 0.3145,
+      "p75": 0.3144,
       "max": 0.3383
     },
     "mean_diff": 0.0052,
-    "t_stat": 13.825,
+    "t_stat": 13.827,
     "significance": "significant"
   }
 }
