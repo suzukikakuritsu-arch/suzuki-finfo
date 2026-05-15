@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-04-14",
-      "mag": 5.7,
-      "state": "STABLE",
-      "S": 2.9946,
-      "F_info": -0.0001,
-      "I": 0.0273,
-      "phi_dist": 0.8508
-    },
-    {
       "date": "2026-04-15",
       "mag": 5.7,
       "state": "REFLUX",
@@ -269,39 +260,2358 @@
       "F_info": -0.0002,
       "I": 0.009,
       "phi_dist": 0.8405
+    },
+    {
+      "date": "2026-05-14",
+      "mag": 6.2,
+      "state": "STABLE",
+      "S": 2.9884,
+      "F_info": 0.0005,
+      "I": 0.0095,
+      "phi_dist": 0.8469
     }
   ],
   "state_pct": {
-    "STABLE": 89.5,
-    "REFLUX": 6.6,
-    "EMERGENCE+": 4.0
+    "STABLE": 88.9,
+    "REFLUX": 6.8,
+    "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.978,
-    "F_info": -0.0002,
-    "I": 0.009,
-    "phi_dist": 0.8405
+    "S": 2.9884,
+    "F_info": 0.0005,
+    "I": 0.0095,
+    "phi_dist": 0.8469
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8405,
-    "avg_mag": 5.64,
-    "generated": "2026-05-14 03:35 UTC"
+    "phi_dist": 0.8469,
+    "avg_mag": 5.67,
+    "generated": "2026-05-15 03:37 UTC"
   },
-  "total_days": 2509,
-  "total_quakes": 12456,
+  "total_days": 3575,
+  "total_quakes": 17682,
   "ifsp": {
-    "value": 0.2998,
+    "value": 0.3026,
     "zone": "CAUTION",
-    "I_norm": 0.0381,
-    "F_norm": 0.0008,
-    "S_norm": 0.6112,
-    "phi_norm": 0.8405
+    "I_norm": 0.0402,
+    "F_norm": 0.0021,
+    "S_norm": 0.6144,
+    "phi_norm": 0.8469
   },
   "big_quake_patterns": [
+    {
+      "date": "2016-07-29",
+      "mag": 7.7,
+      "place": "Pagan region, Northern Mariana Islands",
+      "avg_ifsp_30d_before": 0.2997,
+      "max_ifsp_30d_before": 0.3078,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-07-22",
+          "ifsp": 0.2953,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9738,
+          "F_info": 0.0
+        },
+        {
+          "date": "2016-07-23",
+          "ifsp": 0.2974,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9821,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2016-07-24",
+          "ifsp": 0.2961,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9759,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2016-07-25",
+          "ifsp": 0.2961,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.978,
+          "F_info": -0.0
+        },
+        {
+          "date": "2016-07-26",
+          "ifsp": 0.2974,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9842,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2016-07-27",
+          "ifsp": 0.2959,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9759,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2016-07-28",
+          "ifsp": 0.2948,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9696,
+          "F_info": 0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-07-29",
+          "ifsp": 0.32,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2016-07-30",
+          "ifsp": 0.3097,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-07-31",
+          "ifsp": 0.3115,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-01",
+          "ifsp": 0.3129,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-02",
+          "ifsp": 0.3124,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-03",
+          "ifsp": 0.3125,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-04",
+          "ifsp": 0.314,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-08-12",
+      "mag": 7.2,
+      "place": "southeast of the Loyalty Islands",
+      "avg_ifsp_30d_before": 0.3046,
+      "max_ifsp_30d_before": 0.32,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-08-05",
+          "ifsp": 0.3157,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0463,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2016-08-06",
+          "ifsp": 0.3152,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.036,
+          "F_info": 0.001
+        },
+        {
+          "date": "2016-08-07",
+          "ifsp": 0.3133,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0236,
+          "F_info": 0.0009
+        },
+        {
+          "date": "2016-08-08",
+          "ifsp": 0.3171,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9967,
+          "F_info": 0.0041
+        },
+        {
+          "date": "2016-08-09",
+          "ifsp": 0.3105,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.978,
+          "F_info": 0.0017
+        },
+        {
+          "date": "2016-08-10",
+          "ifsp": 0.3069,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9634,
+          "F_info": 0.0008
+        },
+        {
+          "date": "2016-08-11",
+          "ifsp": 0.3052,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9613,
+          "F_info": -0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-08-12",
+          "ifsp": 0.313,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2016-08-13",
+          "ifsp": 0.2969,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-14",
+          "ifsp": 0.2956,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-15",
+          "ifsp": 0.2942,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-16",
+          "ifsp": 0.2919,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-17",
+          "ifsp": 0.2929,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-18",
+          "ifsp": 0.2943,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        }
+      ]
+    },
+    {
+      "date": "2016-08-19",
+      "mag": 7.4,
+      "place": "South Georgia Island region",
+      "avg_ifsp_30d_before": 0.3042,
+      "max_ifsp_30d_before": 0.32,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-08-12",
+          "ifsp": 0.313,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9509,
+          "F_info": -0.0089
+        },
+        {
+          "date": "2016-08-13",
+          "ifsp": 0.2969,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9425,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2016-08-14",
+          "ifsp": 0.2956,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9383,
+          "F_info": -0.0013
+        },
+        {
+          "date": "2016-08-15",
+          "ifsp": 0.2942,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9383,
+          "F_info": -0.0009
+        },
+        {
+          "date": "2016-08-16",
+          "ifsp": 0.2919,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9342,
+          "F_info": 0.0
+        },
+        {
+          "date": "2016-08-17",
+          "ifsp": 0.2929,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9363,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2016-08-18",
+          "ifsp": 0.2943,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.93,
+          "F_info": -0.0032
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-08-19",
+          "ifsp": 0.3153,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2016-08-20",
+          "ifsp": 0.3063,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-21",
+          "ifsp": 0.3128,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-22",
+          "ifsp": 0.3142,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-23",
+          "ifsp": 0.3136,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-24",
+          "ifsp": 0.3216,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-25",
+          "ifsp": 0.3228,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-08-29",
+      "mag": 7.1,
+      "place": "north of Ascension Island",
+      "avg_ifsp_30d_before": 0.3109,
+      "max_ifsp_30d_before": 0.3386,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-08-22",
+          "ifsp": 0.3142,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": -0.0028
+        },
+        {
+          "date": "2016-08-23",
+          "ifsp": 0.3136,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.034,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2016-08-24",
+          "ifsp": 0.3216,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0669,
+          "F_info": 0.0013
+        },
+        {
+          "date": "2016-08-25",
+          "ifsp": 0.3228,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0854,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2016-08-26",
+          "ifsp": 0.3386,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.0443,
+          "F_info": 0.0095
+        },
+        {
+          "date": "2016-08-27",
+          "ifsp": 0.3236,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": -0.001
+        },
+        {
+          "date": "2016-08-28",
+          "ifsp": 0.3211,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": 0.0
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-08-29",
+          "ifsp": 0.3301,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-30",
+          "ifsp": 0.328,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-08-31",
+          "ifsp": 0.3368,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-01",
+          "ifsp": 0.3396,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-02",
+          "ifsp": 0.349,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2016-09-03",
+          "ifsp": 0.3353,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-04",
+          "ifsp": 0.3339,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-09-01",
+      "mag": 7,
+      "place": "175 km NE of Gisborne, New Zealand",
+      "avg_ifsp_30d_before": 0.3129,
+      "max_ifsp_30d_before": 0.3386,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-08-25",
+          "ifsp": 0.3228,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0854,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2016-08-26",
+          "ifsp": 0.3386,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.0443,
+          "F_info": 0.0095
+        },
+        {
+          "date": "2016-08-27",
+          "ifsp": 0.3236,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": -0.001
+        },
+        {
+          "date": "2016-08-28",
+          "ifsp": 0.3211,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": 0.0
+        },
+        {
+          "date": "2016-08-29",
+          "ifsp": 0.3301,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0752,
+          "F_info": 0.0014
+        },
+        {
+          "date": "2016-08-30",
+          "ifsp": 0.328,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0752,
+          "F_info": -0.0004
+        },
+        {
+          "date": "2016-08-31",
+          "ifsp": 0.3368,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.108,
+          "F_info": 0.0015
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-09-01",
+          "ifsp": 0.3396,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-02",
+          "ifsp": 0.349,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2016-09-03",
+          "ifsp": 0.3353,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-04",
+          "ifsp": 0.3339,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-05",
+          "ifsp": 0.3353,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-06",
+          "ifsp": 0.3343,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-09-07",
+          "ifsp": 0.3283,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-11-13",
+      "mag": 7.8,
+      "place": "53 km NNE of Amberley, New Zealand",
+      "avg_ifsp_30d_before": 0.3107,
+      "max_ifsp_30d_before": 0.3229,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-11-06",
+          "ifsp": 0.3102,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0029,
+          "F_info": 0.0009
+        },
+        {
+          "date": "2016-11-07",
+          "ifsp": 0.3102,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0091,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2016-11-08",
+          "ifsp": 0.3112,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": -0.0005
+        },
+        {
+          "date": "2016-11-09",
+          "ifsp": 0.3102,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0091,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2016-11-10",
+          "ifsp": 0.3087,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0029,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2016-11-11",
+          "ifsp": 0.3091,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.007,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2016-11-12",
+          "ifsp": 0.3111,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0215,
+          "F_info": -0.0006
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-11-13",
+          "ifsp": 0.3164,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-11-14",
+          "ifsp": 0.3179,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-11-15",
+          "ifsp": 0.3154,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-11-16",
+          "ifsp": 0.3191,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2016-11-17",
+          "ifsp": 0.3163,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-11-18",
+          "ifsp": 0.316,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-11-19",
+          "ifsp": 0.3129,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-12-08",
+      "mag": 7.8,
+      "place": "69 km WSW of Kirakira, Solomon Islands",
+      "avg_ifsp_30d_before": 0.3201,
+      "max_ifsp_30d_before": 0.3438,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-12-01",
+          "ifsp": 0.3238,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0546,
+          "F_info": 0.0005
+        },
+        {
+          "date": "2016-12-02",
+          "ifsp": 0.3229,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0505,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2016-12-03",
+          "ifsp": 0.3254,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0628,
+          "F_info": 0.0006
+        },
+        {
+          "date": "2016-12-04",
+          "ifsp": 0.3242,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": -0.0022
+        },
+        {
+          "date": "2016-12-05",
+          "ifsp": 0.3209,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.036,
+          "F_info": -0.0026
+        },
+        {
+          "date": "2016-12-06",
+          "ifsp": 0.321,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": 0.001
+        },
+        {
+          "date": "2016-12-07",
+          "ifsp": 0.3184,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0298,
+          "F_info": 0.001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-12-08",
+          "ifsp": 0.3219,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-09",
+          "ifsp": 0.3203,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-10",
+          "ifsp": 0.3267,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-11",
+          "ifsp": 0.3349,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2016-12-12",
+          "ifsp": 0.3203,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-13",
+          "ifsp": 0.3182,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-14",
+          "ifsp": 0.3189,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-12-17",
+      "mag": 7.9,
+      "place": "140 km E of Kokopo, Papua New Guinea",
+      "avg_ifsp_30d_before": 0.3226,
+      "max_ifsp_30d_before": 0.3438,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-12-10",
+          "ifsp": 0.3267,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0731,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2016-12-11",
+          "ifsp": 0.3349,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 3.0813,
+          "F_info": -0.0087
+        },
+        {
+          "date": "2016-12-12",
+          "ifsp": 0.3203,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0752,
+          "F_info": -0.0018
+        },
+        {
+          "date": "2016-12-13",
+          "ifsp": 0.3182,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0793,
+          "F_info": -0.0003
+        },
+        {
+          "date": "2016-12-14",
+          "ifsp": 0.3189,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0854,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2016-12-15",
+          "ifsp": 0.318,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.069,
+          "F_info": 0.0009
+        },
+        {
+          "date": "2016-12-16",
+          "ifsp": 0.3169,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0711,
+          "F_info": -0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-12-17",
+          "ifsp": 0.3364,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2016-12-18",
+          "ifsp": 0.3312,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-19",
+          "ifsp": 0.3292,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-20",
+          "ifsp": 0.3266,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-21",
+          "ifsp": 0.3351,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-22",
+          "ifsp": 0.3559,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2016-12-23",
+          "ifsp": 0.3418,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2016-12-25",
+      "mag": 7.6,
+      "place": "41 km SW of Quellón, Chile",
+      "avg_ifsp_30d_before": 0.327,
+      "max_ifsp_30d_before": 0.3559,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2016-12-18",
+          "ifsp": 0.3312,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.1264,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2016-12-19",
+          "ifsp": 0.3292,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.108,
+          "F_info": 0.0013
+        },
+        {
+          "date": "2016-12-20",
+          "ifsp": 0.3266,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.106,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2016-12-21",
+          "ifsp": 0.3351,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.1407,
+          "F_info": 0.001
+        },
+        {
+          "date": "2016-12-22",
+          "ifsp": 0.3559,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.0895,
+          "F_info": 0.0129
+        },
+        {
+          "date": "2016-12-23",
+          "ifsp": 0.3418,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0525,
+          "F_info": 0.0063
+        },
+        {
+          "date": "2016-12-24",
+          "ifsp": 0.3326,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0525,
+          "F_info": -0.0018
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2016-12-25",
+          "ifsp": 0.347,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-26",
+          "ifsp": 0.3399,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-27",
+          "ifsp": 0.3406,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-28",
+          "ifsp": 0.3401,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-29",
+          "ifsp": 0.3436,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-30",
+          "ifsp": 0.3429,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2016-12-31",
+          "ifsp": 0.3458,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-01-10",
+      "mag": 7.3,
+      "place": "189 km SSE of Tabiauan, Philippines",
+      "avg_ifsp_30d_before": 0.3336,
+      "max_ifsp_30d_before": 0.3559,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-01-03",
+          "ifsp": 0.3399,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0628,
+          "F_info": 0.0006
+        },
+        {
+          "date": "2017-01-04",
+          "ifsp": 0.3418,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0422,
+          "F_info": -0.0061
+        },
+        {
+          "date": "2017-01-05",
+          "ifsp": 0.3392,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": -0.0071
+        },
+        {
+          "date": "2017-01-06",
+          "ifsp": 0.3335,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0587,
+          "F_info": -0.004
+        },
+        {
+          "date": "2017-01-07",
+          "ifsp": 0.3259,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0463,
+          "F_info": 0.0007
+        },
+        {
+          "date": "2017-01-08",
+          "ifsp": 0.3222,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": -0.0032
+        },
+        {
+          "date": "2017-01-09",
+          "ifsp": 0.3169,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": -0.0003
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-01-10",
+          "ifsp": 0.3369,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-11",
+          "ifsp": 0.3263,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-12",
+          "ifsp": 0.3253,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-13",
+          "ifsp": 0.3244,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-14",
+          "ifsp": 0.3362,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2017-01-16",
+          "ifsp": 0.3241,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-17",
+          "ifsp": 0.32,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-01-22",
+      "mag": 7.9,
+      "place": "35 km WNW of Panguna, Papua New Guinea",
+      "avg_ifsp_30d_before": 0.3329,
+      "max_ifsp_30d_before": 0.3559,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-01-14",
+          "ifsp": 0.3362,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 3.0505,
+          "F_info": -0.0092
+        },
+        {
+          "date": "2017-01-16",
+          "ifsp": 0.3241,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0628,
+          "F_info": -0.0018
+        },
+        {
+          "date": "2017-01-17",
+          "ifsp": 0.32,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0525,
+          "F_info": -0.0009
+        },
+        {
+          "date": "2017-01-18",
+          "ifsp": 0.3184,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0278,
+          "F_info": 0.0018
+        },
+        {
+          "date": "2017-01-19",
+          "ifsp": 0.3184,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2017-01-20",
+          "ifsp": 0.3177,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0422,
+          "F_info": 0.0
+        },
+        {
+          "date": "2017-01-21",
+          "ifsp": 0.3181,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0381,
+          "F_info": -0.0011
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-01-22",
+          "ifsp": 0.3476,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2017-01-23",
+          "ifsp": 0.3311,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-24",
+          "ifsp": 0.327,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-25",
+          "ifsp": 0.329,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-26",
+          "ifsp": 0.3212,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-27",
+          "ifsp": 0.3198,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-01-28",
+          "ifsp": 0.3175,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-07-17",
+      "mag": 7.7,
+      "place": "Komandorskiye Ostrova, Russia region",
+      "avg_ifsp_30d_before": 0.31,
+      "max_ifsp_30d_before": 0.3172,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-07-10",
+          "ifsp": 0.3065,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9988,
+          "F_info": -0.0003
+        },
+        {
+          "date": "2017-07-11",
+          "ifsp": 0.3154,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0298,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2017-07-12",
+          "ifsp": 0.3144,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0381,
+          "F_info": -0.0003
+        },
+        {
+          "date": "2017-07-13",
+          "ifsp": 0.3172,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0463,
+          "F_info": -0.0017
+        },
+        {
+          "date": "2017-07-14",
+          "ifsp": 0.3147,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.034,
+          "F_info": 0.0011
+        },
+        {
+          "date": "2017-07-15",
+          "ifsp": 0.3123,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0319,
+          "F_info": 0.0
+        },
+        {
+          "date": "2017-07-16",
+          "ifsp": 0.3153,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0381,
+          "F_info": -0.0017
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-07-17",
+          "ifsp": 0.3294,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2017-07-18",
+          "ifsp": 0.3241,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-07-19",
+          "ifsp": 0.3274,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-07-20",
+          "ifsp": 0.3291,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-07-21",
+          "ifsp": 0.3294,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2017-07-22",
+          "ifsp": 0.3247,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-07-23",
+          "ifsp": 0.3237,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-09-08",
+      "mag": 8.2,
+      "place": "2017 Tehuantepec, Mexico Earthquake",
+      "avg_ifsp_30d_before": 0.3072,
+      "max_ifsp_30d_before": 0.3257,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-09-01",
+          "ifsp": 0.3017,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9613,
+          "F_info": 0.0005
+        },
+        {
+          "date": "2017-09-02",
+          "ifsp": 0.3022,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9383,
+          "F_info": -0.0051
+        },
+        {
+          "date": "2017-09-03",
+          "ifsp": 0.2947,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9363,
+          "F_info": -0.0018
+        },
+        {
+          "date": "2017-09-04",
+          "ifsp": 0.3014,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 2.953,
+          "F_info": 0.0028
+        },
+        {
+          "date": "2017-09-05",
+          "ifsp": 0.2982,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9571,
+          "F_info": 0.0004
+        },
+        {
+          "date": "2017-09-06",
+          "ifsp": 0.3012,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9592,
+          "F_info": -0.0031
+        },
+        {
+          "date": "2017-09-07",
+          "ifsp": 0.3053,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9801,
+          "F_info": 0.0024
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-09-08",
+          "ifsp": 0.3532,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2017-09-09",
+          "ifsp": 0.3294,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-10",
+          "ifsp": 0.3251,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-11",
+          "ifsp": 0.3249,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-12",
+          "ifsp": 0.3228,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-13",
+          "ifsp": 0.3219,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-14",
+          "ifsp": 0.3221,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-09-19",
+      "mag": 7.1,
+      "place": "1 km S of Matzaco, Mexico",
+      "avg_ifsp_30d_before": 0.3121,
+      "max_ifsp_30d_before": 0.3532,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-09-12",
+          "ifsp": 0.3228,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": -0.0003
+        },
+        {
+          "date": "2017-09-13",
+          "ifsp": 0.3219,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": -0.0004
+        },
+        {
+          "date": "2017-09-14",
+          "ifsp": 0.3221,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.034,
+          "F_info": 0.0011
+        },
+        {
+          "date": "2017-09-15",
+          "ifsp": 0.3204,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.034,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2017-09-16",
+          "ifsp": 0.3245,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.036,
+          "F_info": -0.0036
+        },
+        {
+          "date": "2017-09-17",
+          "ifsp": 0.3193,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0236,
+          "F_info": 0.0014
+        },
+        {
+          "date": "2017-09-18",
+          "ifsp": 0.3163,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0195,
+          "F_info": -0.0002
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-09-19",
+          "ifsp": 0.3283,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-20",
+          "ifsp": 0.3315,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-21",
+          "ifsp": 0.3314,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-22",
+          "ifsp": 0.3247,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2017-09-23",
+          "ifsp": 0.3172,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-24",
+          "ifsp": 0.317,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-09-25",
+          "ifsp": 0.3174,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-11-12",
+      "mag": 7.3,
+      "place": "29 km S of ?alabja, Iraq",
+      "avg_ifsp_30d_before": 0.307,
+      "max_ifsp_30d_before": 0.3194,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-11-05",
+          "ifsp": 0.3171,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0319,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2017-11-06",
+          "ifsp": 0.3162,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0236,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2017-11-07",
+          "ifsp": 0.3184,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 3.0195,
+          "F_info": -0.0038
+        },
+        {
+          "date": "2017-11-08",
+          "ifsp": 0.316,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 3.0236,
+          "F_info": -0.0033
+        },
+        {
+          "date": "2017-11-09",
+          "ifsp": 0.3141,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": -0.0003
+        },
+        {
+          "date": "2017-11-10",
+          "ifsp": 0.3176,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0608,
+          "F_info": -0.001
+        },
+        {
+          "date": "2017-11-11",
+          "ifsp": 0.3167,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0649,
+          "F_info": -0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-11-12",
+          "ifsp": 0.3331,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2017-11-13",
+          "ifsp": 0.3308,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-14",
+          "ifsp": 0.3338,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-15",
+          "ifsp": 0.3311,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-16",
+          "ifsp": 0.3285,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-17",
+          "ifsp": 0.3299,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-18",
+          "ifsp": 0.3269,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2017-11-19",
+      "mag": 7,
+      "place": "85 km ENE of Tadine, New Caledonia",
+      "avg_ifsp_30d_before": 0.3136,
+      "max_ifsp_30d_before": 0.3338,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2017-11-12",
+          "ifsp": 0.3331,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.108,
+          "F_info": 0.0036
+        },
+        {
+          "date": "2017-11-13",
+          "ifsp": 0.3308,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.1285,
+          "F_info": -0.0004
+        },
+        {
+          "date": "2017-11-14",
+          "ifsp": 0.3338,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.1039,
+          "F_info": 0.0033
+        },
+        {
+          "date": "2017-11-15",
+          "ifsp": 0.3311,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0875,
+          "F_info": 0.0025
+        },
+        {
+          "date": "2017-11-16",
+          "ifsp": 0.3285,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0937,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2017-11-17",
+          "ifsp": 0.3299,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.108,
+          "F_info": 0.0
+        },
+        {
+          "date": "2017-11-18",
+          "ifsp": 0.3269,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0875,
+          "F_info": 0.0003
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2017-11-19",
+          "ifsp": 0.3378,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-20",
+          "ifsp": 0.3366,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-21",
+          "ifsp": 0.3386,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-22",
+          "ifsp": 0.3337,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-23",
+          "ifsp": 0.3315,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-24",
+          "ifsp": 0.3287,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2017-11-25",
+          "ifsp": 0.3281,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2018-01-10",
+      "mag": 7.5,
+      "place": "203 km NNE of Barra Patuca, Honduras",
+      "avg_ifsp_30d_before": 0.3025,
+      "max_ifsp_30d_before": 0.3163,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2018-01-02",
+          "ifsp": 0.2931,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9279,
+          "F_info": 0.0013
+        },
+        {
+          "date": "2018-01-03",
+          "ifsp": 0.2931,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9342,
+          "F_info": 0.0005
+        },
+        {
+          "date": "2018-01-04",
+          "ifsp": 0.2912,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9258,
+          "F_info": -0.0004
+        },
+        {
+          "date": "2018-01-06",
+          "ifsp": 0.2891,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9174,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2018-01-07",
+          "ifsp": 0.2898,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9132,
+          "F_info": -0.0015
+        },
+        {
+          "date": "2018-01-08",
+          "ifsp": 0.2857,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9027,
+          "F_info": -0.0004
+        },
+        {
+          "date": "2018-01-09",
+          "ifsp": 0.2907,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9195,
+          "F_info": 0.0011
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2018-01-10",
+          "ifsp": 0.3168,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2018-01-11",
+          "ifsp": 0.305,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-13",
+          "ifsp": 0.306,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-14",
+          "ifsp": 0.3132,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-15",
+          "ifsp": 0.3114,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-16",
+          "ifsp": 0.3178,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2018-01-17",
+          "ifsp": 0.3137,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2018-01-14",
+      "mag": 7.1,
+      "place": "37 km W of Atiquipa, Peru",
+      "avg_ifsp_30d_before": 0.3021,
+      "max_ifsp_30d_before": 0.3168,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2018-01-06",
+          "ifsp": 0.2891,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9174,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2018-01-07",
+          "ifsp": 0.2898,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9132,
+          "F_info": -0.0015
+        },
+        {
+          "date": "2018-01-08",
+          "ifsp": 0.2857,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9027,
+          "F_info": -0.0004
+        },
+        {
+          "date": "2018-01-09",
+          "ifsp": 0.2907,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9195,
+          "F_info": 0.0011
+        },
+        {
+          "date": "2018-01-10",
+          "ifsp": 0.3168,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 2.9613,
+          "F_info": 0.0084
+        },
+        {
+          "date": "2018-01-11",
+          "ifsp": 0.305,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9717,
+          "F_info": 0.0005
+        },
+        {
+          "date": "2018-01-13",
+          "ifsp": 0.306,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9801,
+          "F_info": -0.0004
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2018-01-14",
+          "ifsp": 0.3132,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-15",
+          "ifsp": 0.3114,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-16",
+          "ifsp": 0.3178,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2018-01-17",
+          "ifsp": 0.3137,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-18",
+          "ifsp": 0.3127,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-19",
+          "ifsp": 0.3155,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-20",
+          "ifsp": 0.3166,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2018-01-23",
+      "mag": 7.9,
+      "place": "261 km SE of Chiniak, Alaska",
+      "avg_ifsp_30d_before": 0.3033,
+      "max_ifsp_30d_before": 0.3205,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2018-01-16",
+          "ifsp": 0.3178,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 3.0174,
+          "F_info": -0.0043
+        },
+        {
+          "date": "2018-01-17",
+          "ifsp": 0.3137,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0319,
+          "F_info": -0.0009
+        },
+        {
+          "date": "2018-01-18",
+          "ifsp": 0.3127,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0298,
+          "F_info": 0.0004
+        },
+        {
+          "date": "2018-01-19",
+          "ifsp": 0.3155,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0463,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2018-01-20",
+          "ifsp": 0.3166,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2018-01-21",
+          "ifsp": 0.3199,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0731,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2018-01-22",
+          "ifsp": 0.3205,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0608,
+          "F_info": 0.0016
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2018-01-23",
+          "ifsp": 0.3433,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2018-01-24",
+          "ifsp": 0.3344,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-25",
+          "ifsp": 0.3383,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-26",
+          "ifsp": 0.3332,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-27",
+          "ifsp": 0.3339,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-28",
+          "ifsp": 0.3316,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-01-29",
+          "ifsp": 0.3303,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2018-02-16",
+      "mag": 7.2,
+      "place": "4 km S of Pinotepa de Don Luis, Mexico",
+      "avg_ifsp_30d_before": 0.3213,
+      "max_ifsp_30d_before": 0.3433,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2018-02-09",
+          "ifsp": 0.3069,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0278,
+          "F_info": -0.0006
+        },
+        {
+          "date": "2018-02-10",
+          "ifsp": 0.3068,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0298,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2018-02-11",
+          "ifsp": 0.3046,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0174,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2018-02-12",
+          "ifsp": 0.3045,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0174,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2018-02-13",
+          "ifsp": 0.3058,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0215,
+          "F_info": 0.0003
+        },
+        {
+          "date": "2018-02-14",
+          "ifsp": 0.3023,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0008,
+          "F_info": 0.0003
+        },
+        {
+          "date": "2018-02-15",
+          "ifsp": 0.3008,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9925,
+          "F_info": -0.0005
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2018-02-16",
+          "ifsp": 0.3176,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2018-02-17",
+          "ifsp": 0.3135,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-18",
+          "ifsp": 0.3106,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-19",
+          "ifsp": 0.3114,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-20",
+          "ifsp": 0.3079,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-21",
+          "ifsp": 0.3046,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-22",
+          "ifsp": 0.3036,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2018-02-25",
+      "mag": 7.5,
+      "place": "32 km SW of Tari, Papua New Guinea",
+      "avg_ifsp_30d_before": 0.3165,
+      "max_ifsp_30d_before": 0.3353,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2018-02-18",
+          "ifsp": 0.3106,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0174,
+          "F_info": 0.0008
+        },
+        {
+          "date": "2018-02-19",
+          "ifsp": 0.3114,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0278,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2018-02-20",
+          "ifsp": 0.3079,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.005,
+          "F_info": -0.0008
+        },
+        {
+          "date": "2018-02-21",
+          "ifsp": 0.3046,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9946,
+          "F_info": -0.0
+        },
+        {
+          "date": "2018-02-22",
+          "ifsp": 0.3036,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9884,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2018-02-23",
+          "ifsp": 0.3034,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9676,
+          "F_info": 0.0015
+        },
+        {
+          "date": "2018-02-24",
+          "ifsp": 0.2987,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9551,
+          "F_info": 0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2018-02-25",
+          "ifsp": 0.3155,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2018-02-26",
+          "ifsp": 0.3207,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-27",
+          "ifsp": 0.3162,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-02-28",
+          "ifsp": 0.3203,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-03-01",
+          "ifsp": 0.3179,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-03-02",
+          "ifsp": 0.3129,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2018-03-03",
+          "ifsp": 0.3105,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
     {
       "date": "2018-08-19",
       "mag": 8.2,
@@ -3053,110 +5363,1320 @@
       ]
     },
     {
-      "date": "2021-05-21",
-      "mag": 7.3,
-      "place": "Southern Qinghai, China",
-      "avg_ifsp_30d_before": 0.3066,
-      "max_ifsp_30d_before": 0.3193,
+      "date": "2020-06-18",
+      "mag": 7.4,
+      "place": "south of the Kermadec Islands",
+      "avg_ifsp_30d_before": 0.3089,
+      "max_ifsp_30d_before": 0.3168,
       "danger_days_before": 0,
       "before_sample": [
         {
-          "date": "2020-05-14",
-          "ifsp": 0.3135,
+          "date": "2020-06-10",
+          "ifsp": 0.3089,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0257,
-          "F_info": -0.0003
+          "S": 2.9988,
+          "F_info": -0.0017
         },
         {
-          "date": "2021-05-15",
-          "ifsp": 0.3184,
+          "date": "2020-06-12",
+          "ifsp": 0.3048,
           "zone": "CAUTION",
-          "state": "REFLUX",
-          "S": 3.036,
-          "F_info": -0.0033
+          "state": "STABLE",
+          "S": 2.9925,
+          "F_info": 0.0
         },
         {
-          "date": "2021-05-16",
-          "ifsp": 0.3137,
+          "date": "2020-06-13",
+          "ifsp": 0.31,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0195,
-          "F_info": 0.0017
+          "F_info": -0.0003
         },
         {
-          "date": "2021-05-17",
-          "ifsp": 0.3092,
+          "date": "2020-06-14",
+          "ifsp": 0.3109,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0091,
+          "S": 3.0257,
           "F_info": -0.0004
         },
         {
-          "date": "2021-05-18",
-          "ifsp": 0.3085,
+          "date": "2020-06-15",
+          "ifsp": 0.3095,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": 0.0006
+        },
+        {
+          "date": "2020-06-16",
+          "ifsp": 0.3118,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0257,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2020-06-17",
+          "ifsp": 0.3118,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.036,
+          "F_info": -0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2020-06-18",
+          "ifsp": 0.3153,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-19",
+          "ifsp": 0.3113,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-20",
+          "ifsp": 0.3125,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-21",
+          "ifsp": 0.3109,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-22",
+          "ifsp": 0.3109,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-23",
+          "ifsp": 0.3394,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2020-06-24",
+          "ifsp": 0.3252,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2020-06-23",
+      "mag": 7.4,
+      "place": "9 km SE of Santa María Xadani, Mexico",
+      "avg_ifsp_30d_before": 0.3089,
+      "max_ifsp_30d_before": 0.3153,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2020-06-16",
+          "ifsp": 0.3118,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0257,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2020-06-17",
+          "ifsp": 0.3118,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.036,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2020-06-18",
+          "ifsp": 0.3153,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0484,
+          "F_info": -0.0013
+        },
+        {
+          "date": "2020-06-19",
+          "ifsp": 0.3113,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0319,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2020-06-20",
+          "ifsp": 0.3125,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0401,
+          "F_info": -0.0015
+        },
+        {
+          "date": "2020-06-21",
+          "ifsp": 0.3109,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0463,
+          "F_info": 0.0
+        },
+        {
+          "date": "2020-06-22",
+          "ifsp": 0.3109,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0381,
+          "F_info": 0.0006
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2020-06-23",
+          "ifsp": 0.3394,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2020-06-24",
+          "ifsp": 0.3252,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-25",
+          "ifsp": 0.3268,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-26",
+          "ifsp": 0.3252,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-27",
+          "ifsp": 0.3282,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-28",
+          "ifsp": 0.3213,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-06-29",
+          "ifsp": 0.3218,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2020-07-17",
+      "mag": 7,
+      "place": "114 km NNW of Popondetta, Papua New Guinea",
+      "avg_ifsp_30d_before": 0.3135,
+      "max_ifsp_30d_before": 0.3394,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2020-07-10",
+          "ifsp": 0.3008,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9404,
+          "F_info": -0.0009
+        },
+        {
+          "date": "2020-07-11",
+          "ifsp": 0.2973,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9216,
+          "F_info": -0.0013
+        },
+        {
+          "date": "2020-07-12",
+          "ifsp": 0.2975,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9237,
+          "F_info": 0.0009
+        },
+        {
+          "date": "2020-07-13",
+          "ifsp": 0.2975,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9279,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2020-07-14",
+          "ifsp": 0.2998,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9342,
+          "F_info": 0.001
+        },
+        {
+          "date": "2020-07-15",
+          "ifsp": 0.2986,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9363,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2020-07-16",
+          "ifsp": 0.2989,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9363,
+          "F_info": 0.0003
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2020-07-17",
+          "ifsp": 0.3253,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2020-07-18",
+          "ifsp": 0.3195,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2020-07-19",
+          "ifsp": 0.3098,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-20",
+          "ifsp": 0.3093,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-21",
+          "ifsp": 0.3064,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-22",
+          "ifsp": 0.3393,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2020-07-23",
+          "ifsp": 0.333,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        }
+      ]
+    },
+    {
+      "date": "2020-07-22",
+      "mag": 7.8,
+      "place": "2020 Perryville, Alaska Earthquake",
+      "avg_ifsp_30d_before": 0.3139,
+      "max_ifsp_30d_before": 0.3394,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2020-07-15",
+          "ifsp": 0.2986,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9363,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2020-07-16",
+          "ifsp": 0.2989,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9363,
+          "F_info": 0.0003
+        },
+        {
+          "date": "2020-07-17",
+          "ifsp": 0.3253,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 2.9738,
+          "F_info": 0.0082
+        },
+        {
+          "date": "2020-07-18",
+          "ifsp": 0.3195,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9904,
+          "F_info": -0.0052
+        },
+        {
+          "date": "2020-07-19",
+          "ifsp": 0.3098,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9884,
+          "F_info": 0.0
+        },
+        {
+          "date": "2020-07-20",
+          "ifsp": 0.3093,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9759,
+          "F_info": 0.0007
+        },
+        {
+          "date": "2020-07-21",
+          "ifsp": 0.3064,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9634,
+          "F_info": -0.0005
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2020-07-22",
+          "ifsp": 0.3393,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2020-07-23",
+          "ifsp": 0.333,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        },
+        {
+          "date": "2020-07-24",
+          "ifsp": 0.3164,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-25",
+          "ifsp": 0.3169,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-26",
+          "ifsp": 0.317,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-27",
+          "ifsp": 0.3181,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-07-28",
+          "ifsp": 0.3195,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2020-10-19",
+      "mag": 7.6,
+      "place": "2020 Sand Point, Alaska Earthquake",
+      "avg_ifsp_30d_before": 0.3041,
+      "max_ifsp_30d_before": 0.3173,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2020-10-12",
+          "ifsp": 0.3002,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9842,
+          "F_info": 0.0005
+        },
+        {
+          "date": "2020-10-13",
+          "ifsp": 0.3009,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9904,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2020-10-14",
+          "ifsp": 0.3019,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9842,
+          "F_info": -0.0022
+        },
+        {
+          "date": "2020-10-15",
+          "ifsp": 0.2974,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 2.9592,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2020-10-16",
+          "ifsp": 0.2934,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.953,
+          "F_info": 0.0
+        },
+        {
+          "date": "2020-10-17",
+          "ifsp": 0.2943,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9467,
+          "F_info": -0.0017
+        },
+        {
+          "date": "2020-10-18",
+          "ifsp": 0.2908,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9446,
+          "F_info": -0.0
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2020-10-19",
+          "ifsp": 0.323,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2020-10-20",
+          "ifsp": 0.3056,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-10-21",
+          "ifsp": 0.3083,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-10-22",
+          "ifsp": 0.3064,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-10-23",
+          "ifsp": 0.3102,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-10-24",
+          "ifsp": 0.3104,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-10-25",
+          "ifsp": 0.3083,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2020-10-30",
+      "mag": 7,
+      "place": "13 km NNE of Néon Karlovásion, Greece",
+      "avg_ifsp_30d_before": 0.3033,
+      "max_ifsp_30d_before": 0.323,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2020-10-23",
+          "ifsp": 0.3102,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0029,
+          "F_info": 0.0007
+        },
+        {
+          "date": "2020-10-24",
+          "ifsp": 0.3104,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9842,
+          "F_info": 0.0019
+        },
+        {
+          "date": "2020-10-25",
+          "ifsp": 0.3083,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9904,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2020-10-26",
+          "ifsp": 0.307,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9801,
+          "F_info": 0.0003
+        },
+        {
+          "date": "2020-10-27",
+          "ifsp": 0.3067,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9801,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2020-10-28",
+          "ifsp": 0.3117,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9967,
+          "F_info": 0.001
+        },
+        {
+          "date": "2020-10-29",
+          "ifsp": 0.313,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9946,
+          "F_info": -0.0031
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2020-10-30",
+          "ifsp": 0.3208,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-10-31",
+          "ifsp": 0.3145,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-11-01",
+          "ifsp": 0.3153,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-11-02",
+          "ifsp": 0.3118,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-11-03",
+          "ifsp": 0.3099,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-11-04",
+          "ifsp": 0.3075,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2020-11-05",
+          "ifsp": 0.306,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2021-01-21",
+      "mag": 7,
+      "place": "211 km SE of Pondaguitan, Philippines",
+      "avg_ifsp_30d_before": 0.3027,
+      "max_ifsp_30d_before": 0.3166,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2021-01-14",
+          "ifsp": 0.3083,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9988,
+          "F_info": 0.002
+        },
+        {
+          "date": "2021-01-15",
+          "ifsp": 0.3075,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0091,
+          "F_info": 0.0004
+        },
+        {
+          "date": "2021-01-16",
+          "ifsp": 0.3082,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0153,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2021-01-17",
+          "ifsp": 0.3091,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9967,
+          "F_info": 0.0018
+        },
+        {
+          "date": "2021-01-18",
+          "ifsp": 0.3081,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0029,
           "F_info": -0.001
         },
         {
-          "date": "2021-05-19",
-          "ifsp": 0.3149,
+          "date": "2021-01-19",
+          "ifsp": 0.3166,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0278,
-          "F_info": 0.0015
+          "S": 3.0298,
+          "F_info": 0.0022
         },
         {
-          "date": "2021-05-20",
-          "ifsp": 0.3106,
+          "date": "2021-01-20",
+          "ifsp": 0.3134,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0174,
+          "F_info": 0.0012
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2021-01-21",
+          "ifsp": 0.3198,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-01-22",
+          "ifsp": 0.3187,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-01-23",
+          "ifsp": 0.3265,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-01-24",
+          "ifsp": 0.3227,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-01-25",
+          "ifsp": 0.3281,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-01-26",
+          "ifsp": 0.3183,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-01-27",
+          "ifsp": 0.3177,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "mag": 7.7,
+      "place": "southeast of the Loyalty Islands",
+      "avg_ifsp_30d_before": 0.312,
+      "max_ifsp_30d_before": 0.3281,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2021-02-03",
+          "ifsp": 0.3173,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.005,
-          "F_info": 0.001
+          "F_info": 0.0021
+        },
+        {
+          "date": "2021-02-04",
+          "ifsp": 0.3142,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.978,
+          "F_info": -0.005
+        },
+        {
+          "date": "2021-02-05",
+          "ifsp": 0.3044,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9717,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2021-02-06",
+          "ifsp": 0.3021,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9404,
+          "F_info": -0.0034
+        },
+        {
+          "date": "2021-02-07",
+          "ifsp": 0.3019,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9509,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2021-02-08",
+          "ifsp": 0.3022,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9613,
+          "F_info": -0.0012
+        },
+        {
+          "date": "2021-02-09",
+          "ifsp": 0.3018,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9676,
+          "F_info": 0.0002
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2021-02-10",
+          "ifsp": 0.3397,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2021-02-11",
+          "ifsp": 0.3239,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-12",
+          "ifsp": 0.3223,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-13",
+          "ifsp": 0.3378,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-14",
+          "ifsp": 0.332,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-15",
+          "ifsp": 0.333,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-16",
+          "ifsp": 0.3357,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "mag": 7.1,
+      "place": "73 km ENE of Namie, Japan",
+      "avg_ifsp_30d_before": 0.3147,
+      "max_ifsp_30d_before": 0.3397,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2021-02-06",
+          "ifsp": 0.3021,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9404,
+          "F_info": -0.0034
+        },
+        {
+          "date": "2021-02-07",
+          "ifsp": 0.3019,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9509,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2021-02-08",
+          "ifsp": 0.3022,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9613,
+          "F_info": -0.0012
+        },
+        {
+          "date": "2021-02-09",
+          "ifsp": 0.3018,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9676,
+          "F_info": 0.0002
+        },
+        {
+          "date": "2021-02-10",
+          "ifsp": 0.3397,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.0195,
+          "F_info": 0.0118
+        },
+        {
+          "date": "2021-02-11",
+          "ifsp": 0.3239,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0401,
+          "F_info": -0.0014
+        },
+        {
+          "date": "2021-02-12",
+          "ifsp": 0.3223,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0443,
+          "F_info": -0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2021-02-13",
+          "ifsp": 0.3378,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-14",
+          "ifsp": 0.332,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-15",
+          "ifsp": 0.333,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-16",
+          "ifsp": 0.3357,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-17",
+          "ifsp": 0.3319,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-18",
+          "ifsp": 0.338,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-02-19",
+          "ifsp": 0.3317,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "mag": 8.1,
+      "place": "2021 Kermadec Islands, New Zealand Earthquake",
+      "avg_ifsp_30d_before": 0.3198,
+      "max_ifsp_30d_before": 0.3397,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2021-02-25",
+          "ifsp": 0.3171,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0215,
+          "F_info": -0.0017
+        },
+        {
+          "date": "2021-02-26",
+          "ifsp": 0.3138,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0195,
+          "F_info": -0.0001
+        },
+        {
+          "date": "2021-02-27",
+          "ifsp": 0.3132,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 2.9884,
+          "F_info": -0.0047
+        },
+        {
+          "date": "2021-02-28",
+          "ifsp": 0.3056,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9925,
+          "F_info": -0.0
+        },
+        {
+          "date": "2021-03-01",
+          "ifsp": 0.3059,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9925,
+          "F_info": -0.0003
+        },
+        {
+          "date": "2021-03-02",
+          "ifsp": 0.3051,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9842,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2021-03-03",
+          "ifsp": 0.3053,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9884,
+          "F_info": 0.0006
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2021-03-04",
+          "ifsp": 0.3276,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        },
+        {
+          "date": "2021-03-05",
+          "ifsp": 0.3206,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-06",
+          "ifsp": 0.3257,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-07",
+          "ifsp": 0.3262,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-08",
+          "ifsp": 0.3237,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-09",
+          "ifsp": 0.3237,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-10",
+          "ifsp": 0.3329,
+          "zone": "CAUTION",
+          "state": "REFLUX"
+        }
+      ]
+    },
+    {
+      "date": "2021-03-20",
+      "mag": 7,
+      "place": "30 km E of Ishinomaki, Japan",
+      "avg_ifsp_30d_before": 0.3208,
+      "max_ifsp_30d_before": 0.3386,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2021-03-13",
+          "ifsp": 0.3256,
+          "zone": "CAUTION",
+          "state": "REFLUX",
+          "S": 3.0731,
+          "F_info": -0.0055
+        },
+        {
+          "date": "2021-03-14",
+          "ifsp": 0.3163,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0752,
+          "F_info": 0.0
+        },
+        {
+          "date": "2021-03-15",
+          "ifsp": 0.3162,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0731,
+          "F_info": 0.0001
+        },
+        {
+          "date": "2021-03-16",
+          "ifsp": 0.3197,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0895,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2021-03-17",
+          "ifsp": 0.3204,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0772,
+          "F_info": 0.0017
+        },
+        {
+          "date": "2021-03-18",
+          "ifsp": 0.3196,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.034,
+          "F_info": 0.004
+        },
+        {
+          "date": "2021-03-19",
+          "ifsp": 0.3106,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0215,
+          "F_info": -0.0004
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2021-03-20",
+          "ifsp": 0.313,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-21",
+          "ifsp": 0.3111,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-22",
+          "ifsp": 0.3086,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-23",
+          "ifsp": 0.3088,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-25",
+          "ifsp": 0.3075,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-26",
+          "ifsp": 0.3131,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2021-03-27",
+          "ifsp": 0.3091,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2021-05-21",
+      "mag": 7.3,
+      "place": "Southern Qinghai, China",
+      "avg_ifsp_30d_before": 0.3116,
+      "max_ifsp_30d_before": 0.3255,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2021-05-14",
+          "ifsp": 0.3237,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0319,
+          "F_info": 0.0033
+        },
+        {
+          "date": "2021-05-15",
+          "ifsp": 0.3136,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0029,
+          "F_info": -0.0009
+        },
+        {
+          "date": "2021-05-16",
+          "ifsp": 0.3133,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0008,
+          "F_info": -0.0015
+        },
+        {
+          "date": "2021-05-17",
+          "ifsp": 0.3099,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9967,
+          "F_info": 0.0
+        },
+        {
+          "date": "2021-05-18",
+          "ifsp": 0.3094,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9925,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2021-05-19",
+          "ifsp": 0.3167,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0133,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2021-05-20",
+          "ifsp": 0.3178,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0257,
+          "F_info": 0.0007
         }
       ],
       "after_sample": [
         {
           "date": "2021-05-21",
-          "ifsp": 0.3145,
+          "ifsp": 0.3212,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2021-05-22",
-          "ifsp": 0.3132,
+          "ifsp": 0.3245,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2021-05-23",
-          "ifsp": 0.3153,
+          "ifsp": 0.3261,
           "zone": "CAUTION",
-          "state": "STABLE"
+          "state": "REFLUX"
         },
         {
           "date": "2021-05-24",
-          "ifsp": 0.3126,
+          "ifsp": 0.3168,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2021-05-25",
-          "ifsp": 0.3103,
+          "ifsp": 0.3169,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2021-05-27",
-          "ifsp": 0.3055,
+          "ifsp": 0.3221,
           "zone": "CAUTION",
-          "state": "STABLE"
+          "state": "EMERGENCE+"
         },
         {
           "date": "2021-05-28",
-          "ifsp": 0.3053,
+          "ifsp": 0.3143,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -10535,7 +14055,7 @@
     {
       "date": "2026-04-20",
       "mag": 7.4,
-      "place": "100 km ENE of Miyako, Japan",
+      "place": "98 km ENE of Miyako, Japan",
       "avg_ifsp_30d_before": 0.3259,
       "max_ifsp_30d_before": 0.3475,
       "danger_days_before": 0,
@@ -10645,27 +14165,27 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 1778,
-      "mean": 0.3126,
+      "n": 2378,
+      "mean": 0.3131,
       "std": 0.0122,
-      "min": 0.2861,
-      "p25": 0.3041,
-      "median": 0.3112,
-      "p75": 0.3195,
+      "min": 0.2857,
+      "p25": 0.3044,
+      "median": 0.3118,
+      "p75": 0.32,
       "max": 0.3587
     },
     "normal": {
-      "n": 703,
-      "mean": 0.3084,
-      "std": 0.0094,
-      "min": 0.2886,
-      "p25": 0.3014,
-      "median": 0.3081,
-      "p75": 0.3145,
+      "n": 1169,
+      "mean": 0.3076,
+      "std": 0.0096,
+      "min": 0.2834,
+      "p25": 0.3003,
+      "median": 0.3074,
+      "p75": 0.3142,
       "max": 0.3383
     },
-    "mean_diff": 0.0042,
-    "t_stat": 9.178,
+    "mean_diff": 0.0055,
+    "t_stat": 14.625,
     "significance": "significant"
   }
 }
