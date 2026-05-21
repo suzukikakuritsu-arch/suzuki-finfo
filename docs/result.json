@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-04-20",
-      "mag": 7.4,
-      "state": "EMERGENCE+",
-      "S": 2.9863,
-      "F_info": 0.0062,
-      "I": 0.0224,
-      "phi_dist": 0.8456
-    },
-    {
       "date": "2026-04-21",
       "mag": 5.7,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0001,
       "I": 0.0047,
       "phi_dist": 0.8597
+    },
+    {
+      "date": "2026-05-20",
+      "mag": 6.6,
+      "state": "STABLE",
+      "S": 3.0257,
+      "F_info": 0.0005,
+      "I": 0.0052,
+      "phi_dist": 0.87
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0091,
-    "F_info": 0.0001,
-    "I": 0.0047,
-    "phi_dist": 0.8597
+    "S": 3.0257,
+    "F_info": 0.0005,
+    "I": 0.0052,
+    "phi_dist": 0.87
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=2 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8597,
-    "avg_mag": 5.74,
-    "generated": "2026-05-20 03:41 UTC"
+    "phi_dist": 0.87,
+    "avg_mag": 5.8,
+    "generated": "2026-05-21 03:53 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17692,
+  "total_quakes": 17694,
   "ifsp": {
-    "value": 0.3023,
+    "value": 0.3064,
     "zone": "CAUTION",
-    "I_norm": 0.0199,
-    "F_norm": 0.0004,
-    "S_norm": 0.6208,
-    "phi_norm": 0.8597
+    "I_norm": 0.022,
+    "F_norm": 0.0021,
+    "S_norm": 0.626,
+    "phi_norm": 0.87
   },
   "big_quake_patterns": [
     {
