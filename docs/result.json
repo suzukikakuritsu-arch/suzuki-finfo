@@ -289,9 +289,9 @@
     "detail": "EM=0 RF=2 in last 7 days. Continue monitoring.",
     "phi_dist": 0.87,
     "avg_mag": 5.8,
-    "generated": "2026-05-21 03:53 UTC"
+    "generated": "2026-05-22 03:49 UTC"
   },
-  "total_days": 3575,
+  "total_days": 3574,
   "total_quakes": 17694,
   "ifsp": {
     "value": 0.3064,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1169,
+      "n": 1168,
       "mean": 0.3075,
       "std": 0.0095,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.978,
+    "t_stat": 14.974,
     "significance": "significant"
   }
 }
