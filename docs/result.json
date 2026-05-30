@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-04-28",
-      "mag": 5.2,
-      "state": "STABLE",
-      "S": 3.0091,
-      "F_info": 0.0006,
-      "I": 0.0142,
-      "phi_dist": 0.8597
-    },
-    {
       "date": "2026-04-29",
       "mag": 5.3,
       "state": "REFLUX",
@@ -269,6 +260,15 @@
       "F_info": 0.0,
       "I": 0.0073,
       "phi_dist": 0.8937
+    },
+    {
+      "date": "2026-05-29",
+      "mag": 5.3,
+      "state": "EMERGENCE+",
+      "S": 3.0455,
+      "F_info": 0.0025,
+      "I": 0.0099,
+      "phi_dist": 0.8822
     }
   ],
   "state_pct": {
@@ -277,37 +277,37 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.0641,
-    "F_info": 0.0,
-    "I": 0.0073,
-    "phi_dist": 0.8937
+    "state": "EMERGENCE+",
+    "S": 3.0455,
+    "F_info": 0.0025,
+    "I": 0.0099,
+    "phi_dist": 0.8822
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8937,
-    "avg_mag": 5.93,
-    "generated": "2026-05-29 03:45 UTC"
+    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8822,
+    "avg_mag": 5.87,
+    "generated": "2026-05-30 03:32 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17702,
+  "total_quakes": 17703,
   "ifsp": {
-    "value": 0.3138,
+    "value": 0.3166,
     "zone": "CAUTION",
-    "I_norm": 0.0309,
-    "F_norm": 0.0,
-    "S_norm": 0.6378,
-    "phi_norm": 0.8937
+    "I_norm": 0.0419,
+    "F_norm": 0.0106,
+    "S_norm": 0.6321,
+    "phi_norm": 0.8822
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2997,
-      "max_ifsp_30d_before": 0.3078,
+      "avg_ifsp_30d_before": 0.2994,
+      "max_ifsp_30d_before": 0.3072,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14055,7 +14055,7 @@
     {
       "date": "2026-04-20",
       "mag": 7.4,
-      "place": "98 km ENE of Miyako, Japan",
+      "place": "97 km ENE of Miyako, Japan",
       "avg_ifsp_30d_before": 0.3259,
       "max_ifsp_30d_before": 0.3475,
       "danger_days_before": 0,
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2378,
+      "n": 2377,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,17 +14175,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1169,
+      "n": 1170,
       "mean": 0.3075,
       "std": 0.0095,
       "min": 0.2834,
       "p25": 0.3003,
-      "median": 0.3073,
+      "median": 0.3074,
       "p75": 0.3139,
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.978,
+    "t_stat": 14.98,
     "significance": "significant"
   }
 }
