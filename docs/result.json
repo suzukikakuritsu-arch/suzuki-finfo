@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-04-29",
-      "mag": 5.3,
-      "state": "REFLUX",
-      "S": 3.0008,
-      "F_info": -0.0053,
-      "I": 0.009,
-      "phi_dist": 0.8546
-    },
-    {
       "date": "2026-04-30",
       "mag": 5.7,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0025,
       "I": 0.0099,
       "phi_dist": 0.8822
+    },
+    {
+      "date": "2026-05-30",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 3.0228,
+      "F_info": 0.0017,
+      "I": 0.0116,
+      "phi_dist": 0.8682
     }
   ],
   "state_pct": {
@@ -277,37 +277,37 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "EMERGENCE+",
-    "S": 3.0455,
-    "F_info": 0.0025,
-    "I": 0.0099,
-    "phi_dist": 0.8822
+    "state": "STABLE",
+    "S": 3.0228,
+    "F_info": 0.0017,
+    "I": 0.0116,
+    "phi_dist": 0.8682
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8822,
-    "avg_mag": 5.87,
-    "generated": "2026-05-30 03:32 UTC"
+    "phi_dist": 0.8682,
+    "avg_mag": 5.79,
+    "generated": "2026-05-31 03:59 UTC"
   },
   "total_days": 3575,
   "total_quakes": 17703,
   "ifsp": {
-    "value": 0.3166,
+    "value": 0.3123,
     "zone": "CAUTION",
-    "I_norm": 0.0419,
-    "F_norm": 0.0106,
-    "S_norm": 0.6321,
-    "phi_norm": 0.8822
+    "I_norm": 0.0491,
+    "F_norm": 0.0072,
+    "S_norm": 0.6251,
+    "phi_norm": 0.8682
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2994,
-      "max_ifsp_30d_before": 0.3072,
+      "avg_ifsp_30d_before": 0.2991,
+      "max_ifsp_30d_before": 0.3068,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2377,
+      "n": 2376,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1170,
+      "n": 1171,
       "mean": 0.3075,
       "std": 0.0095,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.98,
+    "t_stat": 14.982,
     "significance": "significant"
   }
 }
