@@ -289,10 +289,10 @@
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8784,
     "avg_mag": 5.85,
-    "generated": "2026-06-02 04:06 UTC"
+    "generated": "2026-06-03 04:16 UTC"
   },
-  "total_days": 3575,
-  "total_quakes": 17709,
+  "total_days": 3574,
+  "total_quakes": 17704,
   "ifsp": {
     "value": 0.3144,
     "zone": "CAUTION",
@@ -306,8 +306,8 @@
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2986,
-      "max_ifsp_30d_before": 0.3033,
+      "avg_ifsp_30d_before": 0.2984,
+      "max_ifsp_30d_before": 0.303,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2374,
+      "n": 2373,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.986,
+    "t_stat": 14.985,
     "significance": "significant"
   }
 }
