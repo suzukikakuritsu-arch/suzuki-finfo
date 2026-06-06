@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-04",
-      "mag": 6,
-      "state": "STABLE",
-      "S": 2.9446,
-      "F_info": -0.001,
-      "I": 0.0093,
-      "phi_dist": 0.8199
-    },
-    {
       "date": "2026-05-05",
       "mag": 5.8,
       "state": "STABLE",
@@ -218,57 +209,66 @@
     },
     {
       "date": "2026-05-29",
-      "mag": 5.3,
+      "mag": 5.2,
       "state": "EMERGENCE+",
-      "S": 3.0435,
-      "F_info": 0.0025,
-      "I": 0.0099,
-      "phi_dist": 0.881
+      "S": 3.0414,
+      "F_info": 0.003,
+      "I": 0.0104,
+      "phi_dist": 0.8797
     },
     {
       "date": "2026-05-30",
       "mag": 5.6,
       "state": "STABLE",
-      "S": 3.0207,
-      "F_info": 0.0017,
-      "I": 0.0116,
-      "phi_dist": 0.8669
+      "S": 3.0186,
+      "F_info": 0.0016,
+      "I": 0.012,
+      "phi_dist": 0.8656
     },
     {
       "date": "2026-05-31",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.0207,
+      "S": 3.0186,
       "F_info": -0.0002,
-      "I": 0.0114,
-      "phi_dist": 0.8669
+      "I": 0.0118,
+      "phi_dist": 0.8656
     },
     {
       "date": "2026-06-01",
       "mag": 6.2,
       "state": "STABLE",
-      "S": 3.0373,
+      "S": 3.0352,
       "F_info": 0.0009,
-      "I": 0.0123,
-      "phi_dist": 0.8771
+      "I": 0.0128,
+      "phi_dist": 0.8759
     },
     {
       "date": "2026-06-03",
       "mag": 5.7,
       "state": "STABLE",
-      "S": 3.0435,
+      "S": 3.0414,
       "F_info": -0.0008,
-      "I": 0.0115,
-      "phi_dist": 0.881
+      "I": 0.012,
+      "phi_dist": 0.8797
     },
     {
       "date": "2026-06-04",
       "mag": 5.2,
       "state": "STABLE",
-      "S": 3.0311,
+      "S": 3.029,
       "F_info": 0.001,
-      "I": 0.0125,
-      "phi_dist": 0.8733
+      "I": 0.013,
+      "phi_dist": 0.872
+    },
+    {
+      "date": "2026-06-05",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 3.0083,
+      "F_info": 0.0007,
+      "I": 0.0137,
+      "phi_dist": 0.8592
     }
   ],
   "state_pct": {
@@ -278,35 +278,35 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0311,
-    "F_info": 0.001,
-    "I": 0.0125,
-    "phi_dist": 0.8733
+    "S": 3.0083,
+    "F_info": 0.0007,
+    "I": 0.0137,
+    "phi_dist": 0.8592
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8733,
-    "avg_mag": 5.82,
-    "generated": "2026-06-05 03:55 UTC"
+    "phi_dist": 0.8592,
+    "avg_mag": 5.74,
+    "generated": "2026-06-06 03:37 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17701,
+  "total_quakes": 17702,
   "ifsp": {
-    "value": 0.3132,
+    "value": 0.3094,
     "zone": "CAUTION",
-    "I_norm": 0.053,
-    "F_norm": 0.0042,
-    "S_norm": 0.6276,
-    "phi_norm": 0.8733
+    "I_norm": 0.058,
+    "F_norm": 0.003,
+    "S_norm": 0.6206,
+    "phi_norm": 0.8592
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2982,
+      "avg_ifsp_30d_before": 0.2981,
       "max_ifsp_30d_before": 0.303,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,17 +14165,17 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2371,
+      "n": 2370,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
-      "p25": 0.3044,
+      "p25": 0.3045,
       "median": 0.3118,
       "p75": 0.3201,
       "max": 0.3587
     },
     "normal": {
-      "n": 1175,
+      "n": 1176,
       "mean": 0.3075,
       "std": 0.0095,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.989,
+    "t_stat": 14.991,
     "significance": "significant"
   }
 }
