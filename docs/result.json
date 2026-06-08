@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-06",
-      "mag": 5.8,
-      "state": "STABLE",
-      "S": 2.9551,
-      "F_info": 0.0006,
-      "I": 0.0096,
-      "phi_dist": 0.8263
-    },
-    {
       "date": "2026-05-07",
       "mag": 5.4,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0002,
       "I": 0.0135,
       "phi_dist": 0.8515
+    },
+    {
+      "date": "2026-06-07",
+      "mag": 7.8,
+      "state": "EMERGENCE+",
+      "S": 3.034,
+      "F_info": 0.0059,
+      "I": 0.0194,
+      "phi_dist": 0.8751
     }
   ],
   "state_pct": {
@@ -277,36 +277,36 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "STABLE",
-    "S": 2.9958,
-    "F_info": -0.0002,
-    "I": 0.0135,
-    "phi_dist": 0.8515
+    "state": "EMERGENCE+",
+    "S": 3.034,
+    "F_info": 0.0059,
+    "I": 0.0194,
+    "phi_dist": 0.8751
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8515,
-    "avg_mag": 5.7,
-    "generated": "2026-06-07 04:04 UTC"
+    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8751,
+    "avg_mag": 5.83,
+    "generated": "2026-06-08 04:08 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17701,
+  "total_quakes": 17709,
   "ifsp": {
-    "value": 0.3061,
+    "value": 0.3271,
     "zone": "CAUTION",
-    "I_norm": 0.0572,
-    "F_norm": 0.0008,
-    "S_norm": 0.6167,
-    "phi_norm": 0.8515
+    "I_norm": 0.0822,
+    "F_norm": 0.025,
+    "S_norm": 0.6285,
+    "phi_norm": 0.8751
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.298,
+      "avg_ifsp_30d_before": 0.2979,
       "max_ifsp_30d_before": 0.303,
       "danger_days_before": 0,
       "before_sample": [
@@ -14161,31 +14161,105 @@
           "state": "STABLE"
         }
       ]
+    },
+    {
+      "date": "2026-06-07",
+      "mag": 7.8,
+      "place": "26 km SW of Kablalan, Philippines",
+      "avg_ifsp_30d_before": 0.3068,
+      "max_ifsp_30d_before": 0.3171,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2026-05-30",
+          "ifsp": 0.3117,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0186,
+          "F_info": 0.0016
+        },
+        {
+          "date": "2026-05-31",
+          "ifsp": 0.309,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0186,
+          "F_info": -0.0002
+        },
+        {
+          "date": "2026-06-01",
+          "ifsp": 0.3139,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0352,
+          "F_info": 0.0009
+        },
+        {
+          "date": "2026-06-03",
+          "ifsp": 0.3143,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0414,
+          "F_info": -0.0008
+        },
+        {
+          "date": "2026-06-04",
+          "ifsp": 0.3131,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.029,
+          "F_info": 0.001
+        },
+        {
+          "date": "2026-06-05",
+          "ifsp": 0.3094,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0083,
+          "F_info": 0.0007
+        },
+        {
+          "date": "2026-06-06",
+          "ifsp": 0.3061,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9958,
+          "F_info": -0.0002
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2026-06-07",
+          "ifsp": 0.3271,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
+        }
+      ]
     }
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2369,
-      "mean": 0.3131,
+      "n": 2399,
+      "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
-      "p25": 0.3045,
+      "p25": 0.3044,
       "median": 0.3118,
-      "p75": 0.3201,
+      "p75": 0.32,
       "max": 0.3587
     },
     "normal": {
-      "n": 1177,
+      "n": 1147,
       "mean": 0.3075,
-      "std": 0.0095,
+      "std": 0.0096,
       "min": 0.2834,
       "p25": 0.3003,
       "median": 0.3074,
-      "p75": 0.3139,
+      "p75": 0.3141,
       "max": 0.3383
     },
-    "mean_diff": 0.0056,
-    "t_stat": 14.993,
+    "mean_diff": 0.0055,
+    "t_stat": 14.575,
     "significance": "significant"
   }
 }
