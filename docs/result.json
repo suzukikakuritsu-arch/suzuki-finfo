@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-07",
-      "mag": 5.4,
-      "state": "STABLE",
-      "S": 2.9592,
-      "F_info": 0.0002,
-      "I": 0.0097,
-      "phi_dist": 0.8289
-    },
-    {
       "date": "2026-05-08",
       "mag": 5.9,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0059,
       "I": 0.0194,
       "phi_dist": 0.8751
+    },
+    {
+      "date": "2026-06-08",
+      "mag": 6.5,
+      "state": "STABLE",
+      "S": 3.0546,
+      "F_info": 0.0008,
+      "I": 0.0202,
+      "phi_dist": 0.8878
     }
   ],
   "state_pct": {
@@ -277,29 +277,29 @@
     "EMERGENCE+": 4.3
   },
   "latest": {
-    "state": "EMERGENCE+",
-    "S": 3.034,
-    "F_info": 0.0059,
-    "I": 0.0194,
-    "phi_dist": 0.8751
+    "state": "STABLE",
+    "S": 3.0546,
+    "F_info": 0.0008,
+    "I": 0.0202,
+    "phi_dist": 0.8878
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8751,
-    "avg_mag": 5.83,
-    "generated": "2026-06-08 04:08 UTC"
+    "phi_dist": 0.8878,
+    "avg_mag": 5.9,
+    "generated": "2026-06-09 03:38 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17709,
+  "total_quakes": 17721,
   "ifsp": {
-    "value": 0.3271,
+    "value": 0.3222,
     "zone": "CAUTION",
-    "I_norm": 0.0822,
-    "F_norm": 0.025,
-    "S_norm": 0.6285,
-    "phi_norm": 0.8751
+    "I_norm": 0.0856,
+    "F_norm": 0.0034,
+    "S_norm": 0.6349,
+    "phi_norm": 0.8878
   },
   "big_quake_patterns": [
     {
@@ -14233,6 +14233,12 @@
           "ifsp": 0.3271,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
+        },
+        {
+          "date": "2026-06-08",
+          "ifsp": 0.3222,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
@@ -14243,7 +14249,7 @@
       "mean": 0.313,
       "std": 0.0122,
       "min": 0.2857,
-      "p25": 0.3044,
+      "p25": 0.3045,
       "median": 0.3118,
       "p75": 0.32,
       "max": 0.3587
