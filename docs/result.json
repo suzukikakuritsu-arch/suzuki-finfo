@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-08",
-      "mag": 5.9,
-      "state": "STABLE",
-      "S": 2.9634,
-      "F_info": -0.0009,
-      "I": 0.0088,
-      "phi_dist": 0.8315
-    },
-    {
       "date": "2026-05-09",
       "mag": 6.1,
       "state": "STABLE",
@@ -269,44 +260,53 @@
       "F_info": 0.0008,
       "I": 0.0202,
       "phi_dist": 0.8878
+    },
+    {
+      "date": "2026-06-09",
+      "mag": 5.4,
+      "state": "STABLE",
+      "S": 3.0236,
+      "F_info": 0.0005,
+      "I": 0.0208,
+      "phi_dist": 0.8687
     }
   ],
   "state_pct": {
-    "STABLE": 88.9,
     "REFLUX": 6.8,
+    "STABLE": 88.9,
     "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0546,
-    "F_info": 0.0008,
-    "I": 0.0202,
-    "phi_dist": 0.8878
+    "S": 3.0236,
+    "F_info": 0.0005,
+    "I": 0.0208,
+    "phi_dist": 0.8687
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8878,
-    "avg_mag": 5.9,
-    "generated": "2026-06-09 03:38 UTC"
+    "phi_dist": 0.8687,
+    "avg_mag": 5.79,
+    "generated": "2026-06-10 03:52 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17721,
+  "total_quakes": 17729,
   "ifsp": {
-    "value": 0.3222,
+    "value": 0.3166,
     "zone": "CAUTION",
-    "I_norm": 0.0856,
-    "F_norm": 0.0034,
-    "S_norm": 0.6349,
-    "phi_norm": 0.8878
+    "I_norm": 0.0881,
+    "F_norm": 0.0021,
+    "S_norm": 0.6253,
+    "phi_norm": 0.8687
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2979,
+      "avg_ifsp_30d_before": 0.2978,
       "max_ifsp_30d_before": 0.303,
       "danger_days_before": 0,
       "before_sample": [
@@ -14237,6 +14237,12 @@
         {
           "date": "2026-06-08",
           "ifsp": 0.3222,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-06-09",
+          "ifsp": 0.3166,
           "zone": "CAUTION",
           "state": "STABLE"
         }
