@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-16",
-      "mag": 6,
-      "state": "STABLE",
-      "S": 3.0153,
-      "F_info": -0.0,
-      "I": 0.01,
-      "phi_dist": 0.8636
-    },
-    {
       "date": "2026-05-17",
       "mag": 5.4,
       "state": "REFLUX",
@@ -269,44 +260,53 @@
       "F_info": -0.0009,
       "I": 0.0176,
       "phi_dist": 0.8738
+    },
+    {
+      "date": "2026-06-17",
+      "mag": 6.6,
+      "state": "STABLE",
+      "S": 3.0505,
+      "F_info": 0.0011,
+      "I": 0.0187,
+      "phi_dist": 0.8853
     }
   ],
   "state_pct": {
-    "REFLUX": 6.7,
     "STABLE": 88.9,
+    "REFLUX": 6.7,
     "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0319,
-    "F_info": -0.0009,
-    "I": 0.0176,
-    "phi_dist": 0.8738
+    "S": 3.0505,
+    "F_info": 0.0011,
+    "I": 0.0187,
+    "phi_dist": 0.8853
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8738,
-    "avg_mag": 5.82,
-    "generated": "2026-06-17 04:14 UTC"
+    "phi_dist": 0.8853,
+    "avg_mag": 5.89,
+    "generated": "2026-06-18 04:06 UTC"
   },
   "total_days": 3574,
   "total_quakes": 17741,
   "ifsp": {
-    "value": 0.3166,
+    "value": 0.321,
     "zone": "CAUTION",
-    "I_norm": 0.0746,
-    "F_norm": 0.0038,
-    "S_norm": 0.6279,
-    "phi_norm": 0.8738
+    "I_norm": 0.0792,
+    "F_norm": 0.0047,
+    "S_norm": 0.6336,
+    "phi_norm": 0.8853
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2969,
+      "avg_ifsp_30d_before": 0.2966,
       "max_ifsp_30d_before": 0.3003,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3057,
+      "avg_ifsp_30d_before": 0.306,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,7 +14165,7 @@
     {
       "date": "2026-06-07",
       "mag": 7.8,
-      "place": "26 km SW of Kablalan, Philippines",
+      "place": "24 km SW of Kablalan, Philippines",
       "avg_ifsp_30d_before": 0.307,
       "max_ifsp_30d_before": 0.3175,
       "danger_days_before": 0,
@@ -14275,7 +14275,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2396,
+      "n": 2395,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
@@ -14285,7 +14285,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1150,
+      "n": 1151,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
@@ -14295,7 +14295,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0055,
-    "t_stat": 14.582,
+    "t_stat": 14.584,
     "significance": "significant"
   }
 }
