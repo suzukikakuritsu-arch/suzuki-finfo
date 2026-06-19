@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-17",
-      "mag": 5.4,
-      "state": "REFLUX",
-      "S": 3.0215,
-      "F_info": -0.0025,
-      "I": 0.0075,
-      "phi_dist": 0.8674
-    },
-    {
       "date": "2026-05-18",
       "mag": 5.4,
       "state": "REFLUX",
@@ -269,44 +260,53 @@
       "F_info": 0.0011,
       "I": 0.0187,
       "phi_dist": 0.8853
+    },
+    {
+      "date": "2026-06-18",
+      "mag": 5.4,
+      "state": "STABLE",
+      "S": 3.0546,
+      "F_info": -0.0007,
+      "I": 0.018,
+      "phi_dist": 0.8878
     }
   ],
   "state_pct": {
-    "STABLE": 88.9,
     "REFLUX": 6.7,
+    "STABLE": 88.9,
     "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0505,
-    "F_info": 0.0011,
-    "I": 0.0187,
-    "phi_dist": 0.8853
+    "S": 3.0546,
+    "F_info": -0.0007,
+    "I": 0.018,
+    "phi_dist": 0.8878
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8853,
-    "avg_mag": 5.89,
-    "generated": "2026-06-18 04:06 UTC"
+    "phi_dist": 0.8878,
+    "avg_mag": 5.9,
+    "generated": "2026-06-19 04:24 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17741,
+  "total_quakes": 17744,
   "ifsp": {
-    "value": 0.321,
+    "value": 0.3206,
     "zone": "CAUTION",
-    "I_norm": 0.0792,
-    "F_norm": 0.0047,
-    "S_norm": 0.6336,
-    "phi_norm": 0.8853
+    "I_norm": 0.0762,
+    "F_norm": 0.003,
+    "S_norm": 0.6349,
+    "phi_norm": 0.8878
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2966,
+      "avg_ifsp_30d_before": 0.2967,
       "max_ifsp_30d_before": 0.3003,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.306,
+      "avg_ifsp_30d_before": 0.3064,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -14275,17 +14275,17 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2395,
+      "n": 2394,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
       "p25": 0.3046,
-      "median": 0.3118,
+      "median": 0.3119,
       "p75": 0.32,
       "max": 0.3587
     },
     "normal": {
-      "n": 1151,
+      "n": 1152,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
@@ -14295,7 +14295,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0055,
-    "t_stat": 14.584,
+    "t_stat": 14.587,
     "significance": "significant"
   }
 }
