@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-22",
-      "mag": 5.9,
-      "state": "STABLE",
-      "S": 3.036,
-      "F_info": 0.0001,
-      "I": 0.0047,
-      "phi_dist": 0.8764
-    },
-    {
       "date": "2026-05-23",
       "mag": 6.0,
       "state": "STABLE",
@@ -263,12 +254,21 @@
     },
     {
       "date": "2026-06-21",
-      "mag": 5,
+      "mag": 5.4,
       "state": "EMERGENCE+",
-      "S": 3.0278,
-      "F_info": 0.011,
-      "I": 0.0266,
-      "phi_dist": 0.8713
+      "S": 3.036,
+      "F_info": 0.0069,
+      "I": 0.0224,
+      "phi_dist": 0.8764
+    },
+    {
+      "date": "2026-06-22",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 3.0091,
+      "F_info": 0.0006,
+      "I": 0.023,
+      "phi_dist": 0.8597
     }
   ],
   "state_pct": {
@@ -277,47 +277,39 @@
     "REFLUX": 6.7
   },
   "latest": {
-    "state": "EMERGENCE+",
-    "S": 3.0278,
-    "F_info": 0.011,
-    "I": 0.0266,
-    "phi_dist": 0.8713
+    "state": "STABLE",
+    "S": 3.0091,
+    "F_info": 0.0006,
+    "I": 0.023,
+    "phi_dist": 0.8597
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8713,
-    "avg_mag": 5.81,
-    "generated": "2026-06-22 04:22 UTC"
+    "phi_dist": 0.8597,
+    "avg_mag": 5.74,
+    "generated": "2026-06-23 03:40 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17739,
+  "total_quakes": 17740,
   "ifsp": {
-    "value": 0.3399,
+    "value": 0.3156,
     "zone": "CAUTION",
-    "I_norm": 0.1127,
-    "F_norm": 0.0466,
-    "S_norm": 0.6266,
-    "phi_norm": 0.8713
+    "I_norm": 0.0974,
+    "F_norm": 0.0025,
+    "S_norm": 0.6208,
+    "phi_norm": 0.8597
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2963,
+      "avg_ifsp_30d_before": 0.2961,
       "max_ifsp_30d_before": 0.2974,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-07-23",
-          "ifsp": 0.2974,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9821,
-          "F_info": 0.0002
-        },
         {
           "date": "2016-07-24",
           "ifsp": 0.2961,
@@ -408,7 +400,7 @@
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3077,
+      "avg_ifsp_30d_before": 0.3083,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -518,7 +510,7 @@
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.3049,
+      "avg_ifsp_30d_before": 0.3052,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -14047,7 +14039,7 @@
     {
       "date": "2026-04-20",
       "mag": 7.4,
-      "place": "97 km ENE of Miyako, Japan",
+      "place": "102 km ENE of Miyako, Japan",
       "avg_ifsp_30d_before": 0.3259,
       "max_ifsp_30d_before": 0.3475,
       "danger_days_before": 0,
@@ -14267,7 +14259,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2391,
+      "n": 2390,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
@@ -14277,17 +14269,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1155,
+      "n": 1156,
       "mean": 0.3076,
-      "std": 0.0097,
+      "std": 0.0096,
       "min": 0.2834,
-      "p25": 0.3003,
+      "p25": 0.3004,
       "median": 0.3075,
       "p75": 0.3143,
-      "max": 0.3399
+      "max": 0.3383
     },
     "mean_diff": 0.0055,
-    "t_stat": 14.508,
+    "t_stat": 14.596,
     "significance": "significant"
   }
 }
