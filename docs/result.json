@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-23",
-      "mag": 6.0,
-      "state": "STABLE",
-      "S": 3.0373,
-      "F_info": 0.0001,
-      "I": 0.0048,
-      "phi_dist": 0.8771
-    },
-    {
       "date": "2026-05-24",
       "mag": 5.5,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0006,
       "I": 0.023,
       "phi_dist": 0.8597
+    },
+    {
+      "date": "2026-06-23",
+      "mag": 5.3,
+      "state": "STABLE",
+      "S": 3.007,
+      "F_info": -0.0032,
+      "I": 0.0199,
+      "phi_dist": 0.8585
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0091,
-    "F_info": 0.0006,
-    "I": 0.023,
-    "phi_dist": 0.8597
+    "S": 3.007,
+    "F_info": -0.0032,
+    "I": 0.0199,
+    "phi_dist": 0.8585
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8597,
+    "phi_dist": 0.8585,
     "avg_mag": 5.74,
-    "generated": "2026-06-23 03:40 UTC"
+    "generated": "2026-06-24 03:41 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17740,
+  "total_quakes": 17742,
   "ifsp": {
-    "value": 0.3156,
+    "value": 0.3178,
     "zone": "CAUTION",
-    "I_norm": 0.0974,
-    "F_norm": 0.0025,
-    "S_norm": 0.6208,
-    "phi_norm": 0.8597
+    "I_norm": 0.0843,
+    "F_norm": 0.0136,
+    "S_norm": 0.6202,
+    "phi_norm": 0.8585
   },
   "big_quake_patterns": [
     {
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.2961,
+      "avg_ifsp_30d_before": 0.296,
       "max_ifsp_30d_before": 0.2974,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-07-24",
-          "ifsp": 0.2961,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9759,
-          "F_info": -0.0002
-        },
         {
           "date": "2016-07-25",
           "ifsp": 0.2961,
@@ -400,7 +392,7 @@
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3083,
+      "avg_ifsp_30d_before": 0.309,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -510,7 +502,7 @@
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.3052,
+      "avg_ifsp_30d_before": 0.3056,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -14259,7 +14251,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2390,
+      "n": 2389,
       "mean": 0.3131,
       "std": 0.0122,
       "min": 0.2857,
@@ -14269,8 +14261,8 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1156,
-      "mean": 0.3076,
+      "n": 1157,
+      "mean": 0.3077,
       "std": 0.0096,
       "min": 0.2834,
       "p25": 0.3004,
@@ -14278,8 +14270,8 @@
       "p75": 0.3143,
       "max": 0.3383
     },
-    "mean_diff": 0.0055,
-    "t_stat": 14.596,
+    "mean_diff": 0.0054,
+    "t_stat": 14.332,
     "significance": "significant"
   }
 }
