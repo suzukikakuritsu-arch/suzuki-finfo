@@ -1,20 +1,11 @@
 {
   "recent": [
     {
-      "date": "2026-05-24",
-      "mag": 5.5,
-      "state": "STABLE",
-      "S": 3.0249,
-      "F_info": 0.0011,
-      "I": 0.0059,
-      "phi_dist": 0.8695
-    },
-    {
       "date": "2026-05-25",
       "mag": 6.9,
       "state": "STABLE",
       "S": 3.0538,
-      "F_info": 0.0017,
+      "F_info": 0.0016,
       "I": 0.0075,
       "phi_dist": 0.8873
     },
@@ -24,7 +15,7 @@
       "state": "STABLE",
       "S": 3.0579,
       "F_info": -0.0001,
-      "I": 0.0075,
+      "I": 0.0074,
       "phi_dist": 0.8899
     },
     {
@@ -41,7 +32,7 @@
       "mag": 5.3,
       "state": "STABLE",
       "S": 3.0641,
-      "F_info": 0.0,
+      "F_info": -0.0,
       "I": 0.0073,
       "phi_dist": 0.8937
     },
@@ -50,8 +41,8 @@
       "mag": 5.2,
       "state": "EMERGENCE+",
       "S": 3.0435,
-      "F_info": 0.003,
-      "I": 0.0104,
+      "F_info": 0.0031,
+      "I": 0.0103,
       "phi_dist": 0.881
     },
     {
@@ -60,7 +51,7 @@
       "state": "STABLE",
       "S": 3.0207,
       "F_info": 0.0017,
-      "I": 0.012,
+      "I": 0.0121,
       "phi_dist": 0.8669
     },
     {
@@ -68,7 +59,7 @@
       "mag": 6,
       "state": "STABLE",
       "S": 3.0207,
-      "F_info": -0.0002,
+      "F_info": -0.0001,
       "I": 0.0119,
       "phi_dist": 0.8669
     },
@@ -114,7 +105,7 @@
       "state": "STABLE",
       "S": 2.9979,
       "F_info": -0.0002,
-      "I": 0.0136,
+      "I": 0.0137,
       "phi_dist": 0.8528
     },
     {
@@ -122,7 +113,7 @@
       "mag": 7.8,
       "state": "EMERGENCE+",
       "S": 3.036,
-      "F_info": 0.0059,
+      "F_info": 0.0058,
       "I": 0.0195,
       "phi_dist": 0.8764
     },
@@ -269,6 +260,15 @@
       "F_info": -0.0032,
       "I": 0.0199,
       "phi_dist": 0.8585
+    },
+    {
+      "date": "2026-06-24",
+      "mag": 7.5,
+      "state": "STABLE",
+      "S": 3.0381,
+      "F_info": 0.0029,
+      "I": 0.0228,
+      "phi_dist": 0.8776
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.007,
-    "F_info": -0.0032,
-    "I": 0.0199,
-    "phi_dist": 0.8585
+    "S": 3.0381,
+    "F_info": 0.0029,
+    "I": 0.0228,
+    "phi_dist": 0.8776
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8585,
-    "avg_mag": 5.74,
-    "generated": "2026-06-24 03:41 UTC"
+    "phi_dist": 0.8776,
+    "avg_mag": 5.84,
+    "generated": "2026-06-25 03:40 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17742,
+  "total_quakes": 17743,
   "ifsp": {
-    "value": 0.3178,
+    "value": 0.3248,
     "zone": "CAUTION",
-    "I_norm": 0.0843,
-    "F_norm": 0.0136,
-    "S_norm": 0.6202,
-    "phi_norm": 0.8585
+    "I_norm": 0.0966,
+    "F_norm": 0.0123,
+    "S_norm": 0.6298,
+    "phi_norm": 0.8776
   },
   "big_quake_patterns": [
     {
@@ -310,14 +310,6 @@
       "max_ifsp_30d_before": 0.2974,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-07-25",
-          "ifsp": 0.2961,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.978,
-          "F_info": -0.0
-        },
         {
           "date": "2016-07-26",
           "ifsp": 0.2974,
@@ -392,7 +384,7 @@
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.309,
+      "avg_ifsp_30d_before": 0.3097,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -502,7 +494,7 @@
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.3056,
+      "avg_ifsp_30d_before": 0.306,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -14142,13 +14134,13 @@
       "date": "2026-06-07",
       "mag": 7.8,
       "place": "24 km SW of Kablalan, Philippines",
-      "avg_ifsp_30d_before": 0.307,
-      "max_ifsp_30d_before": 0.3175,
+      "avg_ifsp_30d_before": 0.3068,
+      "max_ifsp_30d_before": 0.3176,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-05-30",
-          "ifsp": 0.3122,
+          "ifsp": 0.3123,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0207,
@@ -14156,11 +14148,11 @@
         },
         {
           "date": "2026-05-31",
-          "ifsp": 0.3095,
+          "ifsp": 0.3093,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 3.0207,
-          "F_info": -0.0002
+          "F_info": -0.0001
         },
         {
           "date": "2026-06-01",
@@ -14196,7 +14188,7 @@
         },
         {
           "date": "2026-06-06",
-          "ifsp": 0.3065,
+          "ifsp": 0.3066,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9979,
@@ -14206,7 +14198,7 @@
       "after_sample": [
         {
           "date": "2026-06-07",
-          "ifsp": 0.3275,
+          "ifsp": 0.3273,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
         },
@@ -14247,31 +14239,105 @@
           "state": "STABLE"
         }
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "mag": 7.5,
+      "place": "28 km SE of Yumare, Venezuela",
+      "avg_ifsp_30d_before": 0.3167,
+      "max_ifsp_30d_before": 0.3313,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2026-06-17",
+          "ifsp": 0.321,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0505,
+          "F_info": 0.0011
+        },
+        {
+          "date": "2026-06-18",
+          "ifsp": 0.3206,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0546,
+          "F_info": -0.0007
+        },
+        {
+          "date": "2026-06-19",
+          "ifsp": 0.3242,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0752,
+          "F_info": -0.0011
+        },
+        {
+          "date": "2026-06-20",
+          "ifsp": 0.3255,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0854,
+          "F_info": -0.0013
+        },
+        {
+          "date": "2026-06-21",
+          "ifsp": 0.3313,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.036,
+          "F_info": 0.0069
+        },
+        {
+          "date": "2026-06-22",
+          "ifsp": 0.3156,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.0091,
+          "F_info": 0.0006
+        },
+        {
+          "date": "2026-06-23",
+          "ifsp": 0.3178,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 3.007,
+          "F_info": -0.0032
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2026-06-24",
+          "ifsp": 0.3248,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
     }
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2389,
-      "mean": 0.3131,
-      "std": 0.0122,
+      "n": 2399,
+      "mean": 0.3132,
+      "std": 0.0121,
       "min": 0.2857,
-      "p25": 0.3046,
-      "median": 0.3119,
-      "p75": 0.32,
+      "p25": 0.3047,
+      "median": 0.3121,
+      "p75": 0.3201,
       "max": 0.3587
     },
     "normal": {
-      "n": 1157,
-      "mean": 0.3077,
+      "n": 1147,
+      "mean": 0.3075,
       "std": 0.0096,
       "min": 0.2834,
-      "p25": 0.3004,
-      "median": 0.3075,
-      "p75": 0.3143,
+      "p25": 0.3003,
+      "median": 0.3074,
+      "p75": 0.3141,
       "max": 0.3383
     },
-    "mean_diff": 0.0054,
-    "t_stat": 14.332,
+    "mean_diff": 0.0057,
+    "t_stat": 15.159,
     "significance": "significant"
   }
 }
