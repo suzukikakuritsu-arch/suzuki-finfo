@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-25",
-      "mag": 6.9,
-      "state": "STABLE",
-      "S": 3.0538,
-      "F_info": 0.0016,
-      "I": 0.0075,
-      "phi_dist": 0.8873
-    },
-    {
       "date": "2026-05-26",
       "mag": 5.4,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0029,
       "I": 0.0228,
       "phi_dist": 0.8776
+    },
+    {
+      "date": "2026-06-25",
+      "mag": 5.5,
+      "state": "STABLE",
+      "S": 3.0381,
+      "F_info": -0.0004,
+      "I": 0.0224,
+      "phi_dist": 0.8776
     }
   ],
   "state_pct": {
@@ -279,8 +279,8 @@
   "latest": {
     "state": "STABLE",
     "S": 3.0381,
-    "F_info": 0.0029,
-    "I": 0.0228,
+    "F_info": -0.0004,
+    "I": 0.0224,
     "phi_dist": 0.8776
   },
   "prediction": {
@@ -289,15 +289,15 @@
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8776,
     "avg_mag": 5.84,
-    "generated": "2026-06-25 03:40 UTC"
+    "generated": "2026-06-26 03:51 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17743,
+  "total_quakes": 17741,
   "ifsp": {
-    "value": 0.3248,
+    "value": 0.3201,
     "zone": "CAUTION",
-    "I_norm": 0.0966,
-    "F_norm": 0.0123,
+    "I_norm": 0.0949,
+    "F_norm": 0.0017,
     "S_norm": 0.6298,
     "phi_norm": 0.8776
   },
@@ -306,18 +306,10 @@
       "date": "2016-07-29",
       "mag": 7.7,
       "place": "Pagan region, Northern Mariana Islands",
-      "avg_ifsp_30d_before": 0.296,
-      "max_ifsp_30d_before": 0.2974,
+      "avg_ifsp_30d_before": 0.2954,
+      "max_ifsp_30d_before": 0.2959,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-07-26",
-          "ifsp": 0.2974,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9842,
-          "F_info": 0.0001
-        },
         {
           "date": "2016-07-27",
           "ifsp": 0.2959,
@@ -384,7 +376,7 @@
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3097,
+      "avg_ifsp_30d_before": 0.3105,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -494,7 +486,7 @@
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.306,
+      "avg_ifsp_30d_before": 0.3064,
       "max_ifsp_30d_before": 0.32,
       "danger_days_before": 0,
       "before_sample": [
@@ -14309,6 +14301,12 @@
         {
           "date": "2026-06-24",
           "ifsp": 0.3248,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-06-25",
+          "ifsp": 0.3201,
           "zone": "CAUTION",
           "state": "STABLE"
         }
