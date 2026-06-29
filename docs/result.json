@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-05-28",
-      "mag": 5.3,
-      "state": "STABLE",
-      "S": 3.0641,
-      "F_info": -0.0,
-      "I": 0.0073,
-      "phi_dist": 0.8937
-    },
-    {
       "date": "2026-05-29",
       "mag": 5.2,
       "state": "EMERGENCE+",
@@ -269,45 +260,54 @@
       "F_info": 0.0009,
       "I": 0.0261,
       "phi_dist": 0.9044
+    },
+    {
+      "date": "2026-06-28",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 3.0834,
+      "F_info": -0.0008,
+      "I": 0.0252,
+      "phi_dist": 0.9056
     }
   ],
   "state_pct": {
-    "EMERGENCE+": 4.4,
-    "STABLE": 88.9,
-    "REFLUX": 6.7
+    "STABLE": 89.0,
+    "REFLUX": 6.7,
+    "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0813,
-    "F_info": 0.0009,
-    "I": 0.0261,
-    "phi_dist": 0.9044
+    "S": 3.0834,
+    "F_info": -0.0008,
+    "I": 0.0252,
+    "phi_dist": 0.9056
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9044,
-    "avg_mag": 5.99,
-    "generated": "2026-06-28 03:57 UTC"
+    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9056,
+    "avg_mag": 6.0,
+    "generated": "2026-06-29 04:03 UTC"
   },
   "total_days": 3574,
-  "total_quakes": 17742,
+  "total_quakes": 17743,
   "ifsp": {
-    "value": 0.3312,
+    "value": 0.3308,
     "zone": "CAUTION",
-    "I_norm": 0.1106,
-    "F_norm": 0.0038,
-    "S_norm": 0.6432,
-    "phi_norm": 0.9044
+    "I_norm": 0.1067,
+    "F_norm": 0.0034,
+    "S_norm": 0.6438,
+    "phi_norm": 0.9056
   },
   "big_quake_patterns": [
     {
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3126,
-      "max_ifsp_30d_before": 0.32,
+      "avg_ifsp_30d_before": 0.3121,
+      "max_ifsp_30d_before": 0.3171,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -416,8 +416,8 @@
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.3074,
-      "max_ifsp_30d_before": 0.32,
+      "avg_ifsp_30d_before": 0.3068,
+      "max_ifsp_30d_before": 0.3171,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14249,6 +14249,12 @@
         {
           "date": "2026-06-27",
           "ifsp": 0.3312,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-06-28",
+          "ifsp": 0.3308,
           "zone": "CAUTION",
           "state": "STABLE"
         }
