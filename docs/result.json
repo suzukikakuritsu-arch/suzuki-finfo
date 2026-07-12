@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-06-11",
-      "mag": 5.5,
-      "state": "STABLE",
-      "S": 3.0236,
-      "F_info": -0.0,
-      "I": 0.0223,
-      "phi_dist": 0.8687
-    },
-    {
       "date": "2026-06-12",
       "mag": 5.2,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0011,
       "I": 0.0145,
       "phi_dist": 0.8392
+    },
+    {
+      "date": "2026-07-11",
+      "mag": 6.4,
+      "state": "STABLE",
+      "S": 2.9821,
+      "F_info": -0.0023,
+      "I": 0.0121,
+      "phi_dist": 0.8431
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9759,
-    "F_info": -0.0011,
-    "I": 0.0145,
-    "phi_dist": 0.8392
+    "S": 2.9821,
+    "F_info": -0.0023,
+    "I": 0.0121,
+    "phi_dist": 0.8431
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8392,
-    "avg_mag": 5.63,
-    "generated": "2026-07-11 02:43 UTC"
+    "phi_dist": 0.8431,
+    "avg_mag": 5.65,
+    "generated": "2026-07-12 02:51 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17770,
+  "total_quakes": 17766,
   "ifsp": {
-    "value": 0.3048,
+    "value": 0.3064,
     "zone": "CAUTION",
-    "I_norm": 0.0614,
-    "F_norm": 0.0047,
-    "S_norm": 0.6106,
-    "phi_norm": 0.8392
+    "I_norm": 0.0513,
+    "F_norm": 0.0097,
+    "S_norm": 0.6125,
+    "phi_norm": 0.8431
   },
   "big_quake_patterns": [
     {
       "date": "2016-08-12",
       "mag": 7.2,
       "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3061,
-      "max_ifsp_30d_before": 0.3069,
+      "avg_ifsp_30d_before": 0.3052,
+      "max_ifsp_30d_before": 0.3052,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-08-10",
-          "ifsp": 0.3069,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9634,
-          "F_info": 0.0008
-        },
         {
           "date": "2016-08-11",
           "ifsp": 0.3052,
@@ -376,7 +368,7 @@
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.299,
+      "avg_ifsp_30d_before": 0.298,
       "max_ifsp_30d_before": 0.313,
       "danger_days_before": 0,
       "before_sample": [
@@ -486,7 +478,7 @@
       "date": "2016-08-29",
       "mag": 7.1,
       "place": "north of Ascension Island",
-      "avg_ifsp_30d_before": 0.3095,
+      "avg_ifsp_30d_before": 0.3097,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -596,7 +588,7 @@
       "date": "2016-09-01",
       "mag": 7,
       "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3125,
+      "avg_ifsp_30d_before": 0.3128,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -14235,7 +14227,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2390,
+      "n": 2389,
       "mean": 0.3132,
       "std": 0.0122,
       "min": 0.2857,
@@ -14245,7 +14237,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1157,
+      "n": 1158,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
@@ -14255,7 +14247,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.864,
+    "t_stat": 14.867,
     "significance": "significant"
   }
 }
