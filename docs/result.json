@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-06-12",
-      "mag": 5.2,
-      "state": "STABLE",
-      "S": 3.0215,
-      "F_info": -0.0,
-      "I": 0.0223,
-      "phi_dist": 0.8674
-    },
-    {
       "date": "2026-06-13",
       "mag": 5.2,
       "state": "STABLE",
@@ -269,106 +260,53 @@
       "F_info": -0.0023,
       "I": 0.0121,
       "phi_dist": 0.8431
+    },
+    {
+      "date": "2026-07-12",
+      "mag": 5.5,
+      "state": "STABLE",
+      "S": 2.9884,
+      "F_info": 0.0004,
+      "I": 0.0125,
+      "phi_dist": 0.8469
     }
   ],
   "state_pct": {
-    "STABLE": 88.9,
     "REFLUX": 6.7,
+    "STABLE": 88.9,
     "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9821,
-    "F_info": -0.0023,
-    "I": 0.0121,
-    "phi_dist": 0.8431
+    "S": 2.9884,
+    "F_info": 0.0004,
+    "I": 0.0125,
+    "phi_dist": 0.8469
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8431,
-    "avg_mag": 5.65,
-    "generated": "2026-07-12 02:51 UTC"
+    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8469,
+    "avg_mag": 5.67,
+    "generated": "2026-07-13 02:53 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17766,
+  "total_quakes": 17764,
   "ifsp": {
-    "value": 0.3064,
+    "value": 0.3044,
     "zone": "CAUTION",
-    "I_norm": 0.0513,
-    "F_norm": 0.0097,
-    "S_norm": 0.6125,
-    "phi_norm": 0.8431
+    "I_norm": 0.053,
+    "F_norm": 0.0017,
+    "S_norm": 0.6144,
+    "phi_norm": 0.8469
   },
   "big_quake_patterns": [
-    {
-      "date": "2016-08-12",
-      "mag": 7.2,
-      "place": "southeast of the Loyalty Islands",
-      "avg_ifsp_30d_before": 0.3052,
-      "max_ifsp_30d_before": 0.3052,
-      "danger_days_before": 0,
-      "before_sample": [
-        {
-          "date": "2016-08-11",
-          "ifsp": 0.3052,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9613,
-          "F_info": -0.0001
-        }
-      ],
-      "after_sample": [
-        {
-          "date": "2016-08-12",
-          "ifsp": 0.313,
-          "zone": "CAUTION",
-          "state": "REFLUX"
-        },
-        {
-          "date": "2016-08-13",
-          "ifsp": 0.2969,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-08-14",
-          "ifsp": 0.2956,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-08-15",
-          "ifsp": 0.2942,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-08-16",
-          "ifsp": 0.2919,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-08-17",
-          "ifsp": 0.2929,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-08-18",
-          "ifsp": 0.2943,
-          "zone": "CAUTION",
-          "state": "REFLUX"
-        }
-      ]
-    },
     {
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.298,
+      "avg_ifsp_30d_before": 0.297,
       "max_ifsp_30d_before": 0.313,
       "danger_days_before": 0,
       "before_sample": [
@@ -478,7 +416,7 @@
       "date": "2016-08-29",
       "mag": 7.1,
       "place": "north of Ascension Island",
-      "avg_ifsp_30d_before": 0.3097,
+      "avg_ifsp_30d_before": 0.3099,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -588,7 +526,7 @@
       "date": "2016-09-01",
       "mag": 7,
       "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3128,
+      "avg_ifsp_30d_before": 0.3132,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -14227,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2389,
+      "n": 2388,
       "mean": 0.3132,
       "std": 0.0122,
       "min": 0.2857,
@@ -14237,17 +14175,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1158,
+      "n": 1159,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
       "p25": 0.3004,
-      "median": 0.3075,
+      "median": 0.3074,
       "p75": 0.3142,
       "max": 0.3383
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.867,
+    "t_stat": 14.869,
     "significance": "significant"
   }
 }
