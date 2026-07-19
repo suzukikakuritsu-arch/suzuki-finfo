@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-06-18",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 3.0525,
-      "F_info": -0.0005,
-      "I": 0.0193,
-      "phi_dist": 0.8866
-    },
-    {
       "date": "2026-06-19",
       "mag": 6.6,
       "state": "STABLE",
@@ -269,55 +260,56 @@
       "F_info": 0.0018,
       "I": 0.0172,
       "phi_dist": 0.8802
+    },
+    {
+      "date": "2026-07-18",
+      "mag": 5.7,
+      "state": "STABLE",
+      "S": 3.0525,
+      "F_info": -0.0005,
+      "I": 0.0168,
+      "phi_dist": 0.8866
     }
   ],
   "state_pct": {
-    "STABLE": 89.0,
     "REFLUX": 6.7,
-    "EMERGENCE+": 4.3
+    "EMERGENCE+": 4.3,
+    "STABLE": 89.0
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0422,
-    "F_info": 0.0018,
-    "I": 0.0172,
-    "phi_dist": 0.8802
+    "S": 3.0525,
+    "F_info": -0.0005,
+    "I": 0.0168,
+    "phi_dist": 0.8866
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8802,
-    "avg_mag": 5.86,
-    "generated": "2026-07-18 02:33 UTC"
+    "phi_dist": 0.8866,
+    "avg_mag": 5.89,
+    "generated": "2026-07-19 02:48 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17792,
+  "total_quakes": 17794,
   "ifsp": {
-    "value": 0.3198,
+    "value": 0.319,
     "zone": "CAUTION",
-    "I_norm": 0.0729,
-    "F_norm": 0.0076,
-    "S_norm": 0.6311,
-    "phi_norm": 0.8802
+    "I_norm": 0.0712,
+    "F_norm": 0.0021,
+    "S_norm": 0.6343,
+    "phi_norm": 0.8866
   },
   "big_quake_patterns": [
     {
       "date": "2016-08-19",
       "mag": 7.4,
       "place": "South Georgia Island region",
-      "avg_ifsp_30d_before": 0.2936,
+      "avg_ifsp_30d_before": 0.2943,
       "max_ifsp_30d_before": 0.2943,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-08-17",
-          "ifsp": 0.2929,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 2.9363,
-          "F_info": -0.0006
-        },
         {
           "date": "2016-08-18",
           "ifsp": 0.2943,
@@ -376,7 +368,7 @@
       "date": "2016-08-29",
       "mag": 7.1,
       "place": "north of Ascension Island",
-      "avg_ifsp_30d_before": 0.3148,
+      "avg_ifsp_30d_before": 0.3167,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -486,7 +478,7 @@
       "date": "2016-09-01",
       "mag": 7,
       "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3181,
+      "avg_ifsp_30d_before": 0.3199,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -14191,6 +14183,12 @@
         {
           "date": "2026-07-17",
           "ifsp": 0.3198,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-07-18",
+          "ifsp": 0.319,
           "zone": "CAUTION",
           "state": "STABLE"
         }
