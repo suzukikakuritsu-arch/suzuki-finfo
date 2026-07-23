@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-06-22",
-      "mag": 5.1,
-      "state": "STABLE",
-      "S": 3.007,
-      "F_info": 0.0011,
-      "I": 0.0248,
-      "phi_dist": 0.8585
-    },
-    {
       "date": "2026-06-23",
       "mag": 5.3,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0005,
       "I": 0.0157,
       "phi_dist": 0.8776
+    },
+    {
+      "date": "2026-07-22",
+      "mag": 5.1,
+      "state": "REFLUX",
+      "S": 3.0236,
+      "F_info": -0.0037,
+      "I": 0.012,
+      "phi_dist": 0.8687
     }
   ],
   "state_pct": {
@@ -277,36 +277,36 @@
     "REFLUX": 6.7
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.0381,
-    "F_info": -0.0005,
-    "I": 0.0157,
-    "phi_dist": 0.8776
+    "state": "REFLUX",
+    "S": 3.0236,
+    "F_info": -0.0037,
+    "I": 0.012,
+    "phi_dist": 0.8687
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8776,
-    "avg_mag": 5.84,
-    "generated": "2026-07-22 02:43 UTC"
+    "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8687,
+    "avg_mag": 5.79,
+    "generated": "2026-07-23 02:49 UTC"
   },
   "total_days": 3575,
   "total_quakes": 17800,
   "ifsp": {
-    "value": 0.3157,
+    "value": 0.3163,
     "zone": "CAUTION",
-    "I_norm": 0.0665,
-    "F_norm": 0.0021,
-    "S_norm": 0.6298,
-    "phi_norm": 0.8776
+    "I_norm": 0.0508,
+    "F_norm": 0.0157,
+    "S_norm": 0.6253,
+    "phi_norm": 0.8687
   },
   "big_quake_patterns": [
     {
       "date": "2016-08-29",
       "mag": 7.1,
       "place": "north of Ascension Island",
-      "avg_ifsp_30d_before": 0.321,
+      "avg_ifsp_30d_before": 0.3222,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-09-01",
       "mag": 7,
       "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3239,
+      "avg_ifsp_30d_before": 0.325,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
@@ -14147,6 +14147,12 @@
           "ifsp": 0.3157,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-07-22",
+          "ifsp": 0.3163,
+          "zone": "CAUTION",
+          "state": "REFLUX"
         }
       ]
     }
