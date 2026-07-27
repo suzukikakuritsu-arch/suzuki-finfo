@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-06-26",
-      "mag": 6.5,
-      "state": "STABLE",
-      "S": 3.0628,
-      "F_info": 0.0025,
-      "I": 0.0259,
-      "phi_dist": 0.8929
-    },
-    {
       "date": "2026-06-27",
       "mag": 6.1,
       "state": "STABLE",
@@ -269,55 +260,56 @@
       "F_info": 0.0048,
       "I": 0.0128,
       "phi_dist": 0.8751
+    },
+    {
+      "date": "2026-07-26",
+      "mag": 5.8,
+      "state": "STABLE",
+      "S": 3.0381,
+      "F_info": -0.0002,
+      "I": 0.0126,
+      "phi_dist": 0.8776
     }
   ],
   "state_pct": {
-    "STABLE": 88.9,
     "EMERGENCE+": 4.3,
+    "STABLE": 88.9,
     "REFLUX": 6.7
   },
   "latest": {
-    "state": "EMERGENCE+",
-    "S": 3.034,
-    "F_info": 0.0048,
-    "I": 0.0128,
-    "phi_dist": 0.8751
+    "state": "STABLE",
+    "S": 3.0381,
+    "F_info": -0.0002,
+    "I": 0.0126,
+    "phi_dist": 0.8776
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=2 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8751,
-    "avg_mag": 5.83,
-    "generated": "2026-07-26 02:51 UTC"
+    "phi_dist": 0.8776,
+    "avg_mag": 5.84,
+    "generated": "2026-07-27 03:16 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17801,
+  "total_quakes": 17805,
   "ifsp": {
-    "value": 0.3206,
+    "value": 0.3131,
     "zone": "CAUTION",
-    "I_norm": 0.0542,
-    "F_norm": 0.0203,
-    "S_norm": 0.6285,
-    "phi_norm": 0.8751
+    "I_norm": 0.0534,
+    "F_norm": 0.0008,
+    "S_norm": 0.6298,
+    "phi_norm": 0.8776
   },
   "big_quake_patterns": [
     {
       "date": "2016-08-29",
       "mag": 7.1,
       "place": "north of Ascension Island",
-      "avg_ifsp_30d_before": 0.3265,
+      "avg_ifsp_30d_before": 0.3278,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-08-25",
-          "ifsp": 0.3228,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0854,
-          "F_info": 0.0001
-        },
         {
           "date": "2016-08-26",
           "ifsp": 0.3386,
@@ -392,18 +384,10 @@
       "date": "2016-09-01",
       "mag": 7,
       "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3287,
+      "avg_ifsp_30d_before": 0.3297,
       "max_ifsp_30d_before": 0.3386,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-08-25",
-          "ifsp": 0.3228,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0854,
-          "F_info": 0.0001
-        },
         {
           "date": "2016-08-26",
           "ifsp": 0.3386,
@@ -14141,7 +14125,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2398,
+      "n": 2397,
       "mean": 0.3133,
       "std": 0.0121,
       "min": 0.2857,
@@ -14151,7 +14135,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1149,
+      "n": 1150,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
@@ -14161,7 +14145,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0057,
-    "t_stat": 15.166,
+    "t_stat": 15.168,
     "significance": "significant"
   }
 }
