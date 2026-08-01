@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-07-01",
-      "mag": 6,
-      "state": "STABLE",
-      "S": 3.0401,
-      "F_info": -0.0007,
-      "I": 0.0278,
-      "phi_dist": 0.8789
-    },
-    {
       "date": "2026-07-02",
       "mag": 5.4,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0004,
       "I": 0.0134,
       "phi_dist": 0.8738
+    },
+    {
+      "date": "2026-07-31",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 2.9967,
+      "F_info": 0.0024,
+      "I": 0.0159,
+      "phi_dist": 0.852
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0319,
-    "F_info": -0.0004,
-    "I": 0.0134,
-    "phi_dist": 0.8738
+    "S": 2.9967,
+    "F_info": 0.0024,
+    "I": 0.0159,
+    "phi_dist": 0.852
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8738,
-    "avg_mag": 5.82,
-    "generated": "2026-07-31 02:53 UTC"
+    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.852,
+    "avg_mag": 5.7,
+    "generated": "2026-08-01 02:52 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17835,
+  "total_quakes": 17842,
   "ifsp": {
-    "value": 0.3128,
+    "value": 0.3118,
     "zone": "CAUTION",
-    "I_norm": 0.0568,
-    "F_norm": 0.0017,
-    "S_norm": 0.6279,
-    "phi_norm": 0.8738
+    "I_norm": 0.0674,
+    "F_norm": 0.0102,
+    "S_norm": 0.617,
+    "phi_norm": 0.852
   },
   "big_quake_patterns": [
     {
       "date": "2016-09-01",
       "mag": 7,
       "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3324,
+      "avg_ifsp_30d_before": 0.3368,
       "max_ifsp_30d_before": 0.3368,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-08-30",
-          "ifsp": 0.328,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0752,
-          "F_info": -0.0004
-        },
         {
           "date": "2016-08-31",
           "ifsp": 0.3368,
@@ -14015,7 +14007,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2393,
+      "n": 2392,
       "mean": 0.3133,
       "std": 0.0121,
       "min": 0.2857,
@@ -14025,7 +14017,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1154,
+      "n": 1155,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
@@ -14035,7 +14027,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0057,
-    "t_stat": 15.177,
+    "t_stat": 15.18,
     "significance": "significant"
   }
 }
