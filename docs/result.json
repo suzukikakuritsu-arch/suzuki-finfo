@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-07-02",
-      "mag": 5.4,
-      "state": "STABLE",
-      "S": 3.0401,
-      "F_info": -0.0001,
-      "I": 0.0277,
-      "phi_dist": 0.8789
-    },
-    {
       "date": "2026-07-03",
       "mag": 6.2,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0024,
       "I": 0.0159,
       "phi_dist": 0.852
+    },
+    {
+      "date": "2026-08-01",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 2.9946,
+      "F_info": -0.0009,
+      "I": 0.0149,
+      "phi_dist": 0.8508
     }
   ],
   "state_pct": {
@@ -278,92 +278,30 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9967,
-    "F_info": 0.0024,
-    "I": 0.0159,
-    "phi_dist": 0.852
+    "S": 2.9946,
+    "F_info": -0.0009,
+    "I": 0.0149,
+    "phi_dist": 0.8508
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.852,
-    "avg_mag": 5.7,
-    "generated": "2026-08-01 02:52 UTC"
+    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.8508,
+    "avg_mag": 5.69,
+    "generated": "2026-08-02 02:51 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17842,
+  "total_quakes": 17849,
   "ifsp": {
-    "value": 0.3118,
+    "value": 0.3081,
     "zone": "CAUTION",
-    "I_norm": 0.0674,
-    "F_norm": 0.0102,
-    "S_norm": 0.617,
-    "phi_norm": 0.852
+    "I_norm": 0.0631,
+    "F_norm": 0.0038,
+    "S_norm": 0.6164,
+    "phi_norm": 0.8508
   },
   "big_quake_patterns": [
-    {
-      "date": "2016-09-01",
-      "mag": 7,
-      "place": "175 km NE of Gisborne, New Zealand",
-      "avg_ifsp_30d_before": 0.3368,
-      "max_ifsp_30d_before": 0.3368,
-      "danger_days_before": 0,
-      "before_sample": [
-        {
-          "date": "2016-08-31",
-          "ifsp": 0.3368,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.108,
-          "F_info": 0.0015
-        }
-      ],
-      "after_sample": [
-        {
-          "date": "2016-09-01",
-          "ifsp": 0.3396,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-09-02",
-          "ifsp": 0.349,
-          "zone": "CAUTION",
-          "state": "EMERGENCE+"
-        },
-        {
-          "date": "2016-09-03",
-          "ifsp": 0.3353,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-09-04",
-          "ifsp": 0.3339,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-09-05",
-          "ifsp": 0.3353,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-09-06",
-          "ifsp": 0.3343,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        },
-        {
-          "date": "2016-09-07",
-          "ifsp": 0.3283,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        }
-      ]
-    },
     {
       "date": "2016-11-13",
       "mag": 7.8,
@@ -14007,27 +13945,27 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2392,
+      "n": 2391,
       "mean": 0.3133,
       "std": 0.0121,
       "min": 0.2857,
       "p25": 0.3047,
-      "median": 0.3122,
-      "p75": 0.3203,
+      "median": 0.3121,
+      "p75": 0.3202,
       "max": 0.3587
     },
     "normal": {
-      "n": 1155,
+      "n": 1156,
       "mean": 0.3076,
       "std": 0.0096,
       "min": 0.2834,
-      "p25": 0.3003,
+      "p25": 0.3004,
       "median": 0.3075,
       "p75": 0.3141,
       "max": 0.3383
     },
     "mean_diff": 0.0057,
-    "t_stat": 15.18,
+    "t_stat": 15.182,
     "significance": "significant"
   }
 }
