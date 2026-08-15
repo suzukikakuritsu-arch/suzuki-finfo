@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-07-15",
-      "mag": 5.8,
-      "state": "STABLE",
-      "S": 3.007,
-      "F_info": -0.0003,
-      "I": 0.0151,
-      "phi_dist": 0.8585
-    },
-    {
       "date": "2026-07-16",
       "mag": 5.9,
       "state": "STABLE",
@@ -269,37 +260,46 @@
       "F_info": 0.0001,
       "I": 0.0243,
       "phi_dist": 0.8482
+    },
+    {
+      "date": "2026-08-14",
+      "mag": 7.7,
+      "state": "STABLE",
+      "S": 3.034,
+      "F_info": 0.0024,
+      "I": 0.0268,
+      "phi_dist": 0.8751
     }
   ],
   "state_pct": {
-    "STABLE": 89.0,
     "REFLUX": 6.7,
+    "STABLE": 89.0,
     "EMERGENCE+": 4.3
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9904,
-    "F_info": 0.0001,
-    "I": 0.0243,
-    "phi_dist": 0.8482
+    "S": 3.034,
+    "F_info": 0.0024,
+    "I": 0.0268,
+    "phi_dist": 0.8751
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8482,
-    "avg_mag": 5.68,
-    "generated": "2026-08-14 02:00 UTC"
+    "phi_dist": 0.8751,
+    "avg_mag": 5.83,
+    "generated": "2026-08-15 01:15 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17860,
+  "total_quakes": 17867,
   "ifsp": {
-    "value": 0.3123,
+    "value": 0.3259,
     "zone": "CAUTION",
-    "I_norm": 0.1029,
-    "F_norm": 0.0004,
-    "S_norm": 0.6151,
-    "phi_norm": 0.8482
+    "I_norm": 0.1135,
+    "F_norm": 0.0102,
+    "S_norm": 0.6285,
+    "phi_norm": 0.8751
   },
   "big_quake_patterns": [
     {
@@ -14031,13 +14031,93 @@
           "ifsp": 0.3123,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-08-14",
+          "ifsp": 0.3259,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "mag": 7.7,
+      "place": "68 km NNW of Ende, Indonesia",
+      "avg_ifsp_30d_before": 0.3137,
+      "max_ifsp_30d_before": 0.3266,
+      "danger_days_before": 0,
+      "before_sample": [
+        {
+          "date": "2026-08-07",
+          "ifsp": 0.3086,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9884,
+          "F_info": -0.0018
+        },
+        {
+          "date": "2026-08-08",
+          "ifsp": 0.3088,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9988,
+          "F_info": -0.0014
+        },
+        {
+          "date": "2026-08-09",
+          "ifsp": 0.3045,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9884,
+          "F_info": 0.0
+        },
+        {
+          "date": "2026-08-10",
+          "ifsp": 0.3266,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+",
+          "S": 3.0298,
+          "F_info": 0.006
+        },
+        {
+          "date": "2026-08-11",
+          "ifsp": 0.3212,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9946,
+          "F_info": 0.0047
+        },
+        {
+          "date": "2026-08-12",
+          "ifsp": 0.3132,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9967,
+          "F_info": -0.0
+        },
+        {
+          "date": "2026-08-13",
+          "ifsp": 0.3123,
+          "zone": "CAUTION",
+          "state": "STABLE",
+          "S": 2.9904,
+          "F_info": 0.0001
+        }
+      ],
+      "after_sample": [
+        {
+          "date": "2026-08-14",
+          "ifsp": 0.3259,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2405,
+      "n": 2406,
       "mean": 0.3132,
       "std": 0.012,
       "min": 0.2857,
@@ -14047,8 +14127,8 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1142,
-      "mean": 0.3075,
+      "n": 1141,
+      "mean": 0.3074,
       "std": 0.0095,
       "min": 0.2834,
       "p25": 0.3003,
@@ -14056,8 +14136,8 @@
       "p75": 0.3139,
       "max": 0.3383
     },
-    "mean_diff": 0.0057,
-    "t_stat": 15.294,
+    "mean_diff": 0.0058,
+    "t_stat": 15.56,
     "significance": "significant"
   }
 }
