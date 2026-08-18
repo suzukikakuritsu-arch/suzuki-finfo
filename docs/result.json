@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-07-18",
-      "mag": 5.8,
-      "state": "STABLE",
-      "S": 3.0525,
-      "F_info": -0.0003,
-      "I": 0.0173,
-      "phi_dist": 0.8866
-    },
-    {
       "date": "2026-07-19",
       "mag": 5.5,
       "state": "STABLE",
@@ -269,37 +260,46 @@
       "F_info": -0.0,
       "I": 0.0283,
       "phi_dist": 0.898
+    },
+    {
+      "date": "2026-08-17",
+      "mag": 5.8,
+      "state": "STABLE",
+      "S": 3.0834,
+      "F_info": -0.0007,
+      "I": 0.0276,
+      "phi_dist": 0.9056
     }
   ],
   "state_pct": {
-    "REFLUX": 6.7,
-    "STABLE": 89.0,
-    "EMERGENCE+": 4.3
+    "STABLE": 89.1,
+    "EMERGENCE+": 4.3,
+    "REFLUX": 6.6
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0711,
-    "F_info": -0.0,
-    "I": 0.0283,
-    "phi_dist": 0.898
+    "S": 3.0834,
+    "F_info": -0.0007,
+    "I": 0.0276,
+    "phi_dist": 0.9056
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.898,
-    "avg_mag": 5.96,
-    "generated": "2026-08-17 01:17 UTC"
+    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9056,
+    "avg_mag": 6.0,
+    "generated": "2026-08-18 01:15 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17883,
+  "total_quakes": 17872,
   "ifsp": {
-    "value": 0.3293,
+    "value": 0.3323,
     "zone": "CAUTION",
-    "I_norm": 0.1199,
-    "F_norm": 0.0,
-    "S_norm": 0.64,
-    "phi_norm": 0.898
+    "I_norm": 0.1169,
+    "F_norm": 0.003,
+    "S_norm": 0.6438,
+    "phi_norm": 0.9056
   },
   "big_quake_patterns": [
     {
@@ -13725,7 +13725,7 @@
     {
       "date": "2026-06-24",
       "mag": 7.5,
-      "place": "17 km W of Catia La Mar, Venezuela",
+      "place": "20 km W of Catia La Mar, Venezuela",
       "avg_ifsp_30d_before": 0.3167,
       "max_ifsp_30d_before": 0.3309,
       "danger_days_before": 0,
@@ -14135,13 +14135,19 @@
           "ifsp": 0.3293,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-08-17",
+          "ifsp": 0.3323,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2408,
+      "n": 2409,
       "mean": 0.3132,
       "std": 0.012,
       "min": 0.2857,
@@ -14151,7 +14157,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1139,
+      "n": 1138,
       "mean": 0.3074,
       "std": 0.0095,
       "min": 0.2834,
@@ -14161,7 +14167,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0058,
-    "t_stat": 15.555,
+    "t_stat": 15.552,
     "significance": "significant"
   }
 }
