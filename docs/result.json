@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-07-20",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 3.0422,
-      "F_info": -0.001,
-      "I": 0.0163,
-      "phi_dist": 0.8802
-    },
-    {
       "date": "2026-07-21",
       "mag": 5.6,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0001,
       "I": 0.0275,
       "phi_dist": 0.9082
+    },
+    {
+      "date": "2026-08-19",
+      "mag": 5.8,
+      "state": "STABLE",
+      "S": 3.0772,
+      "F_info": -0.0006,
+      "I": 0.0269,
+      "phi_dist": 0.9018
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0875,
-    "F_info": -0.0001,
-    "I": 0.0275,
-    "phi_dist": 0.9082
+    "S": 3.0772,
+    "F_info": -0.0006,
+    "I": 0.0269,
+    "phi_dist": 0.9018
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9082,
-    "avg_mag": 6.01,
-    "generated": "2026-08-19 01:16 UTC"
+    "phi_dist": 0.9018,
+    "avg_mag": 5.98,
+    "generated": "2026-08-20 01:16 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17861,
+  "total_quakes": 17860,
   "ifsp": {
-    "value": 0.3319,
+    "value": 0.3305,
     "zone": "CAUTION",
-    "I_norm": 0.1165,
-    "F_norm": 0.0004,
-    "S_norm": 0.6451,
-    "phi_norm": 0.9082
+    "I_norm": 0.114,
+    "F_norm": 0.0025,
+    "S_norm": 0.6419,
+    "phi_norm": 0.9018
   },
   "big_quake_patterns": [
     {
@@ -14147,13 +14147,19 @@
           "ifsp": 0.3319,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-08-19",
+          "ifsp": 0.3305,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     }
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2410,
+      "n": 2411,
       "mean": 0.3132,
       "std": 0.012,
       "min": 0.2857,
@@ -14163,7 +14169,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1137,
+      "n": 1136,
       "mean": 0.3074,
       "std": 0.0095,
       "min": 0.2834,
@@ -14173,7 +14179,7 @@
       "max": 0.3383
     },
     "mean_diff": 0.0058,
-    "t_stat": 15.55,
+    "t_stat": 15.547,
     "significance": "significant"
   }
 }
