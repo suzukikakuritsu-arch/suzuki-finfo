@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-08-04",
-      "mag": 5.7,
-      "state": "STABLE",
-      "S": 2.9863,
-      "F_info": 0.0001,
-      "I": 0.0157,
-      "phi_dist": 0.8456
-    },
-    {
       "date": "2026-08-05",
       "mag": 6.3,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0005,
       "I": 0.0284,
       "phi_dist": 0.8687
+    },
+    {
+      "date": "2026-09-03",
+      "mag": 6.3,
+      "state": "STABLE",
+      "S": 3.0153,
+      "F_info": -0.005,
+      "I": 0.0235,
+      "phi_dist": 0.8636
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0236,
-    "F_info": 0.0005,
-    "I": 0.0284,
-    "phi_dist": 0.8687
+    "S": 3.0153,
+    "F_info": -0.005,
+    "I": 0.0235,
+    "phi_dist": 0.8636
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8687,
-    "avg_mag": 5.79,
-    "generated": "2026-09-03 03:21 UTC"
+    "phi_dist": 0.8636,
+    "avg_mag": 5.76,
+    "generated": "2026-09-04 03:19 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17860,
+  "total_quakes": 17863,
   "ifsp": {
-    "value": 0.3217,
+    "value": 0.3249,
     "zone": "CAUTION",
-    "I_norm": 0.1203,
-    "F_norm": 0.0021,
-    "S_norm": 0.6253,
-    "phi_norm": 0.8687
+    "I_norm": 0.0995,
+    "F_norm": 0.0212,
+    "S_norm": 0.6228,
+    "phi_norm": 0.8636
   },
   "big_quake_patterns": [
     {
@@ -14176,16 +14176,16 @@
     },
     "normal": {
       "n": 1135,
-      "mean": 0.3077,
+      "mean": 0.3078,
       "std": 0.0099,
       "min": 0.2834,
       "p25": 0.3003,
       "median": 0.3075,
-      "p75": 0.3143,
+      "p75": 0.3144,
       "max": 0.3461
     },
-    "mean_diff": 0.0055,
-    "t_stat": 14.392,
+    "mean_diff": 0.0054,
+    "t_stat": 14.13,
     "significance": "significant"
   }
 }
