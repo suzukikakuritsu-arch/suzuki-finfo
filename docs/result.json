@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-08-15",
-      "mag": 6.9,
-      "state": "STABLE",
-      "S": 3.0608,
-      "F_info": 0.0015,
-      "I": 0.0301,
-      "phi_dist": 0.8917
-    },
-    {
       "date": "2026-08-16",
       "mag": 6.1,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0004,
       "I": 0.0071,
       "phi_dist": 0.8353
+    },
+    {
+      "date": "2026-09-14",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 2.9717,
+      "F_info": 0.0001,
+      "I": 0.0072,
+      "phi_dist": 0.8366
     }
   ],
   "state_pct": {
@@ -278,35 +278,35 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9696,
-    "F_info": 0.0004,
-    "I": 0.0071,
-    "phi_dist": 0.8353
+    "S": 2.9717,
+    "F_info": 0.0001,
+    "I": 0.0072,
+    "phi_dist": 0.8366
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8353,
+    "phi_dist": 0.8366,
     "avg_mag": 5.61,
-    "generated": "2026-09-14 03:47 UTC"
+    "generated": "2026-09-15 03:48 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17869,
+  "total_quakes": 17873,
   "ifsp": {
-    "value": 0.2974,
+    "value": 0.2973,
     "zone": "CAUTION",
-    "I_norm": 0.0301,
-    "F_norm": 0.0017,
-    "S_norm": 0.6086,
-    "phi_norm": 0.8353
+    "I_norm": 0.0305,
+    "F_norm": 0.0004,
+    "S_norm": 0.6093,
+    "phi_norm": 0.8366
   },
   "big_quake_patterns": [
     {
       "date": "2016-11-13",
       "mag": 7.8,
       "place": "53 km NNE of Amberley, New Zealand",
-      "avg_ifsp_30d_before": 0.3114,
+      "avg_ifsp_30d_before": 0.3118,
       "max_ifsp_30d_before": 0.3229,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2411,
+      "n": 2410,
       "mean": 0.3133,
       "std": 0.012,
       "min": 0.2857,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1136,
+      "n": 1137,
       "mean": 0.3078,
       "std": 0.0099,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3469
     },
     "mean_diff": 0.0055,
-    "t_stat": 14.394,
+    "t_stat": 14.397,
     "significance": "significant"
   }
 }
