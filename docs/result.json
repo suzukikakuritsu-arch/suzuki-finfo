@@ -272,8 +272,8 @@
     }
   ],
   "state_pct": {
-    "STABLE": 89.1,
     "EMERGENCE+": 4.3,
+    "STABLE": 89.1,
     "REFLUX": 6.6
   },
   "latest": {
@@ -289,10 +289,10 @@
     "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8366,
     "avg_mag": 5.61,
-    "generated": "2026-09-15 03:48 UTC"
+    "generated": "2026-09-16 03:45 UTC"
   },
-  "total_days": 3575,
-  "total_quakes": 17873,
+  "total_days": 3574,
+  "total_quakes": 17865,
   "ifsp": {
     "value": 0.2973,
     "zone": "CAUTION",
@@ -306,7 +306,7 @@
       "date": "2016-11-13",
       "mag": 7.8,
       "place": "53 km NNE of Amberley, New Zealand",
-      "avg_ifsp_30d_before": 0.3118,
+      "avg_ifsp_30d_before": 0.3125,
       "max_ifsp_30d_before": 0.3229,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2410,
+      "n": 2409,
       "mean": 0.3133,
       "std": 0.012,
       "min": 0.2857,
@@ -14185,7 +14185,7 @@
       "max": 0.3469
     },
     "mean_diff": 0.0055,
-    "t_stat": 14.397,
+    "t_stat": 14.395,
     "significance": "significant"
   }
 }
