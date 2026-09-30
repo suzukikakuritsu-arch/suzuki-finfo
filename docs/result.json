@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-08-29",
-      "mag": 5.1,
-      "state": "STABLE",
-      "S": 3.0278,
-      "F_info": 0.0028,
-      "I": 0.0299,
-      "phi_dist": 0.8713
-    },
-    {
       "date": "2026-08-30",
       "mag": 5.5,
       "state": "STABLE",
@@ -269,12 +260,21 @@
       "F_info": -0.0001,
       "I": 0.0086,
       "phi_dist": 0.8379
+    },
+    {
+      "date": "2026-09-29",
+      "mag": 5.6,
+      "state": "STABLE",
+      "S": 2.9738,
+      "F_info": -0.0001,
+      "I": 0.0086,
+      "phi_dist": 0.8379
     }
   ],
   "state_pct": {
-    "EMERGENCE+": 4.3,
     "STABLE": 89.1,
-    "REFLUX": 6.6
+    "REFLUX": 6.6,
+    "EMERGENCE+": 4.2
   },
   "latest": {
     "state": "STABLE",
@@ -289,10 +289,10 @@
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
     "phi_dist": 0.8379,
     "avg_mag": 5.62,
-    "generated": "2026-09-29 04:41 UTC"
+    "generated": "2026-09-30 04:25 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17870,
+  "total_quakes": 17868,
   "ifsp": {
     "value": 0.2986,
     "zone": "CAUTION",
@@ -306,7 +306,7 @@
       "date": "2016-11-13",
       "mag": 7.8,
       "place": "53 km NNE of Amberley, New Zealand",
-      "avg_ifsp_30d_before": 0.3136,
+      "avg_ifsp_30d_before": 0.3131,
       "max_ifsp_30d_before": 0.3229,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2397,
+      "n": 2396,
       "mean": 0.3133,
       "std": 0.0121,
       "min": 0.2857,
@@ -14175,17 +14175,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1150,
+      "n": 1151,
       "mean": 0.3077,
       "std": 0.0099,
       "min": 0.2834,
-      "p25": 0.3002,
+      "p25": 0.3001,
       "median": 0.3074,
       "p75": 0.3143,
       "max": 0.3462
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.641,
+    "t_stat": 14.643,
     "significance": "significant"
   }
 }
