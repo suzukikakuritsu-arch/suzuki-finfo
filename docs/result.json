@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-08-30",
-      "mag": 5.5,
-      "state": "STABLE",
-      "S": 3.0153,
-      "F_info": -0.0004,
-      "I": 0.0295,
-      "phi_dist": 0.8636
-    },
-    {
       "date": "2026-08-31",
       "mag": 5.4,
       "state": "STABLE",
@@ -263,12 +254,21 @@
     },
     {
       "date": "2026-09-29",
+      "mag": 5.5,
+      "state": "STABLE",
+      "S": 2.9717,
+      "F_info": -0.0,
+      "I": 0.0086,
+      "phi_dist": 0.8366
+    },
+    {
+      "date": "2026-09-30",
       "mag": 5.6,
       "state": "STABLE",
-      "S": 2.9738,
-      "F_info": -0.0001,
-      "I": 0.0086,
-      "phi_dist": 0.8379
+      "S": 2.9821,
+      "F_info": 0.0002,
+      "I": 0.0088,
+      "phi_dist": 0.8431
     }
   ],
   "state_pct": {
@@ -278,36 +278,36 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9738,
-    "F_info": -0.0001,
-    "I": 0.0086,
-    "phi_dist": 0.8379
+    "S": 2.9821,
+    "F_info": 0.0002,
+    "I": 0.0088,
+    "phi_dist": 0.8431
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8379,
-    "avg_mag": 5.62,
-    "generated": "2026-09-30 04:25 UTC"
+    "phi_dist": 0.8431,
+    "avg_mag": 5.65,
+    "generated": "2026-10-01 04:37 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17868,
+  "total_quakes": 17873,
   "ifsp": {
-    "value": 0.2986,
+    "value": 0.3005,
     "zone": "CAUTION",
-    "I_norm": 0.0364,
-    "F_norm": 0.0004,
-    "S_norm": 0.6099,
-    "phi_norm": 0.8379
+    "I_norm": 0.0373,
+    "F_norm": 0.0008,
+    "S_norm": 0.6125,
+    "phi_norm": 0.8431
   },
   "big_quake_patterns": [
     {
       "date": "2016-11-13",
       "mag": 7.8,
       "place": "53 km NNE of Amberley, New Zealand",
-      "avg_ifsp_30d_before": 0.3131,
-      "max_ifsp_30d_before": 0.3229,
+      "avg_ifsp_30d_before": 0.3123,
+      "max_ifsp_30d_before": 0.3178,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14165,27 +14165,27 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2396,
+      "n": 2395,
       "mean": 0.3133,
       "std": 0.0121,
       "min": 0.2857,
-      "p25": 0.3048,
+      "p25": 0.3047,
       "median": 0.3122,
       "p75": 0.3203,
       "max": 0.3587
     },
     "normal": {
-      "n": 1151,
+      "n": 1152,
       "mean": 0.3077,
       "std": 0.0099,
       "min": 0.2834,
-      "p25": 0.3001,
+      "p25": 0.3002,
       "median": 0.3074,
       "p75": 0.3143,
       "max": 0.3462
     },
     "mean_diff": 0.0056,
-    "t_stat": 14.643,
+    "t_stat": 14.645,
     "significance": "significant"
   }
 }
