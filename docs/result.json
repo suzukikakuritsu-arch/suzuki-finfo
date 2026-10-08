@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-06",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 2.9759,
-      "F_info": -0.0034,
-      "I": 0.0173,
-      "phi_dist": 0.8392
-    },
-    {
       "date": "2026-09-07",
       "mag": 5.5,
       "state": "STABLE",
@@ -263,12 +254,21 @@
     },
     {
       "date": "2026-10-06",
-      "mag": 5.9,
+      "mag": 5.8,
       "state": "STABLE",
-      "S": 2.9655,
-      "F_info": 0.0009,
-      "I": 0.0152,
-      "phi_dist": 0.8328
+      "S": 2.9634,
+      "F_info": 0.0006,
+      "I": 0.0149,
+      "phi_dist": 0.8315
+    },
+    {
+      "date": "2026-10-07",
+      "mag": 5.2,
+      "state": "STABLE",
+      "S": 2.953,
+      "F_info": 0.0001,
+      "I": 0.015,
+      "phi_dist": 0.825
     }
   ],
   "state_pct": {
@@ -278,28 +278,28 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9655,
-    "F_info": 0.0009,
-    "I": 0.0152,
-    "phi_dist": 0.8328
+    "S": 2.953,
+    "F_info": 0.0001,
+    "I": 0.015,
+    "phi_dist": 0.825
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8328,
-    "avg_mag": 5.59,
-    "generated": "2026-10-07 04:46 UTC"
+    "phi_dist": 0.825,
+    "avg_mag": 5.55,
+    "generated": "2026-10-08 04:57 UTC"
   },
   "total_days": 3575,
   "total_quakes": 17883,
   "ifsp": {
-    "value": 0.3031,
+    "value": 0.2993,
     "zone": "CAUTION",
-    "I_norm": 0.0644,
-    "F_norm": 0.0038,
-    "S_norm": 0.6074,
-    "phi_norm": 0.8328
+    "I_norm": 0.0635,
+    "F_norm": 0.0004,
+    "S_norm": 0.6035,
+    "phi_norm": 0.825
   },
   "big_quake_patterns": [
     {
@@ -310,14 +310,6 @@
       "max_ifsp_30d_before": 0.3112,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-11-06",
-          "ifsp": 0.3102,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0029,
-          "F_info": 0.0009
-        },
         {
           "date": "2016-11-07",
           "ifsp": 0.3102,
@@ -14165,7 +14157,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2389,
+      "n": 2388,
       "mean": 0.3133,
       "std": 0.0121,
       "min": 0.2857,
@@ -14175,17 +14167,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1158,
+      "n": 1159,
       "mean": 0.3076,
       "std": 0.0099,
       "min": 0.2834,
-      "p25": 0.3002,
+      "p25": 0.3001,
       "median": 0.3073,
       "p75": 0.3142,
       "max": 0.3462
     },
     "mean_diff": 0.0057,
-    "t_stat": 14.922,
+    "t_stat": 14.924,
     "significance": "significant"
   }
 }
