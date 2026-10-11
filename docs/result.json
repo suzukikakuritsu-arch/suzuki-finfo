@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-09",
-      "mag": 5.2,
-      "state": "STABLE",
-      "S": 2.9509,
-      "F_info": 0.0001,
-      "I": 0.0146,
-      "phi_dist": 0.8237
-    },
-    {
       "date": "2026-09-10",
       "mag": 5.4,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.001,
       "I": 0.0157,
       "phi_dist": 0.852
+    },
+    {
+      "date": "2026-10-10",
+      "mag": 6,
+      "state": "STABLE",
+      "S": 3.005,
+      "F_info": -0.0017,
+      "I": 0.014,
+      "phi_dist": 0.8572
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 2.9967,
-    "F_info": -0.001,
-    "I": 0.0157,
-    "phi_dist": 0.852
+    "S": 3.005,
+    "F_info": -0.0017,
+    "I": 0.014,
+    "phi_dist": 0.8572
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.852,
-    "avg_mag": 5.7,
-    "generated": "2026-10-10 04:45 UTC"
+    "phi_dist": 0.8572,
+    "avg_mag": 5.73,
+    "generated": "2026-10-11 04:30 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17901,
+  "total_quakes": 17904,
   "ifsp": {
-    "value": 0.3092,
+    "value": 0.3108,
     "zone": "CAUTION",
-    "I_norm": 0.0665,
-    "F_norm": 0.0042,
-    "S_norm": 0.617,
-    "phi_norm": 0.852
+    "I_norm": 0.0593,
+    "F_norm": 0.0072,
+    "S_norm": 0.6196,
+    "phi_norm": 0.8572
   },
   "big_quake_patterns": [
     {
       "date": "2016-11-13",
       "mag": 7.8,
       "place": "53 km NNE of Amberley, New Zealand",
-      "avg_ifsp_30d_before": 0.3098,
+      "avg_ifsp_30d_before": 0.3096,
       "max_ifsp_30d_before": 0.3111,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-11-09",
-          "ifsp": 0.3102,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0091,
-          "F_info": -0.0006
-        },
         {
           "date": "2016-11-10",
           "ifsp": 0.3087,
@@ -392,7 +384,7 @@
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3204,
+      "avg_ifsp_30d_before": 0.3208,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -13928,18 +13920,18 @@
       "before_sample": [
         {
           "date": "2026-08-03",
-          "ifsp": 0.3053,
+          "ifsp": 0.3054,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9842,
+          "S": 2.9863,
           "F_info": 0.0001
         },
         {
           "date": "2026-08-04",
-          "ifsp": 0.3057,
+          "ifsp": 0.3059,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9863,
+          "S": 2.9884,
           "F_info": 0.0001
         },
         {
@@ -13947,15 +13939,15 @@
           "ifsp": 0.3167,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0112,
+          "S": 3.0133,
           "F_info": 0.0027
         },
         {
           "date": "2026-08-06",
-          "ifsp": 0.3115,
+          "ifsp": 0.3117,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.0029,
+          "S": 3.005,
           "F_info": -0.0011
         },
         {
@@ -13963,66 +13955,66 @@
           "ifsp": 0.3096,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9884,
-          "F_info": -0.0024
+          "S": 2.9904,
+          "F_info": -0.0023
         },
         {
           "date": "2026-08-08",
-          "ifsp": 0.3088,
+          "ifsp": 0.309,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9988,
-          "F_info": -0.0014
+          "S": 3.0008,
+          "F_info": -0.0015
         },
         {
           "date": "2026-08-09",
-          "ifsp": 0.3045,
+          "ifsp": 0.3046,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9863,
+          "S": 2.9884,
           "F_info": 0.0002
         }
       ],
       "after_sample": [
         {
           "date": "2026-08-10",
-          "ifsp": 0.3277,
+          "ifsp": 0.3264,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
         },
         {
           "date": "2026-08-11",
-          "ifsp": 0.323,
+          "ifsp": 0.3224,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-12",
-          "ifsp": 0.3137,
+          "ifsp": 0.3131,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-13",
-          "ifsp": 0.3128,
+          "ifsp": 0.3122,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-14",
-          "ifsp": 0.3282,
+          "ifsp": 0.3281,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-15",
-          "ifsp": 0.3313,
+          "ifsp": 0.3309,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-16",
-          "ifsp": 0.3307,
+          "ifsp": 0.3302,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -14032,8 +14024,8 @@
       "date": "2026-08-14",
       "mag": 7.8,
       "place": "66 km NNW of Ende, Indonesia",
-      "avg_ifsp_30d_before": 0.3138,
-      "max_ifsp_30d_before": 0.3277,
+      "avg_ifsp_30d_before": 0.3137,
+      "max_ifsp_30d_before": 0.3264,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -14041,36 +14033,36 @@
           "ifsp": 0.3096,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9884,
-          "F_info": -0.0024
+          "S": 2.9904,
+          "F_info": -0.0023
         },
         {
           "date": "2026-08-08",
-          "ifsp": 0.3088,
+          "ifsp": 0.309,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9988,
-          "F_info": -0.0014
+          "S": 3.0008,
+          "F_info": -0.0015
         },
         {
           "date": "2026-08-09",
-          "ifsp": 0.3045,
+          "ifsp": 0.3046,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9863,
+          "S": 2.9884,
           "F_info": 0.0002
         },
         {
           "date": "2026-08-10",
-          "ifsp": 0.3277,
+          "ifsp": 0.3264,
           "zone": "CAUTION",
           "state": "EMERGENCE+",
           "S": 3.0298,
-          "F_info": 0.0064
+          "F_info": 0.006
         },
         {
           "date": "2026-08-11",
-          "ifsp": 0.323,
+          "ifsp": 0.3224,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9925,
@@ -14078,7 +14070,7 @@
         },
         {
           "date": "2026-08-12",
-          "ifsp": 0.3137,
+          "ifsp": 0.3131,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9946,
@@ -14086,7 +14078,7 @@
         },
         {
           "date": "2026-08-13",
-          "ifsp": 0.3128,
+          "ifsp": 0.3122,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9884,
@@ -14096,43 +14088,43 @@
       "after_sample": [
         {
           "date": "2026-08-14",
-          "ifsp": 0.3282,
+          "ifsp": 0.3281,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-15",
-          "ifsp": 0.3313,
+          "ifsp": 0.3309,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-16",
-          "ifsp": 0.3307,
+          "ifsp": 0.3302,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-17",
-          "ifsp": 0.3336,
+          "ifsp": 0.333,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-18",
-          "ifsp": 0.3325,
+          "ifsp": 0.3321,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-19",
-          "ifsp": 0.3307,
+          "ifsp": 0.3304,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-08-20",
-          "ifsp": 0.3382,
+          "ifsp": 0.3378,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -14207,6 +14199,12 @@
         {
           "date": "2026-10-09",
           "ifsp": 0.3092,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-10-10",
+          "ifsp": 0.3108,
           "zone": "CAUTION",
           "state": "STABLE"
         }
