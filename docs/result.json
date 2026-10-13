@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-11",
-      "mag": 6.5,
-      "state": "STABLE",
-      "S": 2.9676,
-      "F_info": -0.0013,
-      "I": 0.0117,
-      "phi_dist": 0.8341
-    },
-    {
       "date": "2026-09-12",
       "mag": 5.1,
       "state": "REFLUX",
@@ -269,6 +260,15 @@
       "F_info": 0.0009,
       "I": 0.0149,
       "phi_dist": 0.8687
+    },
+    {
+      "date": "2026-10-12",
+      "mag": 6.1,
+      "state": "STABLE",
+      "S": 3.0381,
+      "F_info": 0.0004,
+      "I": 0.0153,
+      "phi_dist": 0.8776
     }
   ],
   "state_pct": {
@@ -278,46 +278,38 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0236,
-    "F_info": 0.0009,
-    "I": 0.0149,
-    "phi_dist": 0.8687
+    "S": 3.0381,
+    "F_info": 0.0004,
+    "I": 0.0153,
+    "phi_dist": 0.8776
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.8687,
-    "avg_mag": 5.79,
-    "generated": "2026-10-12 04:45 UTC"
+    "phi_dist": 0.8776,
+    "avg_mag": 5.84,
+    "generated": "2026-10-13 05:51 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17907,
+  "total_quakes": 17909,
   "ifsp": {
-    "value": 0.3133,
+    "value": 0.3152,
     "zone": "CAUTION",
-    "I_norm": 0.0631,
-    "F_norm": 0.0038,
-    "S_norm": 0.6253,
-    "phi_norm": 0.8687
+    "I_norm": 0.0648,
+    "F_norm": 0.0017,
+    "S_norm": 0.6298,
+    "phi_norm": 0.8776
   },
   "big_quake_patterns": [
     {
       "date": "2016-11-13",
       "mag": 7.8,
       "place": "53 km NNE of Amberley, New Zealand",
-      "avg_ifsp_30d_before": 0.3101,
+      "avg_ifsp_30d_before": 0.3111,
       "max_ifsp_30d_before": 0.3111,
       "danger_days_before": 0,
       "before_sample": [
-        {
-          "date": "2016-11-11",
-          "ifsp": 0.3091,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.007,
-          "F_info": -0.0007
-        },
         {
           "date": "2016-11-12",
           "ifsp": 0.3111,
@@ -376,7 +368,7 @@
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3212,
+      "avg_ifsp_30d_before": 0.3217,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -14203,6 +14195,12 @@
         {
           "date": "2026-10-11",
           "ifsp": 0.3133,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-10-12",
+          "ifsp": 0.3152,
           "zone": "CAUTION",
           "state": "STABLE"
         }
