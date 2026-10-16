@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-14",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 2.9655,
-      "F_info": 0.0002,
-      "I": 0.0072,
-      "phi_dist": 0.8328
-    },
-    {
       "date": "2026-09-16",
       "mag": 5.1,
       "state": "STABLE",
@@ -269,44 +260,53 @@
       "F_info": -0.0002,
       "I": 0.0166,
       "phi_dist": 0.898
+    },
+    {
+      "date": "2026-10-15",
+      "mag": 5.6,
+      "state": "REFLUX",
+      "S": 3.0772,
+      "F_info": -0.0048,
+      "I": 0.0119,
+      "phi_dist": 0.9018
     }
   ],
   "state_pct": {
     "STABLE": 89.1,
-    "REFLUX": 6.6,
+    "REFLUX": 6.7,
     "EMERGENCE+": 4.2
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.0711,
-    "F_info": -0.0002,
-    "I": 0.0166,
-    "phi_dist": 0.898
+    "state": "REFLUX",
+    "S": 3.0772,
+    "F_info": -0.0048,
+    "I": 0.0119,
+    "phi_dist": 0.9018
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.898,
-    "avg_mag": 5.96,
-    "generated": "2026-10-15 03:36 UTC"
+    "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9018,
+    "avg_mag": 5.98,
+    "generated": "2026-10-16 03:30 UTC"
   },
   "total_days": 3575,
   "total_quakes": 17913,
   "ifsp": {
-    "value": 0.3217,
+    "value": 0.3278,
     "zone": "CAUTION",
-    "I_norm": 0.0703,
-    "F_norm": 0.0008,
-    "S_norm": 0.64,
-    "phi_norm": 0.898
+    "I_norm": 0.0504,
+    "F_norm": 0.0203,
+    "S_norm": 0.6419,
+    "phi_norm": 0.9018
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3223,
+      "avg_ifsp_30d_before": 0.3225,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -14153,6 +14153,12 @@
           "ifsp": 0.3217,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-10-15",
+          "ifsp": 0.3278,
+          "zone": "CAUTION",
+          "state": "REFLUX"
         }
       ]
     }
