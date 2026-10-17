@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-16",
-      "mag": 5.1,
-      "state": "STABLE",
-      "S": 2.9592,
-      "F_info": -0.0,
-      "I": 0.0071,
-      "phi_dist": 0.8289
-    },
-    {
       "date": "2026-09-17",
       "mag": 6.5,
       "state": "STABLE",
@@ -146,167 +137,176 @@
     },
     {
       "date": "2026-10-02",
-      "mag": 5.8,
+      "mag": 5.7,
       "state": "STABLE",
-      "S": 2.9634,
-      "F_info": -0.0015,
-      "I": 0.0114,
-      "phi_dist": 0.8315
+      "S": 2.9613,
+      "F_info": -0.0017,
+      "I": 0.0112,
+      "phi_dist": 0.8302
     },
     {
       "date": "2026-10-03",
       "mag": 5.9,
       "state": "STABLE",
-      "S": 2.9759,
-      "F_info": 0.0003,
-      "I": 0.0117,
-      "phi_dist": 0.8392
+      "S": 2.9738,
+      "F_info": 0.0004,
+      "I": 0.0116,
+      "phi_dist": 0.8379
     },
     {
       "date": "2026-10-04",
       "mag": 5.1,
       "state": "STABLE",
-      "S": 2.9488,
-      "F_info": 0.0027,
-      "I": 0.0144,
-      "phi_dist": 0.8225
+      "S": 2.9467,
+      "F_info": 0.0026,
+      "I": 0.0142,
+      "phi_dist": 0.8212
     },
     {
       "date": "2026-10-05",
       "mag": 5.3,
       "state": "STABLE",
-      "S": 2.9488,
+      "S": 2.9467,
       "F_info": -0.0001,
-      "I": 0.0143,
-      "phi_dist": 0.8225
+      "I": 0.0141,
+      "phi_dist": 0.8212
     },
     {
       "date": "2026-10-06",
       "mag": 5.8,
       "state": "STABLE",
-      "S": 2.9634,
+      "S": 2.9613,
       "F_info": 0.0006,
-      "I": 0.0148,
-      "phi_dist": 0.8315
+      "I": 0.0147,
+      "phi_dist": 0.8302
     },
     {
       "date": "2026-10-07",
       "mag": 5.2,
       "state": "STABLE",
-      "S": 2.953,
+      "S": 2.9509,
       "F_info": 0.0001,
-      "I": 0.015,
-      "phi_dist": 0.825
+      "I": 0.0148,
+      "phi_dist": 0.8237
     },
     {
       "date": "2026-10-08",
       "mag": 6.3,
       "state": "STABLE",
-      "S": 2.9738,
+      "S": 2.9717,
       "F_info": 0.0018,
-      "I": 0.0167,
-      "phi_dist": 0.8379
+      "I": 0.0166,
+      "phi_dist": 0.8366
     },
     {
       "date": "2026-10-09",
       "mag": 7.7,
       "state": "STABLE",
-      "S": 2.9967,
+      "S": 2.9946,
       "F_info": -0.001,
-      "I": 0.0157,
-      "phi_dist": 0.852
+      "I": 0.0155,
+      "phi_dist": 0.8508
     },
     {
       "date": "2026-10-10",
       "mag": 6,
       "state": "STABLE",
-      "S": 3.005,
+      "S": 3.0029,
       "F_info": -0.0017,
-      "I": 0.014,
-      "phi_dist": 0.8572
+      "I": 0.0139,
+      "phi_dist": 0.8559
     },
     {
       "date": "2026-10-11",
       "mag": 6.2,
       "state": "STABLE",
-      "S": 3.0236,
-      "F_info": 0.0009,
-      "I": 0.0149,
-      "phi_dist": 0.8687
+      "S": 3.0215,
+      "F_info": 0.001,
+      "I": 0.0148,
+      "phi_dist": 0.8674
     },
     {
       "date": "2026-10-12",
       "mag": 6.1,
       "state": "STABLE",
-      "S": 3.0381,
+      "S": 3.036,
       "F_info": 0.0004,
-      "I": 0.0153,
-      "phi_dist": 0.8776
+      "I": 0.0152,
+      "phi_dist": 0.8764
     },
     {
       "date": "2026-10-13",
       "mag": 6.8,
       "state": "STABLE",
-      "S": 3.0649,
+      "S": 3.0628,
       "F_info": 0.0015,
-      "I": 0.0168,
-      "phi_dist": 0.8942
+      "I": 0.0167,
+      "phi_dist": 0.8929
     },
     {
       "date": "2026-10-14",
       "mag": 5.9,
       "state": "STABLE",
-      "S": 3.0711,
+      "S": 3.069,
       "F_info": -0.0002,
       "I": 0.0166,
-      "phi_dist": 0.898
+      "phi_dist": 0.8967
     },
     {
       "date": "2026-10-15",
       "mag": 5.6,
       "state": "REFLUX",
-      "S": 3.0772,
-      "F_info": -0.0048,
+      "S": 3.0752,
+      "F_info": -0.0047,
       "I": 0.0119,
-      "phi_dist": 0.9018
+      "phi_dist": 0.9006
+    },
+    {
+      "date": "2026-10-16",
+      "mag": 6.9,
+      "state": "STABLE",
+      "S": 3.0998,
+      "F_info": 0.0008,
+      "I": 0.0127,
+      "phi_dist": 0.9158
     }
   ],
   "state_pct": {
-    "STABLE": 89.1,
     "REFLUX": 6.7,
+    "STABLE": 89.1,
     "EMERGENCE+": 4.2
   },
   "latest": {
-    "state": "REFLUX",
-    "S": 3.0772,
-    "F_info": -0.0048,
-    "I": 0.0119,
-    "phi_dist": 0.9018
+    "state": "STABLE",
+    "S": 3.0998,
+    "F_info": 0.0008,
+    "I": 0.0127,
+    "phi_dist": 0.9158
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9018,
-    "avg_mag": 5.98,
-    "generated": "2026-10-16 03:30 UTC"
+    "phi_dist": 0.9158,
+    "avg_mag": 6.06,
+    "generated": "2026-10-17 03:20 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17913,
+  "total_quakes": 17914,
   "ifsp": {
-    "value": 0.3278,
+    "value": 0.3253,
     "zone": "CAUTION",
-    "I_norm": 0.0504,
-    "F_norm": 0.0203,
-    "S_norm": 0.6419,
-    "phi_norm": 0.9018
+    "I_norm": 0.0538,
+    "F_norm": 0.0034,
+    "S_norm": 0.6489,
+    "phi_norm": 0.9158
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3225,
+      "avg_ifsp_30d_before": 0.3228,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -14056,107 +14056,107 @@
       "date": "2026-10-09",
       "mag": 7.7,
       "place": "12 km WSW of Pitaloza Arriba, Panama",
-      "avg_ifsp_30d_before": 0.299,
-      "max_ifsp_30d_before": 0.3072,
+      "avg_ifsp_30d_before": 0.2989,
+      "max_ifsp_30d_before": 0.3067,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-10-02",
-          "ifsp": 0.3012,
+          "ifsp": 0.301,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9634,
-          "F_info": -0.0015
+          "S": 2.9613,
+          "F_info": -0.0017
         },
         {
           "date": "2026-10-03",
-          "ifsp": 0.3015,
+          "ifsp": 0.3012,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9759,
-          "F_info": 0.0003
+          "S": 2.9738,
+          "F_info": 0.0004
         },
         {
           "date": "2026-10-04",
-          "ifsp": 0.3027,
+          "ifsp": 0.302,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9488,
-          "F_info": 0.0027
+          "S": 2.9467,
+          "F_info": 0.0026
         },
         {
           "date": "2026-10-05",
-          "ifsp": 0.298,
+          "ifsp": 0.2975,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9488,
+          "S": 2.9467,
           "F_info": -0.0001
         },
         {
           "date": "2026-10-06",
-          "ifsp": 0.3019,
+          "ifsp": 0.3014,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9634,
+          "S": 2.9613,
           "F_info": 0.0006
         },
         {
           "date": "2026-10-07",
-          "ifsp": 0.2993,
+          "ifsp": 0.2987,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.953,
+          "S": 2.9509,
           "F_info": 0.0001
         },
         {
           "date": "2026-10-08",
-          "ifsp": 0.3072,
+          "ifsp": 0.3067,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 2.9738,
+          "S": 2.9717,
           "F_info": 0.0018
         }
       ],
       "after_sample": [
         {
           "date": "2026-10-09",
-          "ifsp": 0.3092,
+          "ifsp": 0.3087,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-10",
-          "ifsp": 0.3108,
+          "ifsp": 0.3103,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-11",
-          "ifsp": 0.3133,
+          "ifsp": 0.313,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-12",
-          "ifsp": 0.3152,
+          "ifsp": 0.3148,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-13",
-          "ifsp": 0.323,
+          "ifsp": 0.3226,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-14",
-          "ifsp": 0.3217,
+          "ifsp": 0.3213,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-15",
-          "ifsp": 0.3278,
+          "ifsp": 0.3272,
           "zone": "CAUTION",
           "state": "REFLUX"
         }
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2417,
+      "n": 2416,
       "mean": 0.3131,
       "std": 0.0121,
       "min": 0.2857,
@@ -14175,17 +14175,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1130,
-      "mean": 0.3078,
+      "n": 1131,
+      "mean": 0.3079,
       "std": 0.0099,
       "min": 0.2834,
       "p25": 0.3006,
       "median": 0.3076,
-      "p75": 0.3144,
+      "p75": 0.3145,
       "max": 0.3462
     },
-    "mean_diff": 0.0053,
-    "t_stat": 13.809,
+    "mean_diff": 0.0052,
+    "t_stat": 13.551,
     "significance": "significant"
   }
 }
