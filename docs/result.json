@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-18",
-      "mag": 5.3,
-      "state": "STABLE",
-      "S": 2.9446,
-      "F_info": 0.0014,
-      "I": 0.0081,
-      "phi_dist": 0.8199
-    },
-    {
       "date": "2026-09-19",
       "mag": 5.3,
       "state": "STABLE",
@@ -269,44 +260,53 @@
       "F_info": 0.0007,
       "I": 0.0132,
       "phi_dist": 0.9133
+    },
+    {
+      "date": "2026-10-18",
+      "mag": 5.2,
+      "state": "REFLUX",
+      "S": 3.0978,
+      "F_info": -0.006,
+      "I": 0.0072,
+      "phi_dist": 0.9145
     }
   ],
   "state_pct": {
     "STABLE": 89.1,
     "EMERGENCE+": 4.2,
-    "REFLUX": 6.6
+    "REFLUX": 6.7
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.0957,
-    "F_info": 0.0007,
-    "I": 0.0132,
-    "phi_dist": 0.9133
+    "state": "REFLUX",
+    "S": 3.0978,
+    "F_info": -0.006,
+    "I": 0.0072,
+    "phi_dist": 0.9145
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9133,
-    "avg_mag": 6.04,
-    "generated": "2026-10-18 03:26 UTC"
+    "detail": "EM=0 RF=2 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9145,
+    "avg_mag": 6.05,
+    "generated": "2026-10-19 03:37 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17915,
+  "total_quakes": 17912,
   "ifsp": {
-    "value": 0.3247,
+    "value": 0.3304,
     "zone": "CAUTION",
-    "I_norm": 0.0559,
-    "F_norm": 0.003,
-    "S_norm": 0.6476,
-    "phi_norm": 0.9133
+    "I_norm": 0.0305,
+    "F_norm": 0.0254,
+    "S_norm": 0.6483,
+    "phi_norm": 0.9145
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.323,
+      "avg_ifsp_30d_before": 0.3234,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-12-17",
       "mag": 7.9,
       "place": "140 km E of Kokopo, Papua New Guinea",
-      "avg_ifsp_30d_before": 0.3226,
+      "avg_ifsp_30d_before": 0.3229,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -14165,7 +14165,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2415,
+      "n": 2414,
       "mean": 0.3131,
       "std": 0.0121,
       "min": 0.2857,
@@ -14175,7 +14175,7 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1132,
+      "n": 1133,
       "mean": 0.3079,
       "std": 0.0099,
       "min": 0.2834,
@@ -14185,7 +14185,7 @@
       "max": 0.3462
     },
     "mean_diff": 0.0052,
-    "t_stat": 13.553,
+    "t_stat": 13.555,
     "significance": "significant"
   }
 }
