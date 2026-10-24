@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-23",
-      "mag": 5.7,
-      "state": "STABLE",
-      "S": 2.953,
-      "F_info": 0.0005,
-      "I": 0.0098,
-      "phi_dist": 0.825
-    },
-    {
       "date": "2026-09-24",
       "mag": 5.3,
       "state": "STABLE",
@@ -269,44 +260,53 @@
       "F_info": -0.0004,
       "I": 0.0041,
       "phi_dist": 0.9436
+    },
+    {
+      "date": "2026-10-23",
+      "mag": 5.7,
+      "state": "EMERGENCE+",
+      "S": 3.1039,
+      "F_info": 0.011,
+      "I": 0.0151,
+      "phi_dist": 0.9183
     }
   ],
   "state_pct": {
     "STABLE": 89.1,
-    "EMERGENCE+": 4.2,
+    "EMERGENCE+": 4.3,
     "REFLUX": 6.7
   },
   "latest": {
-    "state": "STABLE",
-    "S": 3.1448,
-    "F_info": -0.0004,
-    "I": 0.0041,
-    "phi_dist": 0.9436
+    "state": "EMERGENCE+",
+    "S": 3.1039,
+    "F_info": 0.011,
+    "I": 0.0151,
+    "phi_dist": 0.9183
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=0 RF=2 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9436,
-    "avg_mag": 6.21,
-    "generated": "2026-10-23 03:43 UTC"
+    "detail": "EM=1 RF=2 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9183,
+    "avg_mag": 6.07,
+    "generated": "2026-10-24 03:37 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17938,
+  "total_quakes": 17939,
   "ifsp": {
-    "value": 0.3268,
+    "value": 0.3458,
     "zone": "CAUTION",
-    "I_norm": 0.0174,
-    "F_norm": 0.0017,
-    "S_norm": 0.6628,
-    "phi_norm": 0.9436
+    "I_norm": 0.064,
+    "F_norm": 0.0466,
+    "S_norm": 0.6501,
+    "phi_norm": 0.9183
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3247,
+      "avg_ifsp_30d_before": 0.3249,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -14233,6 +14233,12 @@
           "ifsp": 0.3268,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-10-23",
+          "ifsp": 0.3458,
+          "zone": "CAUTION",
+          "state": "EMERGENCE+"
         }
       ]
     }
@@ -14241,7 +14247,7 @@
     "near_big_quake": {
       "n": 2417,
       "mean": 0.3131,
-      "std": 0.0121,
+      "std": 0.0122,
       "min": 0.2857,
       "p25": 0.3045,
       "median": 0.312,
@@ -14259,7 +14265,7 @@
       "max": 0.3462
     },
     "mean_diff": 0.0053,
-    "t_stat": 13.809,
+    "t_stat": 13.762,
     "significance": "significant"
   }
 }
