@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-25",
-      "mag": 6.7,
-      "state": "STABLE",
-      "S": 2.9821,
-      "F_info": 0.0022,
-      "I": 0.0117,
-      "phi_dist": 0.8431
-    },
-    {
       "date": "2026-09-26",
       "mag": 5.6,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": 0.0004,
       "I": 0.0151,
       "phi_dist": 0.931
+    },
+    {
+      "date": "2026-10-25",
+      "mag": 6.5,
+      "state": "STABLE",
+      "S": 3.1305,
+      "F_info": -0.0006,
+      "I": 0.0146,
+      "phi_dist": 0.9348
     }
   ],
   "state_pct": {
@@ -278,35 +278,35 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.1244,
-    "F_info": 0.0004,
-    "I": 0.0151,
-    "phi_dist": 0.931
+    "S": 3.1305,
+    "F_info": -0.0006,
+    "I": 0.0146,
+    "phi_dist": 0.9348
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=2 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.931,
-    "avg_mag": 6.14,
-    "generated": "2026-10-25 03:35 UTC"
+    "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9348,
+    "avg_mag": 6.16,
+    "generated": "2026-10-26 03:37 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17958,
+  "total_quakes": 17964,
   "ifsp": {
-    "value": 0.3306,
+    "value": 0.3317,
     "zone": "CAUTION",
-    "I_norm": 0.064,
-    "F_norm": 0.0017,
-    "S_norm": 0.6565,
-    "phi_norm": 0.931
+    "I_norm": 0.0618,
+    "F_norm": 0.0025,
+    "S_norm": 0.6584,
+    "phi_norm": 0.9348
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3251,
+      "avg_ifsp_30d_before": 0.3249,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-12-17",
       "mag": 7.9,
       "place": "140 km E of Kokopo, Papua New Guinea",
-      "avg_ifsp_30d_before": 0.3238,
+      "avg_ifsp_30d_before": 0.3236,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -14245,6 +14245,12 @@
           "ifsp": 0.3306,
           "zone": "CAUTION",
           "state": "STABLE"
+        },
+        {
+          "date": "2026-10-25",
+          "ifsp": 0.3317,
+          "zone": "CAUTION",
+          "state": "STABLE"
         }
       ]
     },
@@ -14317,6 +14323,12 @@
         {
           "date": "2026-10-24",
           "ifsp": 0.3306,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-10-25",
+          "ifsp": 0.3317,
           "zone": "CAUTION",
           "state": "STABLE"
         }
