@@ -1,21 +1,12 @@
 {
   "recent": [
     {
-      "date": "2026-09-26",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 2.9634,
-      "F_info": -0.0013,
-      "I": 0.0104,
-      "phi_dist": 0.8315
-    },
-    {
       "date": "2026-09-27",
       "mag": 5.3,
       "state": "STABLE",
       "S": 2.9676,
       "F_info": 0.0001,
-      "I": 0.0105,
+      "I": 0.0106,
       "phi_dist": 0.8341
     },
     {
@@ -32,8 +23,8 @@
       "mag": 5.6,
       "state": "STABLE",
       "S": 2.9717,
-      "F_info": -0.0001,
-      "I": 0.0103,
+      "F_info": -0.0003,
+      "I": 0.0101,
       "phi_dist": 0.8366
     },
     {
@@ -42,7 +33,7 @@
       "state": "STABLE",
       "S": 2.9821,
       "F_info": 0.0002,
-      "I": 0.0105,
+      "I": 0.0103,
       "phi_dist": 0.8431
     },
     {
@@ -50,8 +41,8 @@
       "mag": 5.3,
       "state": "STABLE",
       "S": 2.9571,
-      "F_info": 0.003,
-      "I": 0.0134,
+      "F_info": 0.0029,
+      "I": 0.0132,
       "phi_dist": 0.8276
     },
     {
@@ -59,8 +50,8 @@
       "mag": 5.7,
       "state": "STABLE",
       "S": 2.9655,
-      "F_info": -0.0018,
-      "I": 0.0116,
+      "F_info": -0.0017,
+      "I": 0.0115,
       "phi_dist": 0.8328
     },
     {
@@ -69,7 +60,7 @@
       "state": "STABLE",
       "S": 2.9738,
       "F_info": 0.0,
-      "I": 0.0116,
+      "I": 0.0115,
       "phi_dist": 0.8379
     },
     {
@@ -78,7 +69,7 @@
       "state": "STABLE",
       "S": 2.9467,
       "F_info": 0.0026,
-      "I": 0.0143,
+      "I": 0.014,
       "phi_dist": 0.8212
     },
     {
@@ -87,7 +78,7 @@
       "state": "STABLE",
       "S": 2.9467,
       "F_info": -0.0001,
-      "I": 0.0142,
+      "I": 0.0139,
       "phi_dist": 0.8212
     },
     {
@@ -96,7 +87,7 @@
       "state": "STABLE",
       "S": 2.9613,
       "F_info": 0.0006,
-      "I": 0.0147,
+      "I": 0.0146,
       "phi_dist": 0.8302
     },
     {
@@ -104,7 +95,7 @@
       "mag": 5.2,
       "state": "STABLE",
       "S": 2.9509,
-      "F_info": 0.0001,
+      "F_info": 0.0003,
       "I": 0.0148,
       "phi_dist": 0.8237
     },
@@ -254,21 +245,30 @@
     },
     {
       "date": "2026-10-24",
-      "mag": 7,
+      "mag": 6.9,
       "state": "STABLE",
-      "S": 3.1244,
-      "F_info": 0.0004,
-      "I": 0.0151,
-      "phi_dist": 0.931
+      "S": 3.1223,
+      "F_info": 0.0002,
+      "I": 0.015,
+      "phi_dist": 0.9297
     },
     {
       "date": "2026-10-25",
       "mag": 6.5,
       "state": "STABLE",
-      "S": 3.1305,
+      "S": 3.1285,
       "F_info": -0.0006,
-      "I": 0.0146,
-      "phi_dist": 0.9348
+      "I": 0.0144,
+      "phi_dist": 0.9335
+    },
+    {
+      "date": "2026-10-26",
+      "mag": 5.5,
+      "state": "STABLE",
+      "S": 3.1162,
+      "F_info": 0.0013,
+      "I": 0.0157,
+      "phi_dist": 0.9259
     }
   ],
   "state_pct": {
@@ -278,35 +278,35 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.1305,
-    "F_info": -0.0006,
-    "I": 0.0146,
-    "phi_dist": 0.9348
+    "S": 3.1162,
+    "F_info": 0.0013,
+    "I": 0.0157,
+    "phi_dist": 0.9259
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9348,
-    "avg_mag": 6.16,
-    "generated": "2026-10-26 03:37 UTC"
+    "phi_dist": 0.9259,
+    "avg_mag": 6.11,
+    "generated": "2026-10-27 04:02 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17964,
+  "total_quakes": 17961,
   "ifsp": {
-    "value": 0.3317,
+    "value": 0.3311,
     "zone": "CAUTION",
-    "I_norm": 0.0618,
-    "F_norm": 0.0025,
-    "S_norm": 0.6584,
-    "phi_norm": 0.9348
+    "I_norm": 0.0665,
+    "F_norm": 0.0055,
+    "S_norm": 0.6539,
+    "phi_norm": 0.9259
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3249,
+      "avg_ifsp_30d_before": 0.3247,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-12-17",
       "mag": 7.9,
       "place": "140 km E of Kokopo, Papua New Guinea",
-      "avg_ifsp_30d_before": 0.3236,
+      "avg_ifsp_30d_before": 0.3234,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -526,7 +526,7 @@
       "date": "2016-12-25",
       "mag": 7.6,
       "place": "41 km SW of Quellón, Chile",
-      "avg_ifsp_30d_before": 0.327,
+      "avg_ifsp_30d_before": 0.3269,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
       "before_sample": [
@@ -14056,21 +14056,21 @@
       "date": "2026-10-09",
       "mag": 7.7,
       "place": "12 km WSW of Pitaloza Arriba, Panama",
-      "avg_ifsp_30d_before": 0.2992,
+      "avg_ifsp_30d_before": 0.2993,
       "max_ifsp_30d_before": 0.3067,
       "danger_days_before": 0,
       "before_sample": [
         {
           "date": "2026-10-02",
-          "ifsp": 0.3022,
+          "ifsp": 0.302,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9655,
-          "F_info": -0.0018
+          "F_info": -0.0017
         },
         {
           "date": "2026-10-03",
-          "ifsp": 0.3005,
+          "ifsp": 0.3004,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9738,
@@ -14078,7 +14078,7 @@
         },
         {
           "date": "2026-10-04",
-          "ifsp": 0.3021,
+          "ifsp": 0.3019,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9467,
@@ -14086,7 +14086,7 @@
         },
         {
           "date": "2026-10-05",
-          "ifsp": 0.2976,
+          "ifsp": 0.2974,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9467,
@@ -14102,11 +14102,11 @@
         },
         {
           "date": "2026-10-07",
-          "ifsp": 0.2987,
+          "ifsp": 0.2991,
           "zone": "CAUTION",
           "state": "STABLE",
           "S": 2.9509,
-          "F_info": 0.0001
+          "F_info": 0.0003
         },
         {
           "date": "2026-10-08",
@@ -14242,93 +14242,19 @@
         },
         {
           "date": "2026-10-24",
-          "ifsp": 0.3306,
+          "ifsp": 0.3298,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-25",
-          "ifsp": 0.3317,
-          "zone": "CAUTION",
-          "state": "STABLE"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "mag": 7,
-      "place": "Bonin Islands, Japan region",
-      "avg_ifsp_30d_before": 0.3117,
-      "max_ifsp_30d_before": 0.3458,
-      "danger_days_before": 0,
-      "before_sample": [
-        {
-          "date": "2026-10-17",
-          "ifsp": 0.3235,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.0957,
-          "F_info": 0.0003
-        },
-        {
-          "date": "2026-10-18",
-          "ifsp": 0.3299,
-          "zone": "CAUTION",
-          "state": "REFLUX",
-          "S": 3.0978,
-          "F_info": -0.006
-        },
-        {
-          "date": "2026-10-19",
-          "ifsp": 0.3223,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.1121,
-          "F_info": -0.0005
-        },
-        {
-          "date": "2026-10-20",
-          "ifsp": 0.3244,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.1285,
-          "F_info": -0.0
-        },
-        {
-          "date": "2026-10-21",
-          "ifsp": 0.3269,
-          "zone": "CAUTION",
-          "state": "REFLUX",
-          "S": 3.1305,
-          "F_info": -0.002
-        },
-        {
-          "date": "2026-10-22",
-          "ifsp": 0.3264,
-          "zone": "CAUTION",
-          "state": "STABLE",
-          "S": 3.1448,
-          "F_info": -0.0004
-        },
-        {
-          "date": "2026-10-23",
-          "ifsp": 0.3458,
-          "zone": "CAUTION",
-          "state": "EMERGENCE+",
-          "S": 3.1039,
-          "F_info": 0.0112
-        }
-      ],
-      "after_sample": [
-        {
-          "date": "2026-10-24",
-          "ifsp": 0.3306,
+          "ifsp": 0.3312,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
-          "date": "2026-10-25",
-          "ifsp": 0.3317,
+          "date": "2026-10-26",
+          "ifsp": 0.3311,
           "zone": "CAUTION",
           "state": "STABLE"
         }
