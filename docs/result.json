@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-27",
-      "mag": 5.3,
-      "state": "STABLE",
-      "S": 2.9676,
-      "F_info": 0.0001,
-      "I": 0.0106,
-      "phi_dist": 0.8341
-    },
-    {
       "date": "2026-09-28",
       "mag": 5.4,
       "state": "STABLE",
@@ -209,104 +200,113 @@
     },
     {
       "date": "2026-10-20",
-      "mag": 6.6,
+      "mag": 6.3,
       "state": "STABLE",
-      "S": 3.1285,
-      "F_info": -0.0,
-      "I": 0.0059,
-      "phi_dist": 0.9335
+      "S": 3.1223,
+      "F_info": -0.0001,
+      "I": 0.0058,
+      "phi_dist": 0.9297
     },
     {
       "date": "2026-10-21",
       "mag": 5.3,
       "state": "REFLUX",
-      "S": 3.1305,
-      "F_info": -0.002,
+      "S": 3.1244,
+      "F_info": -0.0019,
       "I": 0.0039,
-      "phi_dist": 0.9348
+      "phi_dist": 0.931
     },
     {
       "date": "2026-10-22",
       "mag": 7,
       "state": "STABLE",
-      "S": 3.1448,
+      "S": 3.1387,
       "F_info": -0.0004,
-      "I": 0.0036,
-      "phi_dist": 0.9436
+      "I": 0.0035,
+      "phi_dist": 0.9398
     },
     {
       "date": "2026-10-23",
       "mag": 5.7,
       "state": "EMERGENCE+",
-      "S": 3.1039,
-      "F_info": 0.0112,
-      "I": 0.0147,
-      "phi_dist": 0.9183
+      "S": 3.0978,
+      "F_info": 0.011,
+      "I": 0.0145,
+      "phi_dist": 0.9145
     },
     {
       "date": "2026-10-24",
       "mag": 6.9,
       "state": "STABLE",
-      "S": 3.1223,
-      "F_info": 0.0002,
-      "I": 0.015,
-      "phi_dist": 0.9297
+      "S": 3.1162,
+      "F_info": 0.0003,
+      "I": 0.0148,
+      "phi_dist": 0.9259
     },
     {
       "date": "2026-10-25",
       "mag": 6.5,
       "state": "STABLE",
-      "S": 3.1285,
+      "S": 3.1223,
       "F_info": -0.0006,
-      "I": 0.0144,
-      "phi_dist": 0.9335
+      "I": 0.0141,
+      "phi_dist": 0.9297
     },
     {
       "date": "2026-10-26",
       "mag": 5.5,
       "state": "STABLE",
-      "S": 3.1162,
-      "F_info": 0.0013,
-      "I": 0.0157,
-      "phi_dist": 0.9259
+      "S": 3.11,
+      "F_info": 0.0012,
+      "I": 0.0154,
+      "phi_dist": 0.9221
+    },
+    {
+      "date": "2026-10-27",
+      "mag": 5.8,
+      "state": "STABLE",
+      "S": 3.0895,
+      "F_info": 0.0006,
+      "I": 0.016,
+      "phi_dist": 0.9094
     }
   ],
   "state_pct": {
-    "STABLE": 89.1,
     "EMERGENCE+": 4.3,
+    "STABLE": 89.1,
     "REFLUX": 6.7
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.1162,
-    "F_info": 0.0013,
-    "I": 0.0157,
-    "phi_dist": 0.9259
+    "S": 3.0895,
+    "F_info": 0.0006,
+    "I": 0.016,
+    "phi_dist": 0.9094
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9259,
-    "avg_mag": 6.11,
-    "generated": "2026-10-27 04:02 UTC"
+    "phi_dist": 0.9094,
+    "avg_mag": 6.02,
+    "generated": "2026-10-28 04:28 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17961,
+  "total_quakes": 17968,
   "ifsp": {
-    "value": 0.3311,
+    "value": 0.3253,
     "zone": "CAUTION",
-    "I_norm": 0.0665,
-    "F_norm": 0.0055,
-    "S_norm": 0.6539,
-    "phi_norm": 0.9259
+    "I_norm": 0.0678,
+    "F_norm": 0.0025,
+    "S_norm": 0.6457,
+    "phi_norm": 0.9094
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3247,
+      "avg_ifsp_30d_before": 0.324,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -416,7 +416,7 @@
       "date": "2016-12-17",
       "mag": 7.9,
       "place": "140 km E of Kokopo, Papua New Guinea",
-      "avg_ifsp_30d_before": 0.3234,
+      "avg_ifsp_30d_before": 0.323,
       "max_ifsp_30d_before": 0.3438,
       "danger_days_before": 0,
       "before_sample": [
@@ -526,7 +526,7 @@
       "date": "2016-12-25",
       "mag": 7.6,
       "place": "41 km SW of Quellón, Chile",
-      "avg_ifsp_30d_before": 0.3269,
+      "avg_ifsp_30d_before": 0.3268,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
       "before_sample": [
@@ -14166,7 +14166,7 @@
       "date": "2026-10-22",
       "mag": 7,
       "place": "191 km ENE of Nagqu, China",
-      "avg_ifsp_30d_before": 0.3089,
+      "avg_ifsp_30d_before": 0.3088,
       "max_ifsp_30d_before": 0.3299,
       "danger_days_before": 0,
       "before_sample": [
@@ -14212,49 +14212,55 @@
         },
         {
           "date": "2026-10-20",
-          "ifsp": 0.3244,
+          "ifsp": 0.3234,
           "zone": "CAUTION",
           "state": "STABLE",
-          "S": 3.1285,
-          "F_info": -0.0
+          "S": 3.1223,
+          "F_info": -0.0001
         },
         {
           "date": "2026-10-21",
-          "ifsp": 0.3269,
+          "ifsp": 0.3257,
           "zone": "CAUTION",
           "state": "REFLUX",
-          "S": 3.1305,
-          "F_info": -0.002
+          "S": 3.1244,
+          "F_info": -0.0019
         }
       ],
       "after_sample": [
         {
           "date": "2026-10-22",
-          "ifsp": 0.3264,
+          "ifsp": 0.3253,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-23",
-          "ifsp": 0.3458,
+          "ifsp": 0.3443,
           "zone": "CAUTION",
           "state": "EMERGENCE+"
         },
         {
           "date": "2026-10-24",
-          "ifsp": 0.3298,
+          "ifsp": 0.3287,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-25",
-          "ifsp": 0.3312,
+          "ifsp": 0.3299,
           "zone": "CAUTION",
           "state": "STABLE"
         },
         {
           "date": "2026-10-26",
-          "ifsp": 0.3311,
+          "ifsp": 0.3296,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-10-27",
+          "ifsp": 0.3253,
           "zone": "CAUTION",
           "state": "STABLE"
         }
@@ -14265,7 +14271,7 @@
     "near_big_quake": {
       "n": 2417,
       "mean": 0.3131,
-      "std": 0.0122,
+      "std": 0.0121,
       "min": 0.2857,
       "p25": 0.3045,
       "median": 0.312,
@@ -14283,7 +14289,7 @@
       "max": 0.3462
     },
     "mean_diff": 0.0053,
-    "t_stat": 13.762,
+    "t_stat": 13.809,
     "significance": "significant"
   }
 }
