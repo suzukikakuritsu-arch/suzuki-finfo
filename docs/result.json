@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-28",
-      "mag": 5.4,
-      "state": "STABLE",
-      "S": 2.9717,
-      "F_info": -0.0001,
-      "I": 0.0104,
-      "phi_dist": 0.8366
-    },
-    {
       "date": "2026-09-29",
       "mag": 5.6,
       "state": "STABLE",
@@ -269,45 +260,54 @@
       "F_info": 0.0006,
       "I": 0.016,
       "phi_dist": 0.9094
+    },
+    {
+      "date": "2026-10-28",
+      "mag": 6,
+      "state": "STABLE",
+      "S": 3.0916,
+      "F_info": -0.0001,
+      "I": 0.0159,
+      "phi_dist": 0.9107
     }
   ],
   "state_pct": {
-    "EMERGENCE+": 4.3,
     "STABLE": 89.1,
-    "REFLUX": 6.7
+    "REFLUX": 6.7,
+    "EMERGENCE+": 4.2
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0895,
-    "F_info": 0.0006,
-    "I": 0.016,
-    "phi_dist": 0.9094
+    "S": 3.0916,
+    "F_info": -0.0001,
+    "I": 0.0159,
+    "phi_dist": 0.9107
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
-    "detail": "EM=1 RF=1 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9094,
-    "avg_mag": 6.02,
-    "generated": "2026-10-28 04:28 UTC"
+    "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
+    "phi_dist": 0.9107,
+    "avg_mag": 6.03,
+    "generated": "2026-10-29 04:45 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17968,
+  "total_quakes": 17977,
   "ifsp": {
-    "value": 0.3253,
+    "value": 0.3247,
     "zone": "CAUTION",
-    "I_norm": 0.0678,
-    "F_norm": 0.0025,
-    "S_norm": 0.6457,
-    "phi_norm": 0.9094
+    "I_norm": 0.0674,
+    "F_norm": 0.0004,
+    "S_norm": 0.6463,
+    "phi_norm": 0.9107
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.324,
-      "max_ifsp_30d_before": 0.3438,
+      "avg_ifsp_30d_before": 0.3221,
+      "max_ifsp_30d_before": 0.3254,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -416,8 +416,8 @@
       "date": "2016-12-17",
       "mag": 7.9,
       "place": "140 km E of Kokopo, Papua New Guinea",
-      "avg_ifsp_30d_before": 0.323,
-      "max_ifsp_30d_before": 0.3438,
+      "avg_ifsp_30d_before": 0.3219,
+      "max_ifsp_30d_before": 0.3349,
       "danger_days_before": 0,
       "before_sample": [
         {
@@ -526,7 +526,7 @@
       "date": "2016-12-25",
       "mag": 7.6,
       "place": "41 km SW of Quellón, Chile",
-      "avg_ifsp_30d_before": 0.3268,
+      "avg_ifsp_30d_before": 0.3261,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
       "before_sample": [
@@ -14261,6 +14261,12 @@
         {
           "date": "2026-10-27",
           "ifsp": 0.3253,
+          "zone": "CAUTION",
+          "state": "STABLE"
+        },
+        {
+          "date": "2026-10-28",
+          "ifsp": 0.3247,
           "zone": "CAUTION",
           "state": "STABLE"
         }
