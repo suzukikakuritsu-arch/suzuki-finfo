@@ -1,15 +1,6 @@
 {
   "recent": [
     {
-      "date": "2026-09-29",
-      "mag": 5.6,
-      "state": "STABLE",
-      "S": 2.9717,
-      "F_info": -0.0003,
-      "I": 0.0101,
-      "phi_dist": 0.8366
-    },
-    {
       "date": "2026-09-30",
       "mag": 5.6,
       "state": "STABLE",
@@ -269,6 +260,15 @@
       "F_info": -0.0001,
       "I": 0.0159,
       "phi_dist": 0.9107
+    },
+    {
+      "date": "2026-10-29",
+      "mag": 6.4,
+      "state": "STABLE",
+      "S": 3.108,
+      "F_info": 0.0007,
+      "I": 0.0166,
+      "phi_dist": 0.9208
     }
   ],
   "state_pct": {
@@ -278,35 +278,35 @@
   },
   "latest": {
     "state": "STABLE",
-    "S": 3.0916,
-    "F_info": -0.0001,
-    "I": 0.0159,
-    "phi_dist": 0.9107
+    "S": 3.108,
+    "F_info": 0.0007,
+    "I": 0.0166,
+    "phi_dist": 0.9208
   },
   "prediction": {
     "text": "Transitional (direction unclear)",
     "confidence": "low",
     "detail": "EM=1 RF=0 in last 7 days. Continue monitoring.",
-    "phi_dist": 0.9107,
-    "avg_mag": 6.03,
-    "generated": "2026-10-29 04:45 UTC"
+    "phi_dist": 0.9208,
+    "avg_mag": 6.09,
+    "generated": "2026-10-30 04:44 UTC"
   },
   "total_days": 3575,
-  "total_quakes": 17977,
+  "total_quakes": 17982,
   "ifsp": {
-    "value": 0.3247,
+    "value": 0.3292,
     "zone": "CAUTION",
-    "I_norm": 0.0674,
-    "F_norm": 0.0004,
-    "S_norm": 0.6463,
-    "phi_norm": 0.9107
+    "I_norm": 0.0703,
+    "F_norm": 0.003,
+    "S_norm": 0.6514,
+    "phi_norm": 0.9208
   },
   "big_quake_patterns": [
     {
       "date": "2016-12-08",
       "mag": 7.8,
       "place": "69 km WSW of Kirakira, Solomon Islands",
-      "avg_ifsp_30d_before": 0.3221,
+      "avg_ifsp_30d_before": 0.322,
       "max_ifsp_30d_before": 0.3254,
       "danger_days_before": 0,
       "before_sample": [
@@ -526,7 +526,7 @@
       "date": "2016-12-25",
       "mag": 7.6,
       "place": "41 km SW of Quellón, Chile",
-      "avg_ifsp_30d_before": 0.3261,
+      "avg_ifsp_30d_before": 0.3263,
       "max_ifsp_30d_before": 0.3559,
       "danger_days_before": 0,
       "before_sample": [
@@ -14275,7 +14275,7 @@
   ],
   "ifsp_stats": {
     "near_big_quake": {
-      "n": 2417,
+      "n": 2416,
       "mean": 0.3131,
       "std": 0.0121,
       "min": 0.2857,
@@ -14285,17 +14285,17 @@
       "max": 0.3587
     },
     "normal": {
-      "n": 1130,
-      "mean": 0.3078,
+      "n": 1131,
+      "mean": 0.3079,
       "std": 0.0099,
       "min": 0.2834,
       "p25": 0.3006,
       "median": 0.3076,
-      "p75": 0.3144,
+      "p75": 0.3145,
       "max": 0.3462
     },
-    "mean_diff": 0.0053,
-    "t_stat": 13.809,
+    "mean_diff": 0.0052,
+    "t_stat": 13.551,
     "significance": "significant"
   }
 }
